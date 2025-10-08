@@ -50,7 +50,7 @@ export default async function InvestmentDetail({ params }: { params: { slug: str
   const schema = generateArticleSchema({
     title: item.title,
     description: item.metaDescription || item.excerpt,
-    url: `https://secretlaircards.com/investment/${params.slug}`,
+    url: `/investment/${params.slug}`,
     image: item.image,
     author: "SecretLairCards Investment Team",
     datePublished: item.date,

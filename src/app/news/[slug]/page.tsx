@@ -50,7 +50,7 @@ export default async function NewsDetail({ params }: { params: { slug: string } 
   const schema = generateArticleSchema({
     title: news.title,
     description: news.metaDescription || news.excerpt,
-    url: `https://secretlaircards.com/news/${params.slug}`,
+    url: `/news/${params.slug}`,
     image: news.coverImage || news.image,
     author: "SecretLairCards Editorial Team",
     datePublished: news.date,

@@ -22,9 +22,14 @@ interface ArticleSchemaParams {
   title: string;
   description: string;
   url: string;
+  image?: string;
+  author?: string;
+  datePublished?: string;
+  dateModified?: string;
+  keywords?: string[];
 }
 
-export function generateArticleSchema({ title, description, url }: ArticleSchemaParams) {
+export function generateArticleSchema({ title, description, url, image, author, datePublished, dateModified, keywords = [] }: ArticleSchemaParams) {
   const baseUrl = 'https://secretlaircards.com';
   
   return {
@@ -35,7 +40,7 @@ export function generateArticleSchema({ title, description, url }: ArticleSchema
     "url": `${baseUrl}${url}`,
     "author": {
       "@type": "Organization",
-      "name": "Secret Lair Cards"
+      "name": author || "Secret Lair Cards"
     },
     "publisher": {
       "@type": "Organization",
@@ -45,8 +50,19 @@ export function generateArticleSchema({ title, description, url }: ArticleSchema
         "url": `${baseUrl}/logo.png`
       }
     },
-    "datePublished": new Date().toISOString(),
-    "dateModified": new Date().toISOString()
+    "datePublished": datePublished || new Date().toISOString(),
+    "dateModified": dateModified || new Date().toISOString(),
+    ...(image && {
+      "image": {
+        "@type": "ImageObject",
+        "url": image.startsWith('http') ? image : `${baseUrl}${image}`,
+        "width": 1200,
+        "height": 630
+      }
+    }),
+    ...(keywords.length > 0 && {
+      "keywords": keywords.join(', ')
+    })
   };
 }
 
