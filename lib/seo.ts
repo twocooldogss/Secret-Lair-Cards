@@ -120,6 +120,8 @@ export const PAGE_DESCRIPTIONS = {
 
 // 生成页面标题
 export function generatePageTitle(pageTitle?: string, pageType?: keyof typeof PAGE_DESCRIPTIONS): string {
+  const defaultTitle = "Secret Lair Cards – MTG Drops, Values & Collector Insights";
+  
   if (pageTitle) {
     return `${pageTitle} | Secret Lair Cards`;
   }
@@ -133,6 +135,8 @@ export function generatePageTitle(pageTitle?: string, pageType?: keyof typeof PA
 
 // 生成页面描述
 export function generatePageDescription(customDescription?: string, pageType?: keyof typeof PAGE_DESCRIPTIONS): string {
+  const defaultDescription = "Explore every MTG Secret Lair drop — prices, release dates, card lists, and collector insights. Your complete 2025 guide to Magic's most exclusive cards.";
+  
   if (customDescription) {
     return customDescription;
   }
