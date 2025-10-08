@@ -4,23 +4,35 @@ interface SeoMetaParams {
   title: string;
   description: string;
   url: string;
+  keywords?: string[];
+  image?: string;
 }
 
-export function generateSeoMeta({ title, description, url }: SeoMetaParams): Metadata {
+export function generateSeoMeta({ title, description, url, keywords = [], image }: SeoMetaParams): Metadata {
   return {
     title,
     description,
+    keywords: keywords.join(', '),
     openGraph: {
       title,
       description,
       url,
       siteName: 'Secret Lair Cards',
       type: 'website',
+      images: image ? [
+        {
+          url: image.startsWith('http') ? image : `https://secretlaircards.com${image}`,
+          width: 1200,
+          height: 630,
+          alt: title,
+        }
+      ] : undefined,
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
+      images: image ? [image] : undefined,
     },
   };
 }
