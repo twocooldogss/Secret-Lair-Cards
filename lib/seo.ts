@@ -66,7 +66,7 @@ export function generateSeo({
     openGraph: {
       title: fullTitle,
       description: fullDescription,
-      type,
+      type: type === "product" ? "website" : type,
       url: finalUrl,
       siteName: siteName,
       images: image ? [
