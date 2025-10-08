@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://secretlaircards.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Disallow admin or private areas (if any)
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Allow all main content
+Allow: /drops/
+Allow: /cards/
+Allow: /news/
+Allow: /investment/
+Allow: /about/
+
+# Allow static assets
+Allow: /images/
+Allow: /logo.png
+Allow: /favicon.ico

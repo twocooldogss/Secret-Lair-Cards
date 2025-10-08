@@ -1,0 +1,74 @@
+{
+  "name": "SecretLairCards.com - MTG Secret Lair Hub",
+  "short_name": "SecretLairCards",
+  "description": "Explore every Magic: The Gathering Secret Lair drop – release info, card lists, investment insights, and collector guides.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#7c3aed",
+  "theme_color": "#7c3aed",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US",
+  "categories": ["games", "entertainment", "shopping"],
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/logo.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Latest Drops",
+      "short_name": "Drops",
+      "description": "View the latest Secret Lair drops",
+      "url": "/drops",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Investment Insights",
+      "short_name": "Investment",
+      "description": "Check investment analysis and market trends",
+      "url": "/investment",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Latest News",
+      "short_name": "News",
+      "description": "Read the latest Secret Lair news",
+      "url": "/news",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
+

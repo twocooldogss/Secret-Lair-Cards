@@ -1,0 +1,308 @@
+export interface Card {
+  id: string
+  name: string
+  manaCost: string
+  type: string
+  rarity: 'common' | 'uncommon' | 'rare' | 'mythic'
+  imageUrl: string
+  description?: string
+  slug: string
+  text: string
+  set: string
+  image: string
+  dropId: string
+}
+
+export interface SecretLairDrop {
+  id: string
+  name: string
+  title: string
+  description: string
+  artist: string
+  releaseDate: string
+  endDate: string
+  price: number
+  cards: Card[]
+  imageUrl: string
+  featured: boolean
+  soldOut: boolean
+  tags: string[]
+  slug: string
+}
+
+export const secretLairDrops: SecretLairDrop[] = [
+  {
+    id: '1',
+    name: 'The Walking Dead',
+    title: 'The Walking Dead',
+    description: 'A crossover collection featuring iconic characters from The Walking Dead as Magic cards.',
+    artist: 'Various Artists',
+    releaseDate: '2020-10-05',
+    endDate: '2020-11-05',
+    price: 49.99,
+    featured: true,
+    soldOut: true,
+    tags: ['crossover', 'horror', 'limited'],
+    imageUrl: '/cards/walking-dead.jpg',
+    slug: 'the-walking-dead',
+    cards: [
+      {
+        id: '1-1',
+        name: 'Rick, Steadfast Leader',
+        manaCost: '{2}{W}{W}',
+        type: 'Legendary Creature — Human Soldier',
+        rarity: 'mythic',
+        imageUrl: '/cards/rick.jpg',
+        description: 'Rick Grimes as a legendary creature card',
+        slug: 'rick-steadfast-leader',
+        text: 'When Rick, Steadfast Leader enters the battlefield, create a 2/2 white Zombie creature token. Other creatures you control get +1/+1.',
+        set: 'The Walking Dead',
+        image: '/cards/rick.jpg',
+        dropId: '1'
+      },
+      {
+        id: '1-2',
+        name: 'Negan, the Cold-Blooded',
+        manaCost: '{2}{B}{B}',
+        type: 'Legendary Creature — Human Rogue',
+        rarity: 'mythic',
+        imageUrl: '/cards/negan.jpg',
+        description: 'Negan as a legendary creature card',
+        slug: 'negan-cold-blooded',
+        text: 'When Negan, the Cold-Blooded enters the battlefield, target opponent sacrifices a creature.',
+        set: 'The Walking Dead',
+        image: '/cards/negan.jpg',
+        dropId: '1'
+      }
+    ]
+  },
+  {
+    id: '2',
+    name: 'Bob Ross: Happy Little Accidents',
+    title: 'Bob Ross: Happy Little Accidents',
+    description: 'Beautiful landscapes and nature scenes inspired by the legendary painter Bob Ross.',
+    artist: 'Various Artists',
+    releaseDate: '2021-03-15',
+    endDate: '2021-04-15',
+    price: 39.99,
+    featured: true,
+    soldOut: false,
+    tags: ['nature', 'art', 'peaceful'],
+    imageUrl: '/cards/bob-ross.jpg',
+    slug: 'bob-ross-happy-little-accidents',
+    cards: [
+      {
+        id: '2-1',
+        name: 'Forest',
+        manaCost: '',
+        type: 'Basic Land — Forest',
+        rarity: 'common',
+        imageUrl: '/cards/forest-bob-ross.jpg',
+        description: 'A beautiful forest landscape by Bob Ross',
+        slug: 'forest-bob-ross',
+        text: 'Tap: Add Green mana.',
+        set: 'Bob Ross: Happy Little Accidents',
+        image: '/cards/forest-bob-ross.jpg',
+        dropId: '2'
+      },
+      {
+        id: '2-2',
+        name: 'Mountain',
+        manaCost: '',
+        type: 'Basic Land — Mountain',
+        rarity: 'common',
+        imageUrl: '/cards/mountain-bob-ross.jpg',
+        description: 'A majestic mountain scene by Bob Ross',
+        slug: 'mountain-bob-ross',
+        text: 'Tap: Add Red mana.',
+        set: 'Bob Ross: Happy Little Accidents',
+        image: '/cards/mountain-bob-ross.jpg',
+        dropId: '2'
+      }
+    ]
+  },
+  {
+    id: '3',
+    name: 'Stranger Things',
+    title: 'Stranger Things',
+    description: 'A supernatural collection featuring characters and locations from the hit Netflix series.',
+    artist: 'Various Artists',
+    releaseDate: '2021-11-01',
+    endDate: '2021-12-01',
+    price: 49.99,
+    featured: true,
+    soldOut: false,
+    tags: ['crossover', 'horror', 'sci-fi'],
+    imageUrl: '/cards/stranger-things.jpg',
+    slug: 'stranger-things',
+    cards: [
+      {
+        id: '3-1',
+        name: 'Eleven, the Mage',
+        manaCost: '{1}{U}{U}',
+        type: 'Legendary Creature — Human Wizard',
+        rarity: 'mythic',
+        imageUrl: '/cards/eleven.jpg',
+        description: 'Eleven with her psychic powers',
+        slug: 'eleven-the-mage',
+        text: 'When Eleven, the Mage enters the battlefield, you may return target instant or sorcery card from your graveyard to your hand.',
+        set: 'Stranger Things',
+        image: '/cards/eleven.jpg',
+        dropId: '3'
+      },
+      {
+        id: '3-2',
+        name: 'Demogorgon',
+        manaCost: '{4}{B}{B}',
+        type: 'Creature — Horror',
+        rarity: 'rare',
+        imageUrl: '/cards/demogorgon.jpg',
+        description: 'The terrifying creature from the Upside Down',
+        slug: 'demogorgon',
+        text: 'When Demogorgon enters the battlefield, target creature gets -2/-2 until end of turn.',
+        set: 'Stranger Things',
+        image: '/cards/demogorgon.jpg',
+        dropId: '3'
+      }
+    ]
+  },
+  {
+    id: '4',
+    name: 'Artist Series: Seb McKinnon',
+    title: 'Artist Series: Seb McKinnon',
+    description: 'A collection showcasing the haunting and ethereal artwork of Seb McKinnon.',
+    artist: 'Seb McKinnon',
+    releaseDate: '2022-02-14',
+    endDate: '2022-03-14',
+    price: 39.99,
+    featured: false,
+    soldOut: false,
+    tags: ['artist', 'dark', 'ethereal'],
+    imageUrl: '/cards/seb-mckinnon.jpg',
+    slug: 'artist-series-seb-mckinnon',
+    cards: [
+      {
+        id: '4-1',
+        name: 'Damnation',
+        manaCost: '{2}{B}{B}',
+        type: 'Sorcery',
+        rarity: 'rare',
+        imageUrl: '/cards/damnation-seb.jpg',
+        description: 'Seb McKinnon\'s haunting interpretation of Damnation',
+        slug: 'damnation-seb-mckinnon',
+        text: 'Destroy all creatures. They can\'t be regenerated.',
+        set: 'Artist Series: Seb McKinnon',
+        image: '/cards/damnation-seb.jpg',
+        dropId: '4'
+      },
+      {
+        id: '4-2',
+        name: 'Settle the Wreckage',
+        manaCost: '{2}{W}{W}',
+        type: 'Instant',
+        rarity: 'rare',
+        imageUrl: '/cards/settle-wreckage-seb.jpg',
+        description: 'Seb McKinnon\'s ethereal take on Settle the Wreckage',
+        slug: 'settle-wreckage-seb-mckinnon',
+        text: 'Exile all attacking creatures target player controls. That player may search their library for that many basic land cards, put them onto the battlefield tapped, then shuffle.',
+        set: 'Artist Series: Seb McKinnon',
+        image: '/cards/settle-wreckage-seb.jpg',
+        dropId: '4'
+      }
+    ]
+  },
+  {
+    id: '5',
+    name: 'Godzilla Series',
+    title: 'Godzilla Series',
+    description: 'Massive creatures and kaiju battles in this crossover with the legendary Godzilla franchise.',
+    artist: 'Various Artists',
+    releaseDate: '2020-05-15',
+    endDate: '2020-06-15',
+    price: 49.99,
+    featured: false,
+    soldOut: true,
+    tags: ['crossover', 'kaiju', 'monsters'],
+    imageUrl: '/cards/godzilla.jpg',
+    slug: 'godzilla-series',
+    cards: [
+      {
+        id: '5-1',
+        name: 'Godzilla, King of the Monsters',
+        manaCost: '{4}{G}{G}',
+        type: 'Legendary Creature — Lizard Beast',
+        rarity: 'mythic',
+        imageUrl: '/cards/godzilla-card.jpg',
+        description: 'The king of all monsters',
+        slug: 'godzilla-king-monsters',
+        text: 'Trample. When Godzilla, King of the Monsters enters the battlefield, destroy target artifact or enchantment.',
+        set: 'Godzilla Series',
+        image: '/cards/godzilla-card.jpg',
+        dropId: '5'
+      },
+      {
+        id: '5-2',
+        name: 'Mothra, the Guardian',
+        manaCost: '{3}{W}{W}',
+        type: 'Legendary Creature — Insect',
+        rarity: 'rare',
+        imageUrl: '/cards/mothra.jpg',
+        description: 'The guardian of Earth',
+        slug: 'mothra-guardian',
+        text: 'Flying. When Mothra, the Guardian enters the battlefield, you gain 5 life.',
+        set: 'Godzilla Series',
+        image: '/cards/mothra.jpg',
+        dropId: '5'
+      }
+    ]
+  },
+  {
+    id: '6',
+    name: 'Secret Lair: Secret Scare (2022)',
+    title: 'Secret Lair: Secret Scare (2022)',
+    description: 'A spooky collection featuring horror-themed Magic cards perfect for Halloween.',
+    artist: 'Various Artists',
+    releaseDate: '2022-10-31',
+    endDate: '2022-11-30',
+    price: 39.99,
+    featured: true,
+    soldOut: false,
+    tags: ['horror', 'halloween', 'seasonal'],
+    imageUrl: '/drops/secret-scare-2022.jpg',
+    slug: 'secret-scare-2022',
+    cards: [
+      {
+        id: '6-1',
+        name: 'Nightmare Shepherd',
+        manaCost: '{2}{B}{B}',
+        type: 'Enchantment Creature — Nightmare',
+        rarity: 'rare',
+        imageUrl: '/cards/nightmare-shepherd.jpg',
+        description: 'A terrifying shepherd of nightmares',
+        slug: 'nightmare-shepherd',
+        text: 'Flying. Whenever another nontoken creature you control dies, you may exile it. If you do, create a token that\'s a copy of that creature, except it\'s 1/1.',
+        set: 'Secret Scare (2022)',
+        image: '/cards/nightmare-shepherd.jpg',
+        dropId: '6'
+      },
+      {
+        id: '6-2',
+        name: 'Grim Harvest',
+        manaCost: '{1}{B}',
+        type: 'Sorcery',
+        rarity: 'uncommon',
+        imageUrl: '/cards/grim-harvest.jpg',
+        description: 'A dark harvest of souls',
+        slug: 'grim-harvest',
+        text: 'Return target creature card from your graveyard to your hand. You lose 2 life.',
+        set: 'Secret Scare (2022)',
+        image: '/cards/grim-harvest.jpg',
+        dropId: '6'
+      }
+    ]
+  }
+]
+
+export const featuredDrops = secretLairDrops.filter(drop => drop.featured)
+export const availableDrops = secretLairDrops.filter(drop => !drop.soldOut)
+export const soldOutDrops = secretLairDrops.filter(drop => drop.soldOut)

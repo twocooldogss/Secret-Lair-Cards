@@ -1,0 +1,31 @@
+# Drop Images Placeholder
+
+This directory contains drop cover images for the Secret Lair Cards website.
+
+## Current Images:
+- walking-dead.jpg - The Walking Dead
+- bob-ross.jpg - Bob Ross: Happy Little Accidents
+- stranger-things.jpg - Stranger Things
+- seb-mckinnon.jpg - Artist Series: Seb McKinnon
+- godzilla.jpg - Godzilla Series
+- secret-scare-2022.jpg - Secret Scare (2022)
+
+## Note:
+In a production environment, these would be actual image files (JPG/PNG).
+For development, you can use placeholder images from services like:
+- https://picsum.photos/
+- https://placeholder.com/
+- https://via.placeholder.com/
+
+
+
+
+
+
+
+
+
+
+
+
+

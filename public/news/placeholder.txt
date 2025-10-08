@@ -1,0 +1,28 @@
+# News Images Placeholder
+
+This directory contains news article images for the Secret Lair Cards website.
+
+## Current Images:
+- secret-scare.jpg - Secret Scare 2023 announcement
+- mtg-2026.jpg - MTG 2026 lineup teaser
+- artist-series.jpg - Artist Series expansion
+- crossovers.jpg - Crossover collaborations
+
+## Note:
+In a production environment, these would be actual image files (JPG/PNG).
+For development, you can use placeholder images from services like:
+- https://picsum.photos/
+- https://placeholder.com/
+- https://via.placeholder.com/
+
+
+
+
+
+
+
+
+
+
+
+

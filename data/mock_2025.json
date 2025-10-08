@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "siteTitle": "SecretLairCards.com – 2025 Secret Lair Hub",
+    "description": "Explore every Magic: The Gathering Secret Lair drop, updated for 2025 – full card lists, release info, investment insights, and collector resources.",
+    "keywords": [
+      "Secret Lair 2025",
+      "MTG investment",
+      "Magic The Gathering cards",
+      "Secret Lair drops",
+      "Scryfall",
+      "Secret Lair prices",
+      "MTG Secret Lair",
+      "Magic cards 2025",
+      "card value",
+      "collector guide"
+    ]
+  },
+  "drops": [
+    {
+      "id": "outlaws-thunder-junction",
+      "title": "Secret Lair: Outlaws of Thunder Junction",
+      "releaseDate": "2025-02-15",
+      "year": 2025,
+      "theme": "Western / Outlaw",
+      "image": "https://cards.scryfall.io/art_crop/front/3/1/312dcece-65c4-44b4-9d31-c3fddbb40462.jpg",
+      "price": "44.99",
+      "description": "The first 2025 Secret Lair celebrates Magic's Western expansion theme – gun-slinging Planeswalkers and wanted posters reimagined as MTG cards.",
+      "metaTitle": "Secret Lair 2025 – Outlaws of Thunder Junction Drop",
+      "metaDescription": "Explore the 2025 Outlaws of Thunder Junction Secret Lair – Western-themed Magic cards and collector insights.",
+      "tags": [
+        "2025",
+        "western",
+        "outlaw",
+        "new drop"
+      ]
+    },
+    {
+      "id": "doctor-who-encore",
+      "title": "Secret Lair x Doctor Who Encore",
+      "releaseDate": "2025-05-22",
+      "year": 2025,
+      "theme": "Crossover / Sci-Fi",
+      "image": "https://cards.scryfall.io/art_crop/front/f/4/f4ad36d4-9b7f-4ff7-b580-ec0f91c0d546.jpg",
+      "price": "54.99",
+      "description": "Back for an encore! This drop features exclusive Time Lord frames and foiled variants from the beloved BBC universe.",
+      "metaTitle": "Secret Lair x Doctor Who Encore (2025)",
+      "metaDescription": "The 2025 Doctor Who Encore Secret Lair features iconic sci-fi art and collectible foil cards.",
+      "tags": [
+        "crossover",
+        "doctor who",
+        "2025",
+        "sci-fi"
+      ]
+    },
+    {
+      "id": "the-big-score",
+      "title": "Secret Lair: The Big Score",
+      "releaseDate": "2025-09-30",
+      "year": 2025,
+      "theme": "Heist / Crime",
+      "image": "https://cards.scryfall.io/art_crop/front/2/3/23e51513-b51d-43c1-9e1c-cdfbc0f72c10.jpg",
+      "price": "49.99",
+      "description": "A cinematic heist-themed drop where each card represents a mastermind’s role – strategy, greed, and ultimate victory.",
+      "metaTitle": "Secret Lair 2025 – The Big Score Drop",
+      "metaDescription": "Dive into The Big Score Secret Lair (2025): heist-inspired MTG art and collector pieces.",
+      "tags": [
+        "2025",
+        "heist",
+        "crime"
+      ]
+    }
+  ],
+  "cards": [],
+  "news": [],
+  "investment": [
+    {
+      "id": "secret-lair-value-2025",
+      "title": "Secret Lair 2025 Value Report: Which Drops Are Worth Investing In?",
+      "date": "2025-09-01",
+      "metaTitle": "Secret Lair 2025 Value Report – ROI Analysis & Best Drops to Buy",
+      "metaDescription": "A complete 2025 analysis of MTG Secret Lair card values, ROI performance, and the most profitable drops for collectors.",
+      "keywords": [
+        "Secret Lair 2025",
+        "MTG investment",
+        "card value",
+        "ROI"
+      ],
+      "content": "Secret Lair has matured into a collectible ecosystem... top performing drops include Outlaws of Thunder Junction and The Big Score."
+    },
+    {
+      "id": "secret-lair-market-trends-2025",
+      "title": "MTG Secret Lair Market Trends – Fall 2025 Analysis",
+      "date": "2025-10-05",
+      "metaTitle": "MTG Secret Lair Market Trends 2025 – Price Evolution and Demand Forecast",
+      "metaDescription": "An in-depth look at Secret Lair's 2025 market cycle, price stabilization, and collector demand across major regions.",
+      "keywords": [
+        "Secret Lair market trends",
+        "MTG price analysis",
+        "2025 collector forecast"
+      ],
+      "content": "After the early 2025 boom, Secret Lair singles have entered a stabilization phase..."
+    },
+    {
+      "id": "secret-lair-vs-booster-boxes",
+      "title": "Secret Lair vs Booster Boxes – Which Is the Better Investment in 2025?",
+      "date": "2025-08-20",
+      "metaTitle": "Secret Lair vs Booster Boxes 2025 – Investment Comparison",
+      "metaDescription": "We compare ROI, liquidity, and collector sentiment between Secret Lair drops and traditional MTG booster boxes in 2025.",
+      "keywords": [
+        "Secret Lair vs booster boxes",
+        "MTG investment",
+        "sealed product comparison"
+      ],
+      "content": "In 2025, both Secret Lair and booster boxes compete for collector capital. Secret Lair drops average +31% ROI."
+    },
+    {
+      "id": "secret-lair-foil-premium-2025",
+      "title": "The Foil Premium: Are Secret Lair Foils Still Worth It in 2025?",
+      "date": "2025-09-15",
+      "metaTitle": "Secret Lair Foil Premium 2025 – Analysis & Buyer’s Guide",
+      "metaDescription": "Examining foil vs non-foil price gaps for Secret Lair cards in 2025, and whether collectors should still pay the premium.",
+      "keywords": [
+        "Secret Lair foils",
+        "foil premium",
+        "MTG value analysis"
+      ],
+      "content": "By mid-2025, foil cards show a smaller premium than previous years. Serialized foils remain valuable."
+    }
+  ]
+}

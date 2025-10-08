@@ -1,0 +1,254 @@
+{
+  "meta": {
+    "siteTitle": "SecretLairCards.com – The Ultimate MTG Secret Lair Hub (2025 Edition)",
+    "description": "Explore every Magic: The Gathering Secret Lair drop – release info, card lists, investment insights, and collector guides. Updated for 2025.",
+    "keywords": [
+      "Secret Lair",
+      "MTG Secret Lair",
+      "Magic The Gathering",
+      "Secret Lair cards",
+      "Scryfall",
+      "MTG investment",
+      "Secret Lair 2025",
+      "Magic cards value",
+      "MTG drops",
+      "Secret Lair collector"
+    ]
+  },
+  "drops": [
+    {
+      "id": "secret-scare",
+      "slug": "secret-scare",
+      "title": "Secret Lair: Secret Scare",
+      "year": 2024,
+      "theme": "Horror / Halloween",
+      "image": "https://cards.scryfall.io/art_crop/front/1/8/18f6a9c2-2f5c-4a2d-b19b-76f23f818a41.jpg",
+      "price": "39.99",
+      "description": "A Halloween-themed Secret Lair featuring Reaper King and Fleshbag Marauder, with terrifying horror-movie-style art.",
+      "metaTitle": "Secret Lair: Secret Scare – 2024 Horror Drop",
+      "metaDescription": "Explore Secret Lair: Secret Scare – the horror-themed Magic: The Gathering drop featuring eerie reimagined cards.",
+      "keywords": [
+        "Secret Lair",
+        "MTG Secret Scare",
+        "horror cards"
+      ]
+    },
+    {
+      "id": "angels-cooler",
+      "slug": "angels-cooler",
+      "title": "Secret Lair: Angels – They're Just Like Us But Cooler",
+      "year": 2024,
+      "theme": "Angels / Celestial",
+      "image": "https://images.pexels.com/photos/1054777/pexels-photo-1054777.jpeg",
+      "price": "34.99",
+      "description": "Heavenly humor meets divine beauty – a collection of angel-themed cards with radiant art and collector appeal.",
+      "metaTitle": "Secret Lair: Angels – They're Just Like Us But Cooler",
+      "metaDescription": "Discover the Secret Lair Angels drop featuring heavenly reprints and stunning celestial artwork.",
+      "keywords": [
+        "Secret Lair Angels",
+        "MTG angels",
+        "Magic reprints"
+      ]
+    },
+    {
+      "id": "phyrexian-faves",
+      "slug": "phyrexian-faves",
+      "title": "Secret Lair: Phyrexian Faves",
+      "year": 2024,
+      "theme": "Mechanical / Dark",
+      "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+      "price": "44.99",
+      "description": "Celebrate the Phyrexian legacy with toxic beauty – features iconic cards written entirely in Phyrexian.",
+      "metaTitle": "Secret Lair: Phyrexian Faves – MTG Drop",
+      "metaDescription": "Explore the Phyrexian Faves Secret Lair drop – featuring iconic cards in the haunting Phyrexian language.",
+      "keywords": [
+        "Phyrexian",
+        "Secret Lair",
+        "MTG Phyrexian Faves"
+      ]
+    },
+    {
+      "id": "jurassic-world",
+      "slug": "jurassic-world",
+      "title": "Secret Lair x Jurassic World",
+      "year": 2023,
+      "theme": "Crossover / Dinosaurs",
+      "image": "https://images.pexels.com/photos/1095550/pexels-photo-1095550.jpeg",
+      "price": "49.99",
+      "description": "A cinematic crossover with Jurassic World featuring dinosaur-themed legendary creatures and prehistoric landscapes.",
+      "metaTitle": "Secret Lair x Jurassic World – MTG Crossover Drop",
+      "metaDescription": "Explore Secret Lair x Jurassic World – a dinosaur-themed Magic: The Gathering collaboration.",
+      "keywords": [
+        "Jurassic World",
+        "Secret Lair",
+        "MTG crossover"
+      ]
+    },
+    {
+      "id": "the-big-score",
+      "slug": "the-big-score",
+      "title": "Secret Lair: The Big Score",
+      "year": 2025,
+      "theme": "Heist / Crime",
+      "image": "https://images.pexels.com/photos/164642/pexels-photo-164642.jpeg",
+      "price": "49.99",
+      "description": "A cinematic heist-themed drop where each card represents a mastermind’s role – strategy, greed, and ultimate victory.",
+      "metaTitle": "Secret Lair 2025 – The Big Score",
+      "metaDescription": "Dive into The Big Score Secret Lair (2025): heist-inspired MTG art and collector pieces.",
+      "keywords": [
+        "Secret Lair",
+        "The Big Score",
+        "MTG 2025"
+      ]
+    },
+    {
+      "id": "doctor-who-encore",
+      "slug": "doctor-who-encore",
+      "title": "Secret Lair x Doctor Who Encore",
+      "year": 2025,
+      "theme": "Crossover / Sci-Fi",
+      "image": "https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg",
+      "price": "54.99",
+      "description": "Back for an encore! This drop features exclusive Time Lord frames and foiled variants from the beloved BBC universe.",
+      "metaTitle": "Secret Lair x Doctor Who Encore (2025)",
+      "metaDescription": "The 2025 Doctor Who Encore Secret Lair features iconic sci-fi art and collectible foil cards.",
+      "keywords": [
+        "Doctor Who",
+        "Secret Lair 2025",
+        "MTG crossover"
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "name": "Reaper King",
+      "slug": "reaper-king",
+      "dropId": "secret-scare",
+      "image": "https://cards.scryfall.io/art_crop/front/1/8/18f6a9c2-2f5c-4a2d-b19b-76f23f818a41.jpg",
+      "alt": "Reaper King – Secret Scare edition"
+    },
+    {
+      "name": "Fleshbag Marauder",
+      "slug": "fleshbag-marauder",
+      "dropId": "secret-scare",
+      "image": "https://images.pexels.com/photos/1209843/pexels-photo-1209843.jpeg",
+      "alt": "Card table scene representing black zombie warrior theme"
+    },
+    {
+      "name": "Serra Angel",
+      "slug": "serra-angel",
+      "dropId": "angels-cooler",
+      "image": "https://images.pexels.com/photos/1054777/pexels-photo-1054777.jpeg",
+      "alt": "Angel statue aesthetic for celestial-themed MTG card"
+    },
+    {
+      "name": "Elesh Norn, Mother of Machines",
+      "slug": "elesh-norn-mom",
+      "dropId": "phyrexian-faves",
+      "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+      "alt": "Abstract metallic texture representing Phyrexian theme"
+    },
+    {
+      "name": "Gishath, Sun’s Avatar",
+      "slug": "gishath-suns-avatar",
+      "dropId": "jurassic-world",
+      "image": "https://images.pexels.com/photos/1095550/pexels-photo-1095550.jpeg",
+      "alt": "Dinosaur figure representing Jurassic crossover flavor"
+    },
+    {
+      "name": "Atraxa, Grand Unifier",
+      "slug": "atraxa-grand-unifier",
+      "dropId": "the-big-score",
+      "image": "https://images.pexels.com/photos/164642/pexels-photo-164642.jpeg",
+      "alt": "Gold coins and heist theme for Big Score drop"
+    }
+  ],
+  "news": [
+    {
+      "title": "Secret Lair 2025 Complete Guide: Every Drop Released So Far",
+      "slug": "secret-lair-2025-complete-guide",
+      "image": "https://images.pexels.com/photos/1209843/pexels-photo-1209843.jpeg",
+      "metaTitle": "Secret Lair 2025 Complete Guide",
+      "metaDescription": "A full guide to every Magic: The Gathering Secret Lair released through 2025 with prices, availability, and collector tips.",
+      "keywords": [
+        "Secret Lair guide",
+        "MTG drops",
+        "Magic cards 2025"
+      ]
+    },
+    {
+      "title": "Top 10 Most Beautiful Secret Lair Artworks",
+      "slug": "top-10-secret-lair-artworks",
+      "image": "https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg",
+      "metaTitle": "Top 10 Most Beautiful Secret Lair Artworks",
+      "metaDescription": "Discover the most stunning Secret Lair card arts – from celestial angels to terrifying horror reprints.",
+      "keywords": [
+        "Secret Lair art",
+        "MTG cards",
+        "Magic artwork"
+      ]
+    },
+    {
+      "title": "How to Spot a Fake Secret Lair Card",
+      "slug": "how-to-spot-a-fake-secret-lair-card",
+      "image": "https://images.pexels.com/photos/2897882/pexels-photo-2897882.jpeg",
+      "metaTitle": "How to Spot a Fake Secret Lair Card",
+      "metaDescription": "Learn how to identify counterfeit Secret Lair cards with simple collector tips and image comparisons.",
+      "keywords": [
+        "fake MTG cards",
+        "Secret Lair authenticity",
+        "collector tips"
+      ]
+    }
+  ],
+  "investment": [
+    {
+      "title": "Secret Lair 2025 Value Report: Which Drops Are Worth Investing In?",
+      "slug": "secret-lair-2025-value-report",
+      "image": "https://images.unsplash.com/photo-1640622655582-71cfdc1a6765?auto=format&fit=crop&w=1200&q=60",
+      "metaTitle": "Secret Lair 2025 Value Report – ROI Analysis & Best Drops to Buy",
+      "metaDescription": "A 2025 analysis of MTG Secret Lair card values, ROI performance, and top performing collector drops.",
+      "keywords": [
+        "Secret Lair 2025",
+        "MTG investment",
+        "ROI"
+      ]
+    },
+    {
+      "title": "MTG Secret Lair Market Trends – Fall 2025 Analysis",
+      "slug": "secret-lair-market-trends-2025",
+      "image": "https://images.unsplash.com/photo-1628191011213-1d1df7aefdb9?auto=format&fit=crop&w=1200&q=60",
+      "metaTitle": "MTG Secret Lair Market Trends 2025",
+      "metaDescription": "A look at Secret Lair's 2025 market cycle, price evolution, and collector demand across regions.",
+      "keywords": [
+        "Secret Lair trends",
+        "MTG prices",
+        "collector market"
+      ]
+    },
+    {
+      "title": "Secret Lair vs Booster Boxes – Which Is the Better Investment in 2025?",
+      "slug": "secret-lair-vs-booster-boxes-2025",
+      "image": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=1200&q=60",
+      "metaTitle": "Secret Lair vs Booster Boxes 2025 – Investment Comparison",
+      "metaDescription": "Compare ROI, liquidity, and sentiment between Secret Lair drops and MTG booster boxes in 2025.",
+      "keywords": [
+        "Secret Lair vs boosters",
+        "MTG investment",
+        "ROI 2025"
+      ]
+    },
+    {
+      "title": "The Foil Premium: Are Secret Lair Foils Still Worth It in 2025?",
+      "slug": "secret-lair-foil-premium-2025",
+      "image": "https://images.unsplash.com/photo-1640622655582-71cfdc1a6765?auto=format&fit=crop&w=1200&q=60",
+      "metaTitle": "Secret Lair Foil Premium 2025 – Analysis & Buyer’s Guide",
+      "metaDescription": "Examining foil vs non-foil price gaps for Secret Lair cards in 2025 and whether to pay the premium.",
+      "keywords": [
+        "Secret Lair foils",
+        "foil premium",
+        "MTG value"
+      ]
+    }
+  ]
+}
