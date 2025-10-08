@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import Link from "next/link";
+import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/footer";
 import CanonicalUrl from "@/components/CanonicalUrl";
@@ -29,7 +30,7 @@ export default async function InvestmentPage() {
             <Link key={item.slug} href={`/investment/${item.slug}`} className="block">
               <div className="bg-gradient-to-br from-white to-purple-50 rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border border-purple-100 cursor-pointer">
                 <div className="relative overflow-hidden rounded-lg mb-4">
-                  <img src={item.image} alt={item.title} className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300" />
+                  <Image src={item.image} alt={item.title} width={400} height={192} className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300" />
                   <div className="absolute top-2 right-2 bg-purple-600 text-white px-2 py-1 rounded-full text-xs font-medium">
                     Analysis
                   </div>

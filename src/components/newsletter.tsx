@@ -33,7 +33,7 @@ export function Newsletter() {
           </h2>
           
           <p className="text-xl text-gray-300 mb-8">
-            You're now subscribed to our newsletter. Get ready for exclusive updates, 
+            You&apos;re now subscribed to our newsletter. Get ready for exclusive updates, 
             early access to new drops, and special collector insights.
           </p>
           

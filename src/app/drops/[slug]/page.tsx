@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import Image from "next/image";
 import { generateSeoMeta } from "@/lib/seo";
 import { getSchema } from "@/lib/schema";
 import CardCard from "@/components/CardCard";
@@ -68,7 +69,7 @@ export default async function DropDetail({ params }: { params: { slug: string } 
         />
         <div className="mb-8">
           <h1 className="text-3xl font-bold mb-4">{drop.title}</h1>
-          <img src={drop.image} alt={drop.title} className="rounded-xl mb-6 shadow-md w-full max-w-2xl" />
+          <Image src={drop.image} alt={drop.title} width={800} height={400} className="rounded-xl mb-6 shadow-md w-full max-w-2xl" />
           <div className="grid md:grid-cols-2 gap-6">
             <div>
               <p className="text-gray-600 mb-2"><strong>Release Date:</strong> {drop.releaseDate}</p>

@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import Image from "next/image";
 import { generateSeoMeta } from "@/lib/seo";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/footer";
@@ -63,7 +64,7 @@ export default async function CardDetail({ params }: { params: { slug: string } 
         />
         <div className="grid md:grid-cols-2 gap-8">
           <div>
-            <img src={card.image} alt={card.name} className="rounded-xl shadow-md w-full" />
+            <Image src={card.image} alt={card.name} width={400} height={560} className="rounded-xl shadow-md w-full" />
           </div>
           <div>
             <h1 className="text-3xl font-bold mb-4">{card.name}</h1>

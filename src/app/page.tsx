@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { generateSeoMeta } from "@/lib/seo";
 import { getSchema } from "@/lib/schema";
 import { getData } from "@/lib/data";
@@ -114,9 +115,11 @@ export default async function HomePage() {
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0">
                   <div className="w-16 h-16 rounded-lg overflow-hidden">
-                    <img 
+                    <Image 
                       src={post.image} 
                       alt={post.title}
+                      width={64}
+                      height={64}
                       className="w-full h-full object-cover"
                     />
                   </div>

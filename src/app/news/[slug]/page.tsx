@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { marked } from "marked";
+import Image from "next/image";
 import { generateSeoMeta } from "@/lib/seo";
 import { generateArticleSchema } from "@/lib/schema";
 import Navbar from "@/components/Navbar";
@@ -69,9 +70,11 @@ export default async function NewsDetail({ params }: { params: { slug: string } 
         <article>
           <h1 className="text-3xl font-bold mb-4">{news.title}</h1>
           <p className="text-gray-500 text-sm mb-6">{news.date}</p>
-          <img 
+          <Image 
             src={news.coverImage || news.image} 
             alt={news.title} 
+            width={800}
+            height={256}
             className="rounded-xl shadow-md mb-6 w-full h-64 object-cover" 
           />
           <div className="prose prose-lg max-w-none">
