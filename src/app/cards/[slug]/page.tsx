@@ -23,7 +23,6 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     title: card.name,
     description: card.description || `${card.name} - Magic: The Gathering Secret Lair card`,
     url: `/cards/${params.slug}`,
-    pageType: "cards",
     keywords: ["Secret Lair", "MTG", "Magic The Gathering", card.name],
     image: card.image,
   });
