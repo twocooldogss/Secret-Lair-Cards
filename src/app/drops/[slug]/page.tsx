@@ -8,6 +8,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/footer";
 import Breadcrumb from "@/components/Breadcrumb";
 import CanonicalUrl from "@/components/CanonicalUrl";
+import DropProductSchema from "@/components/DropProductSchema";
+import DropMerchantSchema from "@/components/DropMerchantSchema";
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const dataPath = path.join(process.cwd(), "data", "mock.json");
@@ -58,6 +60,8 @@ export default async function DropDetail({ params }: { params: { slug: string } 
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
+      <DropProductSchema drop={drop} />
+      <DropMerchantSchema drop={drop} />
       <CanonicalUrl url={`/drops/${params.slug}`} />
       <Navbar />
       <main className="flex-1 max-w-5xl mx-auto px-6 py-12">
