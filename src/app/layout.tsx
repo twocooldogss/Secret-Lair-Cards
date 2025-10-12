@@ -82,14 +82,14 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PS2PZ2TF0M"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-D54X1NZ1HJ"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-PS2PZ2TF0M');
+              gtag('config', 'G-D54X1NZ1HJ');
             `,
           }}
         />
