@@ -32,9 +32,6 @@ export const metadata: Metadata = {
     telephone: false,
   },
   metadataBase: new URL('https://secretlaircards.com'),
-  alternates: {
-    canonical: '/',
-  },
   openGraph: {
     title: 'SecretLairCards.com – The Ultimate MTG Secret Lair Hub',
     description: 'Explore every Magic: The Gathering Secret Lair drop – release info, card lists, investment insights, and collector guides.',
@@ -97,7 +94,6 @@ export default function RootLayout({
           }}
         />
         
-        <link rel="canonical" href="https://secretlaircards.com/" />
         <link rel="manifest" href="/manifest.json" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="icon" href="/logo.png" type="image/png" />

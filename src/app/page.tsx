@@ -8,6 +8,7 @@ import Footer from "@/components/footer";
 import DropCard from "@/components/DropCard";
 import NewsCard from "@/components/NewsCard";
 import CardCard from "@/components/CardCard";
+import CanonicalUrl from "@/components/CanonicalUrl";
 
 export async function generateMetadata() {
   return generateSeoMeta({
@@ -28,11 +29,12 @@ export default async function HomePage() {
   const schema = getSchema('home', {});
 
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50">
+    <div className="min-h-screen flex flex-col bg-gray-50">        
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
+      <CanonicalUrl url="/" />
       <Navbar />
       <main className="flex-1 max-w-6xl mx-auto px-4 py-10 space-y-16">
       {/* Hero */}
