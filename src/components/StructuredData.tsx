@@ -5,7 +5,7 @@ interface StructuredDataProps {
 
 export default function StructuredData({ type, data }: StructuredDataProps) {
   const getStructuredData = () => {
-    const baseUrl = 'https://secretlaircards.com';
+    const baseUrl = 'https://www.secretlaircards.com';
     
     switch (type) {
       case 'website':

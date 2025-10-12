@@ -31,11 +31,11 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://secretlaircards.com'),
+  metadataBase: new URL('https://www.secretlaircards.com'),
   openGraph: {
     title: 'SecretLairCards.com – The Ultimate MTG Secret Lair Hub',
     description: 'Explore every Magic: The Gathering Secret Lair drop – release info, card lists, investment insights, and collector guides.',
-    url: 'https://secretlaircards.com',
+    url: 'https://www.secretlaircards.com',
     siteName: 'SecretLairCards.com',
     images: [
       {
@@ -113,20 +113,20 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "Secret Lair Cards",
-              "url": "https://secretlaircards.com",
+              "url": "https://www.secretlaircards.com",
               "description": "Secret Lair Cards – explore every MTG Secret Lair drop, prices, art, and collector insights. Your complete 2025 guide to Magic's most exclusive cards.",
               "publisher": {
                 "@type": "Organization",
                 "name": "Secret Lair Cards",
-                "url": "https://secretlaircards.com",
+                "url": "https://www.secretlaircards.com",
                 "logo": {
                   "@type": "ImageObject",
-                  "url": "https://secretlaircards.com/logo.png",
+                  "url": "https://www.secretlaircards.com/logo.png",
                 },
               },
               "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://secretlaircards.com/search?q={search_term_string}",
+                "target": "https://www.secretlaircards.com/search?q={search_term_string}",
                 "query-input": "required name=search_term_string",
               },
               "sameAs": [

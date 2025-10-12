@@ -21,7 +21,7 @@ export function generateSeoMeta({ title, description, url, keywords = [], image 
       type: 'website',
       images: image ? [
         {
-          url: image.startsWith('http') ? image : `https://secretlaircards.com${image}`,
+          url: image.startsWith('http') ? image : `https://www.secretlaircards.com${image}`,
           width: 1200,
           height: 630,
           alt: title,
@@ -55,7 +55,7 @@ export function generateDropSchema(drop: any) {
       availability: drop.status === 'available' ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
       price: drop.price,
       priceCurrency: "USD",
-      url: `https://secretlaircards.com/drops/${drop.slug}`,
+      url: `https://www.secretlaircards.com/drops/${drop.slug}`,
     },
   };
 }
@@ -92,7 +92,7 @@ export function generateNewsSchema(news: any) {
       "@type": "Organization",
       name: "SecretLairCards.com",
     },
-    url: `https://secretlaircards.com/news/${news.slug}`,
+    url: `https://www.secretlaircards.com/news/${news.slug}`,
     description: news.excerpt,
     image: news.image,
   };
@@ -108,7 +108,7 @@ export function generateInvestmentSchema(investment: any) {
       "@type": "Organization",
       name: "SecretLairCards.com",
     },
-    url: `https://secretlaircards.com/investment/${investment.slug}`,
+    url: `https://www.secretlaircards.com/investment/${investment.slug}`,
     description: investment.excerpt,
     image: investment.image,
   };

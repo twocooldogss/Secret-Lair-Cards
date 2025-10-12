@@ -30,7 +30,7 @@ interface ArticleSchemaParams {
 }
 
 export function generateArticleSchema({ title, description, url, image, author, datePublished, dateModified, keywords = [] }: ArticleSchemaParams) {
-  const baseUrl = 'https://secretlaircards.com';
+  const baseUrl = 'https://www.secretlaircards.com';
   
   return {
     "@context": "https://schema.org",
@@ -67,7 +67,7 @@ export function generateArticleSchema({ title, description, url, image, author, 
 }
 
 export function getSchema(type: string, data: any) {
-  const baseUrl = 'https://secretlaircards.com';
+  const baseUrl = 'https://www.secretlaircards.com';
   
   switch (type) {
     case 'home':

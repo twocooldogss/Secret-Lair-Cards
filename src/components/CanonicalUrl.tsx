@@ -3,7 +3,7 @@ interface CanonicalUrlProps {
 }
 
 export default function CanonicalUrl({ url }: CanonicalUrlProps) {
-  const baseUrl = 'https://secretlaircards.com';
+  const baseUrl = 'https://www.secretlaircards.com';
   const canonicalUrl = url.startsWith('http') ? url : `${baseUrl}${url}`;
   
   return (
