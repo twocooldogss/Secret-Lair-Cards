@@ -12,6 +12,9 @@ export interface Drop {
   price: string
   description: string
   tags: string[]
+  // 透传字段（来自 data/drops.json），在详情页等处可用
+  name?: string
+  cards?: string[]
 }
 
 export interface Card {
@@ -46,7 +49,7 @@ export interface Investment {
   slug: string
   title: string
   date: string
-  image: string
+  coverImage: string
   alt: string
   metaTitle: string
   metaDescription: string
@@ -113,5 +116,48 @@ export function getNewsBySlug(slug: string): News | undefined {
 
 export function getInvestmentBySlug(slug: string): Investment | undefined {
   return getInvestment().find(investment => investment.slug === slug)
+}
+
+// 读取大型 drops 源数据（data/drops.json）供首页等使用
+export function getDropsData(): any[] {
+  const dropsPath = path.join(process.cwd(), 'data', 'drops.json')
+  try {
+    const raw = fs.readFileSync(dropsPath, 'utf-8')
+    const arr = JSON.parse(raw)
+    return Array.isArray(arr) ? arr : []
+  } catch (e) {
+    return []
+  }
+}
+
+// 规范化 drops.json 的条目到站点统一的 Drop 形状
+export function normalizeDrop(input: any): Drop {
+  return {
+    id: String(input.id ?? input.slug ?? ''),
+    slug: String(input.slug ?? ''),
+    title: String(input.title || input.name || input.slug || ''),
+    releaseDate: String(input.release_date || input.releaseDate || ''),
+    theme: String(input.theme || ''),
+    // 对空字符串做回退，避免 next/image 报错
+    image: String((input.image && input.image.trim()) || (input.imageUrl && input.imageUrl.trim()) || '/images/placeholder.svg'),
+    alt: String(input.alt || input.title || input.name || input.slug || 'Drop Cover'),
+    price: String(
+      input.price == null
+        ? ''
+        : typeof input.price === 'number'
+          ? input.price.toFixed(2)
+          : String(input.price)
+    ),
+    description: String(input.description || ''),
+    tags: Array.isArray(input.tags) ? input.tags : [],
+    name: input.name,
+    cards: Array.isArray(input.cards) ? input.cards : undefined
+  }
+}
+
+// 从 data/drops.json 中按 slug 查找原始条目
+export function getDropBySlugFromDrops(slug: string): any | undefined {
+  const drops = getDropsData()
+  return drops.find((d: any) => d.slug === slug)
 }
 

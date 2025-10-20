@@ -1,0 +1,100 @@
+{
+  "timestamp": "2025-10-15T15:12:23.414Z",
+  "summary": {
+    "total": 11,
+    "correct": 11,
+    "missing": 0,
+    "mismatch": 0,
+    "error": 0
+  },
+  "issues": [
+    {
+      "file": "src\\app\\about\\page.tsx",
+      "expectedUrl": "/about",
+      "result": {
+        "status": "correct",
+        "message": "Canonical 标签正确"
+      }
+    },
+    {
+      "file": "src\\app\\cards\\page.tsx",
+      "expectedUrl": "/cards",
+      "result": {
+        "status": "correct",
+        "message": "Canonical 标签正确"
+      }
+    },
+    {
+      "file": "src\\app\\cards\\[slug]\\page.tsx",
+      "expectedUrl": "/cards/[slug]",
+      "result": {
+        "status": "correct",
+        "message": "动态路由 Canonical 标签正确"
+      }
+    },
+    {
+      "file": "src\\app\\drops\\page.tsx",
+      "expectedUrl": "/drops",
+      "result": {
+        "status": "correct",
+        "message": "Canonical 标签正确"
+      }
+    },
+    {
+      "file": "src\\app\\drops\\[slug]\\page.tsx",
+      "expectedUrl": "/drops/[slug]",
+      "result": {
+        "status": "correct",
+        "message": "动态路由 Canonical 标签正确"
+      }
+    },
+    {
+      "file": "src\\app\\health\\page.tsx",
+      "expectedUrl": "/health",
+      "result": {
+        "status": "correct",
+        "message": "Canonical 标签正确"
+      }
+    },
+    {
+      "file": "src\\app\\investment\\page.tsx",
+      "expectedUrl": "/investment",
+      "result": {
+        "status": "correct",
+        "message": "Canonical 标签正确"
+      }
+    },
+    {
+      "file": "src\\app\\investment\\[slug]\\page.tsx",
+      "expectedUrl": "/investment/[slug]",
+      "result": {
+        "status": "correct",
+        "message": "动态路由 Canonical 标签正确"
+      }
+    },
+    {
+      "file": "src\\app\\news\\page.tsx",
+      "expectedUrl": "/news",
+      "result": {
+        "status": "correct",
+        "message": "Canonical 标签正确"
+      }
+    },
+    {
+      "file": "src\\app\\news\\[slug]\\page.tsx",
+      "expectedUrl": "/news/[slug]",
+      "result": {
+        "status": "correct",
+        "message": "动态路由 Canonical 标签正确"
+      }
+    },
+    {
+      "file": "src\\app\\page.tsx",
+      "expectedUrl": "/",
+      "result": {
+        "status": "correct",
+        "message": "Canonical 标签正确"
+      }
+    }
+  ]
+}

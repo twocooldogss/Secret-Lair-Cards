@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { generateSeoMeta } from "@/lib/seo";
 import { getSchema } from "@/lib/schema";
-import { getData } from "@/lib/data";
+import { getData, getDropsData, normalizeDrop } from "@/lib/data";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/footer";
 import DropCard from "@/components/DropCard";
@@ -20,8 +20,9 @@ export async function generateMetadata() {
 
 export default async function HomePage() {
   const data = getData();
+  const dropsData = getDropsData();
   
-  const drops = data.drops.slice(0, 3); // Featured Drops
+  const drops = dropsData.slice(0, 3).map(normalizeDrop); // Featured Drops
   const news = data.news.slice(0, 2);   // Latest News
   const cards = data.cards.slice(0, 3); // Popular Cards
   const investments = data.investment.slice(0, 2);

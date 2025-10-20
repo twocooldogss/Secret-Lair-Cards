@@ -1,8 +1,7 @@
-import fs from "fs";
-import path from "path";
 import Image from "next/image";
 import { generateSeoMeta } from "@/lib/seo";
 import { getSchema } from "@/lib/schema";
+import { getDropsData, getDropBySlugFromDrops, normalizeDrop } from "@/lib/data";
 import CardCard from "@/components/CardCard";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/footer";
@@ -12,30 +11,28 @@ import DropProductSchema from "@/components/DropProductSchema";
 import DropMerchantSchema from "@/components/DropMerchantSchema";
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
-  const dataPath = path.join(process.cwd(), "data", "mock.json");
-  const data = JSON.parse(fs.readFileSync(dataPath, "utf-8"));
-  const drop = data.drops.find((d: any) => d.slug === params.slug);
+  const dropData = getDropBySlugFromDrops(params.slug);
 
-  if (!drop) {
+  if (!dropData) {
     return {
       title: "Drop Not Found | SecretLairCards.com",
       description: "The requested Secret Lair drop could not be found.",
     };
   }
 
+  const drop = normalizeDrop(dropData);
+
   return generateSeoMeta({
     title: drop.title,
-    description: drop.description || drop.metaDescription,
+    description: drop.description,
     url: `/drops/${params.slug}`,
   });
 }
 
 export default async function DropDetail({ params }: { params: { slug: string } }) {
-  const dataPath = path.join(process.cwd(), "data", "mock.json");
-  const data = JSON.parse(fs.readFileSync(dataPath, "utf-8"));
-  const drop = data.drops.find((d: any) => d.slug === params.slug);
+  const dropData = getDropBySlugFromDrops(params.slug);
 
-  if (!drop) {
+  if (!dropData) {
     return (
       <div className="min-h-screen flex flex-col bg-gray-50">
         <Navbar />
@@ -50,7 +47,8 @@ export default async function DropDetail({ params }: { params: { slug: string } 
     );
   }
 
-  const cards = data.cards.filter((c: any) => c.drop === drop.slug);
+  const drop = normalizeDrop(dropData);
+  const cards = drop.cards || [];
 
   const schema = getSchema('drop', drop);
 
@@ -91,11 +89,21 @@ export default async function DropDetail({ params }: { params: { slug: string } 
         </div>
         
         <h2 className="text-2xl font-semibold mb-6">Included Cards ({cards.length})</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {cards.map((card: any) => (
-            <CardCard key={card.slug} card={card} />
-          ))}
-        </div>
+        {cards.length > 0 ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            {cards.map((cardName: string, index: number) => (
+              <div key={index} className="bg-white rounded-lg shadow-md p-4 text-center">
+                <h3 className="font-semibold text-gray-800">{cardName}</h3>
+                <p className="text-sm text-gray-600 mt-2">Card from {drop.name}</p>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div className="text-center py-8 text-gray-500">
+            <p>Card information will be available after running the fetch script.</p>
+            <p className="text-sm mt-2">Run: <code className="bg-gray-100 px-2 py-1 rounded">npm run fetch-drops</code></p>
+          </div>
+        )}
       </main>
     </div>
   );

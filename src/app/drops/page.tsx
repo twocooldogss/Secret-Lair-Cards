@@ -1,9 +1,8 @@
-import fs from "fs";
-import path from "path";
 import DropCard from "@/components/DropCard";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/footer";
 import CanonicalUrl from "@/components/CanonicalUrl";
+import { getDropsData, normalizeDrop } from "@/lib/data";
 
 import { generateSeoMeta } from "@/lib/seo";
 
@@ -14,9 +13,8 @@ export const metadata = generateSeoMeta({
 });
 
 export default async function DropsPage() {
-  const dataPath = path.join(process.cwd(), "data", "mock.json");
-  const data = JSON.parse(fs.readFileSync(dataPath, "utf-8"));
-  const drops = data.drops;
+  const dropsData = getDropsData();
+  const drops = dropsData.map(normalizeDrop);
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
@@ -25,7 +23,7 @@ export default async function DropsPage() {
       <main className="flex-1 max-w-6xl mx-auto px-6 py-12">
         <h1 className="text-3xl font-bold mb-8">Secret Lair Drops</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {drops.map((drop: any) => (
+          {drops.map((drop) => (
             <DropCard key={drop.slug} drop={drop} />
           ))}
         </div>

@@ -1,4 +1,4 @@
-import { secretLairDrops } from '../data/drops';
+import { allSecretLairDrops } from '../data/drops';
 import { cards } from '../data/cards';
 import { getLatestNews, newsItems } from '../data/news';
 import { getLatestInvestment, investmentArticles } from '../data/investment';
@@ -44,11 +44,11 @@ interface Investment {
 }
 
 export function getDrops() {
-  return secretLairDrops;
+  return allSecretLairDrops;
 }
 
 export function getDropBySlug(slug: string) {
-  return secretLairDrops.find((drop) => drop.slug === slug);
+  return allSecretLairDrops.find((drop) => drop.slug === slug);
 }
 
 export function getCards() {
@@ -60,24 +60,24 @@ export function getCardBySlug(slug: string) {
 }
 
 export function getFeaturedDrops() {
-  return secretLairDrops.filter(drop => drop.featured);
+  return allSecretLairDrops.filter(drop => drop.featured);
 }
 
 export function getAvailableDrops() {
-  return secretLairDrops.filter(drop => !drop.soldOut);
+  return allSecretLairDrops.filter(drop => !drop.soldOut);
 }
 
 export function getSoldOutDrops() {
-  return secretLairDrops.filter(drop => drop.soldOut);
+  return allSecretLairDrops.filter(drop => drop.soldOut);
 }
 
 // 统一的 API 函数（使用 TypeScript 数据）
 export function getMockDrops() {
-  return secretLairDrops;
+  return allSecretLairDrops;
 }
 
 export function getMockDropBySlug(slug: string) {
-  return secretLairDrops.find((d) => d.slug === slug);
+  return allSecretLairDrops.find((d) => d.slug === slug);
 }
 
 export function getMockCards() {

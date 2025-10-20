@@ -37,6 +37,22 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ['lucide-react'],
   },
+  async redirects() {
+    return [
+      // 重定向非www到www，确保canonical URL一致性
+      {
+        source: '/(.*)',
+        has: [
+          {
+            type: 'host',
+            value: 'secretlaircards.com',
+          },
+        ],
+        destination: 'https://www.secretlaircards.com/:path*',
+        permanent: true,
+      },
+    ]
+  },
 }
 
-module.exports = nextConfig
+export default nextConfig

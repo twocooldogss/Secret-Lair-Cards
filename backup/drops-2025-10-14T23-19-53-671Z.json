@@ -1,0 +1,3194 @@
+[
+  {
+    "slug": "tyler-jacobson",
+    "name": "Tyler Jacobson",
+    "release_date": "2024-08-27",
+    "cards": [
+      "Acererak the Archlich",
+      "Dark Deal",
+      "Prosperous Innkeeper",
+      "Black Panther, Wakandan King",
+      "Dawnbreak Reclaimer",
+      "Syphon Sliver",
+      "Temple Garden"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/c/d/cdfd08aa-0e6b-42e1-aa4a-a2bd09581a70.jpg?1726868792",
+    "card_count": 7,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "wizard-of-barge",
+    "name": "Wizard of Barge",
+    "release_date": "2023-08-28",
+    "cards": [
+      "Acidic Slime",
+      "Necrotic Ooze",
+      "Scavenging Ooze",
+      "Voidslime",
+      "Goblin Lackey",
+      "Goblin Matron",
+      "Goblin Recruiter",
+      "Muxus, Goblin Grandee",
+      "Shattergang Brothers",
+      "Jace, the Mind Sculptor",
+      "Triskaidekaphile"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/1/e/1e6bd3fa-0d07-4519-b67f-67867ad13c89.jpg?1682696677",
+    "card_count": 11,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "jack-hughes",
+    "name": "Jack Hughes",
+    "release_date": "2022-11-28",
+    "cards": [
+      "Adaptive Automaton",
+      "Azami, Lady of Scrolls",
+      "Reflector Mage",
+      "Jinnie Fay, Jetmir's Second // Jinnie Fay, Jetmir's Second"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/2/f/2f038672-d03c-4349-9261-1b76ae4594c6.jpg?1682689605",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "mike-burns-scott-okumura",
+    "name": "Mike Burns & Scott Okumura",
+    "release_date": "2024-02-05",
+    "cards": [
+      "Adrix and Nev, Twincasters // Adrix and Nev, Twincasters",
+      "Coveted Jewel",
+      "Krark, the Thumbless // Krark, the Thumbless",
+      "Sakashima of a Thousand Faces // Sakashima of a Thousand Faces",
+      "Yargle, Glutton of Urborg // Yargle, Glutton of Urborg",
+      "Brash Taunter",
+      "Goblin Welder",
+      "Impact Tremors"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/0/b/0b7726e1-f121-4283-9c54-66509f332f39.jpg?1759032972",
+    "card_count": 8,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "stephen-andrade-scott-okumura",
+    "name": "Stephen Andrade & Scott Okumura",
+    "release_date": "2025-03-24",
+    "cards": [
+      "Aesi, Tyrant of Gyre Strait // Aesi, Tyrant of Gyre Strait",
+      "Anje Falkenrath // Anje Falkenrath",
+      "Chulane, Teller of Tales // Chulane, Teller of Tales",
+      "Radha, Heart of Keld // Radha, Heart of Keld",
+      "Griselbrand"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/6/1/61805d7f-382c-46ff-8380-d995fc0b9d25.jpg?1759032804",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "peach-momoko",
+    "name": "Peach Momoko",
+    "release_date": "2024-09-30",
+    "cards": [
+      "Aetherize",
+      "Drown in Dreams",
+      "Psychic Corrosion",
+      "Time Sieve",
+      "Visions of Beyond"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/7/9/7993b049-09d8-4c1a-9455-bb092249e0b6.jpg?1727568500",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "rovina-cai",
+    "name": "Rovina Cai",
+    "release_date": "2024-04-08",
+    "cards": [
+      "Aether Vial",
+      "Inalla, Archmage Ritualist",
+      "Sword of the Animist",
+      "Misdirection"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/f/6/f6151f39-966e-4af6-a20a-d761781abed9.jpg?1759032882",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "jay-howell",
+    "name": "Jay Howell",
+    "release_date": "2025-04-28",
+    "cards": [
+      "Agent of Treachery",
+      "Marchesa, the Black Rose",
+      "Priest of Forgotten Gods",
+      "Treasonous Ogre",
+      "Uncivil Unrest"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/0/6/06b4ed70-caf5-4f83-9a24-22c81b11932a.jpg?1746714747",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "frank-frazetta",
+    "name": "Frank Frazetta",
+    "release_date": "2022-12-05",
+    "cards": [
+      "Aggravated Assault",
+      "Desperate Ritual",
+      "Murderous Rider // Swift End",
+      "Zulaport Cutthroat",
+      "Field Marshal",
+      "Lightning Strike",
+      "Midnight Reaper",
+      "Seize the Day",
+      "Temporal Manipulation"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/6/1/61310de0-9eee-4683-83bd-0c8434fde8d1.jpg?1748261866",
+    "card_count": 9,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "ian-permana",
+    "name": "Ian Permana",
+    "release_date": "2025-07-28",
+    "cards": [
+      "Aggressive Mining",
+      "Crucible of Worlds",
+      "Reprocess",
+      "Sylvan Safekeeper",
+      "Zuran Orb"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/5/d/5d5835dd-f789-481e-b9dd-a0910af61326.jpg?1754063911",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "yongjae-choi",
+    "name": "Yongjae Choi",
+    "release_date": "2020-02-18",
+    "cards": [
+      "Aisha of Sparks and Smoke",
+      "Chandra, Fire Artisan",
+      "Jaya, Venerated Firemage",
+      "Ob Nixilis, the Hate-Twisted",
+      "Joel, Resolute Survivor"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/6/8/684f54a1-caf1-499e-aa71-e081a4dd916d.jpg?1757465283",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "fay-dalton-scott-okumura",
+    "name": "Fay Dalton & Scott Okumura",
+    "release_date": "2023-09-15",
+    "cards": [
+      "Ajani Goldmane // Ajani Goldmane",
+      "Chandra Nalaar // Chandra Nalaar",
+      "Jace Beleren // Jace Beleren",
+      "Liliana Vess // Liliana Vess",
+      "Black Market",
+      "Dire Undercurrents",
+      "Jace, Wielder of Mysteries",
+      "Obeka, Brute Chronologist",
+      "Reconnaissance",
+      "Blasphemous Act",
+      "Elesh Norn, Grand Cenobite",
+      "Korvold, Fae-Cursed King",
+      "Rewind"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/a/9/a9817714-70b2-4e36-ae56-14052a9c12a1.jpg?1719004675",
+    "card_count": 13,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "uta-natsume",
+    "name": "Uta Natsume",
+    "release_date": "2022-02-18",
+    "cards": [
+      "Ajani, Mentor of Heroes",
+      "Angrath, the Flame-Chained",
+      "Ashiok, Dream Render",
+      "Sorin, Grim Nemesis",
+      "Tamiyo, the Moon Sage",
+      "Aminatou, the Fateshifter",
+      "Chandra, Flame's Catalyst",
+      "Daretti, Ingenious Iconoclast",
+      "Karn, Scion of Urza",
+      "Venser, the Sojourner",
+      "Drana, the Last Bloodchief",
+      "Lavinia, Azorius Renegade",
+      "Omnath, Locus of Creation",
+      "Orvar, the All-Form",
+      "Reya Dawnbringer",
+      "Elspeth, Sun's Champion",
+      "Garruk Wildspeaker",
+      "Saheeli, Sublime Artificer",
+      "Sarkhan Vol"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/e/b/ebbfc1b2-2407-4079-a847-6bb6b9a2c9de.jpg?1645127733",
+    "card_count": 19,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "victor-adame-minguez",
+    "name": "Victor Adame Minguez",
+    "release_date": "2022-11-02",
+    "cards": [
+      "Ajani, the Greathearted",
+      "Baldin, Century Herdmaster",
+      "Tadeas, Juniper Ascendant",
+      "Compost",
+      "Knight Exemplar",
+      "Knight of the White Orchid",
+      "Lord of the Undead",
+      "Goblin Snowman",
+      "Unsubstantiate",
+      "Watery Grave",
+      "Wolverine, Best There Is"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/0/0/00b33e71-ef08-4aeb-bca2-a2a4a43c2e0d.jpg?1579260110",
+    "card_count": 11,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "randy-vargas",
+    "name": "Randy Vargas",
+    "release_date": "2023-04-23",
+    "cards": [
+      "Akroma, Angel of Fury",
+      "Grand Abolisher",
+      "Selfless Savior",
+      "Frilled Mystic",
+      "Jet Medallion",
+      "Rotting Regisaur"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/6/3/635ca686-c04e-47df-b1b5-687bb7c69d4c.jpg?1682345242",
+    "card_count": 6,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "livia-prima",
+    "name": "Livia Prima",
+    "release_date": "2022-06-13",
+    "cards": [
+      "Akroma, Angel of Wrath",
+      "Glissa Sunseeker",
+      "Olivia, Mobilized for War",
+      "In the Trenches",
+      "Narset, Enlightened Master",
+      "Sanguine Bond"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/c/f/cf75f895-3481-4c21-a85f-c819613bccc3.jpg?1655154593",
+    "card_count": 6,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "ricardo-cavolo",
+    "name": "Ricardo Cavolo",
+    "release_date": "2024-02-23",
+    "cards": [
+      "Akroma's Memorial",
+      "Consider",
+      "Inspiring Overseer",
+      "Price of Glory",
+      "Reckless Fireweaver",
+      "The Scorpion God",
+      "Xanathar, Guild Kingpin"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/d/4/d49e8ddc-2e8f-4a6c-a20d-a37f2c24fd97.jpg?1739789045",
+    "card_count": 7,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "phoebe-wahl",
+    "name": "Phoebe Wahl",
+    "release_date": "2024-04-08",
+    "cards": [
+      "Alela, Artful Provocateur",
+      "Dockside Chef",
+      "Door of Destinies",
+      "Faerie Artisans"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/b/4/b40f7528-5162-4454-afa8-9ecb912d7ec7.jpg?1739113400",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "dominik-mayer",
+    "name": "Dominik Mayer",
+    "release_date": "2025-10-27",
+    "cards": [
+      "All Is Dust",
+      "Artifact Mutation",
+      "Ghostly Flicker",
+      "Jin Sakai, Ghost of Tsushima",
+      "Path to Exile",
+      "Phyrexian Unlife"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/2/b/2bc7280c-8136-4ac3-b2d6-6679e13b0470.jpg?1755274229",
+    "card_count": 6,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "jack-teagle",
+    "name": "Jack Teagle",
+    "release_date": "2025-02-03",
+    "cards": [
+      "All Will Be One",
+      "Benevolent Hydra",
+      "Forgotten Ancient",
+      "Mulldrifter",
+      "Animar, Soul of Elements"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/7/f/7f9cf727-c02f-4295-a708-d2497e503a27.jpg?1741126260",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "paul-mafayon",
+    "name": "Paul Mafayon",
+    "release_date": "2023-04-14",
+    "cards": [
+      "Alms Collector",
+      "Crested Sunmare",
+      "Exotic Orchard",
+      "Goreclaw, Terror of Qal Sisma"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/d/a/da88239e-1155-4657-9685-ab3f323672ea.jpg?1682712479",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "hari-deepti",
+    "name": "Hari & Deepti",
+    "release_date": "2025-02-10",
+    "cards": [
+      "Ancient Amphitheater",
+      "Auntie's Hovel",
+      "Gilt-Leaf Palace",
+      "Secluded Glen",
+      "Wanderwine Hub"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/1/5/15106aa1-45d6-486b-9ce0-d999161fbd6e.jpg?1738928061",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "dxtr",
+    "name": "DXTR",
+    "release_date": "2021-10-15",
+    "cards": [
+      "Ancient Den",
+      "Darksteel Citadel",
+      "Great Furnace",
+      "Seat of the Synod",
+      "Tree of Tales",
+      "Vault of Whispers"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/d/1/d1f4c301-6015-456a-8989-e0055402809e.jpg?1682712482",
+    "card_count": 6,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "scott-m-fischer",
+    "name": "Scott M. Fischer",
+    "release_date": "2023-08-10",
+    "cards": [
+      "Angel",
+      "Archangel of Thune",
+      "Brisela, Voice of Nightmares",
+      "Bruna, the Fading Light",
+      "Court of Grace",
+      "Gisela, the Broken Blade",
+      "Spirit",
+      "Nissa, Who Shakes the World",
+      "Pariah",
+      "Telling Time",
+      "Viridian Shaman"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/0/8/089874c5-4f1e-4d03-a4c5-50f6ac0814dd.jpg?1727916087",
+    "card_count": 11,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "abigail-larson",
+    "name": "Abigail Larson",
+    "release_date": "2025-03-24",
+    "cards": [
+      "Angel of Despair",
+      "Kaalia of the Vast",
+      "Master of Cruelties",
+      "Skithiryx, the Blight Dragon"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/5/3/5366d209-e609-4f1e-a86b-9f585abe1fa9.jpg?1745931874",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "desmuncubic",
+    "name": "Desmuncubic",
+    "release_date": "2024-04-08",
+    "cards": [
+      "Anger",
+      "Council's Judgment",
+      "Elixir of Immortality",
+      "Idyllic Tutor",
+      "Propaganda",
+      "Culling the Weak",
+      "Winds of Abandon",
+      "Young Wolf"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/1/4/142c8447-40bf-4ec0-8a93-0810ade9ec88.jpg?1712700645",
+    "card_count": 8,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "slawomir-maniak",
+    "name": "Slawomir Maniak",
+    "release_date": "2019-12-16",
+    "cards": [
+      "Angrath, Captain of Chaos",
+      "Diregraf Captain",
+      "Saw in Half"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/1/2/129851e1-8dca-4a90-8615-5ea642b61e71.jpg?1579260115",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "mila-pesic",
+    "name": "Mila Pesic",
+    "release_date": "2024-08-27",
+    "cards": [
+      "Anguished Unmaking",
+      "Karlach, Fury of Avernus",
+      "Oona, Queen of the Fae"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/4/7/47aeb51f-dca8-4862-be9a-4a633e43825c.jpg?1723570973",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "iron-maiden",
+    "name": "Iron Maiden",
+    "release_date": "2025-10-13",
+    "cards": [
+      "Animate Dead",
+      "Grave Titan",
+      "Lethal Scheme",
+      "Lignify",
+      "Temporal Trespass",
+      "Unearth"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/a/4/a466aec7-4cda-4a2f-ba8a-eeb3665fbcfc.jpg?1759235726",
+    "card_count": 6,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "jakob-eirich",
+    "name": "Jakob Eirich",
+    "release_date": "2019-12-09",
+    "cards": [
+      "Anointed Procession // Anointed Procession",
+      "Cat",
+      "Leonin Warleader",
+      "Rest in Peace"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/2/5/255dcc91-7b3d-4b58-85f3-b21be805966e.jpg?1575842279",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "john-thacker",
+    "name": "John Thacker",
+    "release_date": "2024-03-01",
+    "cards": [
+      "Applejack",
+      "Rainbow Dash",
+      "Miles \"Tails\" Prower",
+      "Treasure"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/a/8/a8f02241-b268-43c8-b69e-bf10c8a9b9ca.jpg?1695065826",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "brandi-milne",
+    "name": "Brandi Milne",
+    "release_date": "2021-02-12",
+    "cards": [
+      "Approach of the Second Sun",
+      "Gisela, Blade of Goldnight",
+      "Goblin",
+      "Goblin Rabblemaster"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/7/8/78d7ca09-b6dc-4906-95ce-1571f6c4cefb.jpg?1732731218",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "andrew-maclean",
+    "name": "Andrew MacLean",
+    "release_date": "2024-07-29",
+    "cards": [
+      "Arbor Elf",
+      "Maelstrom Wanderer",
+      "Nirkana Revenant",
+      "Terastodon"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/d/8/d81bce60-78f6-4f42-9fcd-383f66f85de5.jpg?1722024433",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "graham-yarrington",
+    "name": "Graham Yarrington",
+    "release_date": "2024-02-05",
+    "cards": [
+      "Arcane Denial",
+      "Nightscape Familiar",
+      "Prince of Thralls",
+      "Rain of Filth",
+      "Simian Spirit Guide"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/1/5/1535dc66-763b-4b14-bd2e-684a2fc7cdfb.jpg?1707254015",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "peter-diamond",
+    "name": "Peter Diamond",
+    "release_date": "2022-06-13",
+    "cards": [
+      "Arcanis the Omnipotent",
+      "Brimaz, King of Oreskos",
+      "Savra, Queen of the Golgari",
+      "Vilis, Broker of Blood"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/a/4/a4ff3bdd-bfd0-4cea-9493-85632b126cf1.jpg?1682712496",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "deathburger",
+    "name": "Deathburger",
+    "release_date": "2025-07-28",
+    "cards": [
+      "Arcbound Ravager",
+      "Dance of the Manse",
+      "Ethersworn Canonist",
+      "Foundry Inspector",
+      "Goblin Engineer"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/0/9/09d3b122-adbd-40c5-850a-df11f1b49ea0.jpg?1753830491",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "jen-bartel",
+    "name": "Jen Bartel",
+    "release_date": "2021-06-21",
+    "cards": [
+      "Archaeomancer",
+      "Bloom Tender",
+      "Mesa Enchantress",
+      "Vendilion Clique"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/5/5/552bb59c-085f-4caf-8430-ba6e2888ea6d.jpg?1682712499",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "nana-qi-godmachine",
+    "name": "Nana Qi & GodMachine",
+    "release_date": "2023-05-08",
+    "cards": [
+      "Archangel Avacyn // Avacyn, the Purifier",
+      "Bloodline Keeper // Lord of Lineage",
+      "Delver of Secrets // Insectile Aberration",
+      "Esika, God of the Tree // The Prismatic Bridge",
+      "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+      "Westvale Abbey // Ormendahl, Profane Prince"
+    ],
+    "image": "",
+    "card_count": 6,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "greg-staples",
+    "name": "Greg Staples",
+    "release_date": "2021-10-15",
+    "cards": [
+      "Arden Angel",
+      "Beastmaster Ascension",
+      "Bjorna, Nightfall Alchemist",
+      "Elmar, Ulvenwald Informant",
+      "Sophina, Spearsage Deserter",
+      "Lara Croft, Tomb Raider"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/c/e/ceb42fb7-1ac5-4923-bec8-2aa2d4dbefd5.jpg?1693634295",
+    "card_count": 6,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "kieran-yanner",
+    "name": "Kieran Yanner",
+    "release_date": "2025-10-13",
+    "cards": [
+      "Armageddon",
+      "Demonic Tutor",
+      "Lord of the Pit",
+      "Northern Paladin",
+      "Dovin, Hand of Control",
+      "Gideon Blackblade",
+      "Sarkhan the Masterless",
+      "Savor the Moment",
+      "Sonic Screwdriver",
+      "The Fifteenth Doctor"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/6/8/68785426-6868-4184-8d52-75a6a920848b.jpg?1759412224",
+    "card_count": 10,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "jordan-crane",
+    "name": "Jordan Crane",
+    "release_date": "2025-03-24",
+    "cards": [
+      "Ashaya, Soul of the Wild",
+      "Elvish Reclaimer",
+      "Harrow",
+      "World Shaper",
+      "Happily Ever After",
+      "Horn of Greed"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/8/1/813057d4-ec5b-4ec4-a6ad-8f53cc49b827.jpg?1742731419",
+    "card_count": 6,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "jason-a-engle",
+    "name": "Jason A. Engle",
+    "release_date": "2020-02-14",
+    "cards": [
+      "Athreos, God of Passage",
+      "Ephara, God of the Polis",
+      "Erebos, God of the Dead",
+      "Heliod, God of the Sun",
+      "Karametra, God of Harvests",
+      "Keranos, God of Storms",
+      "Kruphix, God of Horizons",
+      "Nylea, God of the Hunt",
+      "Pharika, God of Affliction",
+      "Phenax, God of Deception",
+      "Purphoros, God of the Forge",
+      "Thassa, God of the Sea",
+      "Nyxbloom Ancient"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/3/3/3380a687-c96b-4e1a-bfd9-3849d085b803.jpg?1682712570",
+    "card_count": 13,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "nathaniel-himawan",
+    "name": "Nathaniel Himawan",
+    "release_date": "2025-10-27",
+    "cards": [
+      "Atreus, Impulsive Son",
+      "Kratos, Stoic Father",
+      "Maddening Cacophony",
+      "Huatli, Radiant Champion"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/2/e/2e53b0b2-dba1-4a95-80c4-622ab1a547a4.jpg?1759135217",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "laura-plansker",
+    "name": "Laura Plansker",
+    "release_date": "2024-04-08",
+    "cards": [
+      "Aura Shards",
+      "Fiend Artisan",
+      "Gravebreaker Lamia",
+      "Karador, Ghost Chieftain"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/a/9/a956ab72-6abd-48f5-863d-7f8b39caf8fd.jpg?1759032839",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "kev-walker",
+    "name": "Kev Walker",
+    "release_date": "2023-09-15",
+    "cards": [
+      "Avabruck Caretaker // Hollowhenge Huntmaster",
+      "Carnage Tyrant",
+      "Faeburrow Elder",
+      "It That Betrays",
+      "Geralf's Messenger",
+      "Nettle Sentinel",
+      "Tezzeret, Agent of Bolas"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/3/0/300e11b6-12df-4d28-95d7-d6514f8eeb6b.jpg?1693254714",
+    "card_count": 7,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "dan-frazier",
+    "name": "Dan Frazier",
+    "release_date": "2021-06-21",
+    "cards": [
+      "Azorius Signet",
+      "Boros Signet",
+      "Dimir Signet",
+      "Golgari Signet",
+      "Gruul Signet",
+      "Izzet Signet",
+      "Orzhov Signet",
+      "Rakdos Signet",
+      "Selesnya Signet",
+      "Simic Signet",
+      "Mox Opal",
+      "Mox Tantalite",
+      "Talisman of Conviction",
+      "Talisman of Creativity",
+      "Talisman of Curiosity",
+      "Talisman of Dominance",
+      "Talisman of Hierarchy",
+      "Talisman of Impulse",
+      "Talisman of Indulgence",
+      "Talisman of Progress",
+      "Talisman of Resilience",
+      "Talisman of Unity"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/e/7/e7e4da73-2faa-4992-8f61-e668ce82ba17.jpg?1668111107",
+    "card_count": 22,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "helvetica-blanc",
+    "name": "Helvetica Blanc",
+    "release_date": "2024-09-30",
+    "cards": [
+      "Back to Basics",
+      "Preordain",
+      "Sphinx of the Second Sun",
+      "Teferi's Ageless Insight"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/d/e/de0dbb1c-ae8e-4f40-b7b4-016fea692da9.jpg?1727568741",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "mark-poole",
+    "name": "Mark Poole",
+    "release_date": "2021-06-21",
+    "cards": [
+      "Balance",
+      "Howling Mine",
+      "Wasteland"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/a/8/a8619034-173c-4950-a0b4-1ae1dcfd0bc5.jpg?1675536796",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "allen-douglas",
+    "name": "Allen Douglas",
+    "release_date": "2020-06-05",
+    "cards": [
+      "Baleful Strix",
+      "Gilded Goose",
+      "Dragonlord Dromoka // Dragonlord Dromoka"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/7/f/7f7c9b54-0b40-4007-8d24-bc3945be319f.jpg?1599358787",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "wayne-reynolds",
+    "name": "Wayne Reynolds",
+    "release_date": "2022-04-12",
+    "cards": [
+      "Balthor the Defiled",
+      "Depala, Pilot Exemplar",
+      "Sram, Senior Edificer",
+      "Torbran, Thane of Red Fell",
+      "Ponder"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/0/6/06379f71-2125-4d9b-b0d2-b7b80451076c.jpg?1649270409",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "mark-zug",
+    "name": "Mark Zug",
+    "release_date": "2023-04-14",
+    "cards": [
+      "Batterskull",
+      "Haakon, Stromgald Scourge",
+      "Karn, the Great Creator"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/f/5/f5358745-44d8-4452-9cee-06ec6006214b.jpg?1689411360",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "raymond-swanland",
+    "name": "Raymond Swanland",
+    "release_date": "2024-08-27",
+    "cards": [
+      "Battle Angels of Tyr",
+      "Belligerent Sliver",
+      "Domri, Anarch of Bolas",
+      "Torment of Hailfire"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/8/b/8b3c8050-6acb-4d53-ba46-646ca88d4eb6.jpg?1749164756",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "mschf",
+    "name": "MSCHF",
+    "release_date": "2021-11-20",
+    "cards": [
+      "Battlefield Forge",
+      "Blood Moon",
+      "Cut // Ribbons",
+      "Teferi's Puzzle Box"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/e/b/eb35ff06-c5bf-460e-8a79-422bda257cfe.jpg?1645536151",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "micha-huigen",
+    "name": "Micha Huigen",
+    "release_date": "2023-12-06",
+    "cards": [
+      "Beacon of Tomorrows",
+      "Nexus of Fate",
+      "Time Reversal",
+      "Time Stop",
+      "Stitch in Time // Stitch in Time"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/e/c/ecd002b2-acc3-421a-ad2e-22117d347b29.jpg?1700489396",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "luke-pearson",
+    "name": "Luke Pearson",
+    "release_date": "2025-02-10",
+    "cards": [
+      "Bear Umbra",
+      "Realmwalker",
+      "Solemn Simulacrum",
+      "Witch of the Moors",
+      "Simic Ascendancy"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/0/9/09da5828-fbbb-402a-815b-034ed3ca0722.jpg?1738928114",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "omar-rayyan",
+    "name": "Omar Rayyan",
+    "release_date": "2022-11-28",
+    "cards": [
+      "Beast Whisperer",
+      "Vizier of the Menagerie",
+      "Wood Elves",
+      "Questing Beast"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/c/8/c818547c-a6f6-4c69-9e4d-33741e605093.jpg?1682712587",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "evyn-fong",
+    "name": "Evyn Fong",
+    "release_date": "2025-10-13",
+    "cards": [
+      "Beloved Princess",
+      "Sphere of Safety",
+      "Tamiyo's Safekeeping"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/a/9/a905ed56-16cd-455f-8bba-8daef06a07da.jpg?1741618658",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "alexander-mokhov",
+    "name": "Alexander Mokhov",
+    "release_date": "2024-11-04",
+    "cards": [
+      "Berserk",
+      "Breathkeeper Seraph",
+      "Druid of Purification"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/9/8/9866e64e-308b-4920-a76b-ddea0c6bc830.jpg?1729273792",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "kirokaze-chuck-lukacs",
+    "name": "Kirokaze & Chuck Lukacs",
+    "release_date": "2025-02-10",
+    "cards": [
+      "Big Score",
+      "Heat Shimmer",
+      "Roiling Vortex"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/9/d/9d934412-6ac9-4605-8675-07f74ed106a0.jpg?1738927994",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "antonio-jos-manzanedo",
+    "name": "Antonio José Manzanedo",
+    "release_date": "2022-11-28",
+    "cards": [
+      "Blind Obedience",
+      "Dragonlord Atarka // Dragonlord Atarka",
+      "Umbris, Fear Manifest"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/0/b/0b387332-5725-40c2-abf5-2562038e85a3.jpg?1682712596",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "stephen-andrade",
+    "name": "Stephen Andrade",
+    "release_date": "2025-10-13",
+    "cards": [
+      "Blood",
+      "Jaws, Relentless Predator",
+      "Reckless Endeavor",
+      "Sneak Attack"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/6/b/6b563165-b97f-42c6-82a8-65d8ee69e381.jpg?1759245107",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "joshua-howard",
+    "name": "Joshua Howard",
+    "release_date": "2020-06-01",
+    "cards": [
+      "Blood Artist",
+      "Pithing Needle",
+      "Spell Pierce"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/8/a/8a5b65ed-250c-42a6-84c0-ac06662ca5ed.jpg?1599332214",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "seb-mckinnon",
+    "name": "Seb McKinnon",
+    "release_date": "2020-11-30",
+    "cards": [
+      "Blood Crypt",
+      "Enchanted Evening",
+      "Sower of Temptation",
+      "Pontiff of Blight"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/1/7/1716b4dd-9045-462b-b053-72de450a8cde.jpg?1637804360",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "dan-mumford",
+    "name": "Dan Mumford",
+    "release_date": "2019-12-05",
+    "cards": [
+      "Bloodghast",
+      "Golgari Thug",
+      "Life from the Loam",
+      "Iron Maiden",
+      "Mindcrank",
+      "Windfall",
+      "Stensia Bloodhall"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/8/7/87089d28-46a7-4247-a784-c34b9f822172.jpg?1582068652",
+    "card_count": 7,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "daarken",
+    "name": "Daarken",
+    "release_date": "2022-12-15",
+    "cards": [
+      "Blur Sliver",
+      "Davriel, Rogue Shadowmage",
+      "Phyrexian Arena",
+      "Stomping Ground"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/9/0/90cdca59-6f98-437a-b3fd-a48264dd276f.jpg?1674243506",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "akqa",
+    "name": "AKQA",
+    "release_date": "2024-04-08",
+    "cards": [
+      "Bojuka Bog",
+      "Codex Shredder",
+      "Command Beacon",
+      "Fabled Passage",
+      "Mana Vault",
+      "Reflecting Pool",
+      "Reliquary Tower",
+      "Sphere of Resistance",
+      "Trinisphere",
+      "Wastes",
+      "Winter Orb"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/6/f/6f730eba-fef1-4d2c-bcaf-9fe51f6bf270.jpg?1712816451",
+    "card_count": 11,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "trevor-claxton",
+    "name": "Trevor Claxton",
+    "release_date": "2022-11-05",
+    "cards": [
+      "Bonescythe Sliver",
+      "Thorncaster Sliver",
+      "Diffusion Sliver",
+      "Manaweft Sliver"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/e/3/e367827c-e0b5-44d0-bccf-65ffc6d5318a.jpg?1674243440",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "nino-is",
+    "name": "Nino Is",
+    "release_date": "2023-10-02",
+    "cards": [
+      "Botanical Sanctum",
+      "Concealed Courtyard",
+      "Spirebluff Canal"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/4/1/416c257d-ad28-4029-bb45-324bf262d1e5.jpg?1695483024",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "ryan-quickfall",
+    "name": "Ryan Quickfall",
+    "release_date": "2023-08-29",
+    "cards": [
+      "Bottomless Pit",
+      "Geier Reach Sanitarium",
+      "Necrogen Mists",
+      "Reassembling Skeleton",
+      "Tinybones, Trinket Thief"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/a/7/a7fd9517-a063-4c42-8e1c-c298b314b798.jpg?1688321676",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "sam-burley",
+    "name": "Sam Burley",
+    "release_date": "2023-04-14",
+    "cards": [
+      "Braid of Fire",
+      "Karrthus, Tyrant of Jund",
+      "Koth of the Hammer",
+      "Master of the Wild Hunt"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/e/8/e84468eb-c971-4e5c-92ab-338b4aaa48c6.jpg?1682540848",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "rorubei",
+    "name": "Rorubei",
+    "release_date": "2022-02-18",
+    "cards": [
+      "Brain Freeze",
+      "Shadow of Doubt",
+      "Snap",
+      "Unmask",
+      "Higure, the Still Wind"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/d/3/d33ff8fc-b2b7-4cd9-8724-b926459b519d.jpg?1711892780",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "alexandre-chaudret",
+    "name": "Alexandre Chaudret",
+    "release_date": "2021-08-24",
+    "cards": [
+      "Brazen Borrower // Petty Theft",
+      "Magus of the Moon",
+      "Meandering Towershell",
+      "Ohran Frostfang",
+      "Thragtusk",
+      "Wrexial, the Risen Deep"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/0/6/06251176-d20f-4960-ac73-135e44b77c83.jpg?1640744263",
+    "card_count": 6,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "jesper-ejsing",
+    "name": "Jesper Ejsing",
+    "release_date": "2025-02-10",
+    "cards": [
+      "Breeches, Eager Pillager",
+      "Deflecting Swat",
+      "Llanowar Elves",
+      "Sun Titan",
+      "Garruk, Caller of Beasts",
+      "Maro",
+      "Mystic Remora",
+      "Storm Crow"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/4/8/480d639d-871d-4da3-9ae1-41bd5cef81db.jpg?1738928039",
+    "card_count": 8,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "aleksi-briclot",
+    "name": "Aleksi Briclot",
+    "release_date": "2022-12-02",
+    "cards": [
+      "Breeding Pool",
+      "Eldrazi Temple",
+      "Inquisition of Kozilek",
+      "Reality Smasher",
+      "Thought-Knot Seer",
+      "Nahiri, Storm of Stone",
+      "Samut, Tyrant Smasher"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/1/9/19477aca-b8db-4061-9a78-ebb189a9df22.jpg?1674422724",
+    "card_count": 7,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "beholders-charm-ray",
+    "name": "Beholder's Charm Ray",
+    "release_date": "2024-08-27",
+    "cards": [
+      "Bribery",
+      "Drown in the Loch",
+      "Snuff Out",
+      "Stifle"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/e/7/e7b8a9a2-55d8-4cf8-9912-787bdbc90ebb.jpg?1723908451",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "rope-arrow",
+    "name": "Rope Arrow",
+    "release_date": "2023-04-14",
+    "cards": [
+      "Bruna, Light of Alabaster",
+      "Counterbalance",
+      "Deafening Silence",
+      "Eldrazi Conscription"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/1/e/1e376a75-77ea-40f0-a61e-afcdea2c763a.jpg?1682690022",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "kelogsloops",
+    "name": "Kelogsloops",
+    "release_date": "2022-06-13",
+    "cards": [
+      "Burgeoning",
+      "Retreat to Coralhelm",
+      "Utopia Sprawl",
+      "Dandân",
+      "Island",
+      "Revel in Riches",
+      "Swan Song"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/3/0/30641539-de35-46c7-99ab-e4478afe064c.jpg?1682712727",
+    "card_count": 7,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "volta-creation",
+    "name": "Volta Creation",
+    "release_date": "2022-12-02",
+    "cards": [
+      "By Force",
+      "Collective Brutality",
+      "Doubling Cube // Doubling Cube",
+      "Dramatic Reversal",
+      "True Conviction"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/b/a/baa8c556-2d3e-4f29-8457-e2162def7353.jpg?1670593967",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "tsubonari",
+    "name": "Tsubonari",
+    "release_date": "2025-02-10",
+    "cards": [
+      "Captain Sisay",
+      "Karmic Guide",
+      "Ninja of the Deep Hours",
+      "Selvala, Explorer Returned",
+      "Veyran, Voice of Duality",
+      "Massacre Girl",
+      "Paradise Mantle",
+      "Sakashima the Impostor",
+      "Teysa Karlov"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/2/b/2b141f71-63b3-45ac-b93a-01a68be5d2b6.jpg?1743952214",
+    "card_count": 9,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "tyler-walpole",
+    "name": "Tyler Walpole",
+    "release_date": "2021-06-21",
+    "cards": [
+      "Careful Study",
+      "Commander's Sphere",
+      "Crash Through",
+      "Hero's Downfall",
+      "Unbreakable Formation",
+      "Whir of Invention",
+      "Counterspell",
+      "Daze",
+      "Force of Despair",
+      "Inevitable Betrayal",
+      "Night's Whisper",
+      "Smothering Tithe",
+      "Knuckles the Echidna"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/0/f/0feefb72-f6fa-4897-b2cf-6f14a3e5d466.jpg?1727916116",
+    "card_count": 13,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "johannes-voss",
+    "name": "Johannes Voss",
+    "release_date": "2021-08-24",
+    "cards": [
+      "Carpet of Flowers",
+      "Sanctum Prelate",
+      "Greater Good",
+      "Howl of the Night Pack",
+      "Thrill of Possibility"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/f/2/f20c3499-d2c0-4e21-be7b-925e23a1d4df.jpg?1641135734",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "junji-ito",
+    "name": "Junji Ito",
+    "release_date": "2022-11-28",
+    "cards": [
+      "Carrion Feeder",
+      "Doomsday",
+      "Plaguecrafter",
+      "Thoughtseize"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/c/0/c0e175cb-ffea-473f-8422-53273f263016.jpg?1682690026",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "allison-carl",
+    "name": "Allison Carl",
+    "release_date": "2024-01-22",
+    "cards": [
+      "Cat",
+      "Dog",
+      "Qasali Slingers"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/5/c/5c53bf06-f681-4d5c-b303-cc7c050f5b01.jpg?1727776176",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "jesse-ledoux",
+    "name": "Jesse LeDoux",
+    "release_date": "2023-12-06",
+    "cards": [
+      "Cathartic Reunion",
+      "Giver of Runes",
+      "Moment's Peace",
+      "Font of Mythos"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/7/0/70abfaeb-1253-4217-9194-67f40b5ee4b1.jpg?1700490861",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "fajareka-setiawan",
+    "name": "Fajareka Setiawan",
+    "release_date": "2025-10-27",
+    "cards": [
+      "Chain Reaction",
+      "City on Fire",
+      "Jaya Ballard"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/3/c/3c289f27-e824-4c67-beac-855556ee1e30.jpg?1759900665",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "kekai-kotaki",
+    "name": "Kekai Kotaki",
+    "release_date": "2025-02-02",
+    "cards": [
+      "Champion of the Perished",
+      "Chord of Calling",
+      "Glissa, the Traitor"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/e/1/e1c35c4d-7af9-467b-ba09-eef26671641b.jpg?1741203900",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "jackson-epstein",
+    "name": "Jackson Epstein",
+    "release_date": "2024-07-29",
+    "cards": [
+      "Chaos Warp",
+      "Skullclamp",
+      "Thought Vessel"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/1/0/10adb81c-d6c1-4335-83d8-10561bbed490.jpg?1739790429",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "ron-spencer",
+    "name": "Ron Spencer",
+    "release_date": "2020-11-30",
+    "cards": [
+      "Chatter of the Squirrel",
+      "Metamorphose",
+      "Sidewinder Sliver"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/a/3/a320d7e7-aa1e-4c00-9b45-525352393e00.jpg?1615254370",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "rian-gonzales",
+    "name": "Rian Gonzales",
+    "release_date": "2025-03-24",
+    "cards": [
+      "Chromatic Lantern",
+      "Inspiring Call",
+      "Clever Impersonator",
+      "Hedron Crab",
+      "Pitiless Plunderer",
+      "Sticker sheet",
+      "Thalia, Heretic Cathar",
+      "Enduring Ideal",
+      "Maskwood Nexus"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/d/1/d1b544e0-def1-412e-91a8-15819cd4d7f2.jpg?1759233944",
+    "card_count": 9,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "alexander-khabbazi",
+    "name": "Alexander Khabbazi",
+    "release_date": "2024-02-05",
+    "cards": [
+      "Circular Logic",
+      "Eternal Witness",
+      "Price of Progress",
+      "Wall of Omens",
+      "Cryptic Command"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/0/3/0392db52-c77c-4310-be26-7daccc661d07.jpg?1759032923",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "rebecca-guay",
+    "name": "Rebecca Guay",
+    "release_date": "2023-04-23",
+    "cards": [
+      "Cleansing Nova",
+      "Muddle the Mixture",
+      "Serra the Benevolent",
+      "Stoneforge Mystic",
+      "Predict"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/8/4/84590fb7-a79e-4708-bce4-bb16b1b0dd7e.jpg?1747216493",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "ravenna-tran",
+    "name": "Ravenna Tran",
+    "release_date": "2021-10-15",
+    "cards": [
+      "Clue",
+      "Havengul Laboratory // Havengul Mystery",
+      "Marrow-Gnawer"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/b/7/b7c52125-929a-4e03-a955-d55ae34a905b.jpg?1645580136",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "bene-rohlmann",
+    "name": "Bene Rohlmann",
+    "release_date": "2024-05-13",
+    "cards": [
+      "Coffin Queen",
+      "Goblin King",
+      "Jaxis, the Troublemaker",
+      "Professional Face-Breaker",
+      "Rankle, Master of Pranks",
+      "Cultural Exchange"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/6/9/697cba66-1d06-4c8b-bb82-0adc4a73d295.jpg?1715373955",
+    "card_count": 6,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "rudy-siswanto",
+    "name": "Rudy Siswanto",
+    "release_date": "2020-11-06",
+    "cards": [
+      "Collected Company",
+      "Squirrel Mob",
+      "Pinkie Pie"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/7/b/7ba6a508-3286-4938-b0a5-94b794ab6456.jpg?1638535282",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "roman-klonek",
+    "name": "Roman Klonek",
+    "release_date": "2022-04-12",
+    "cards": [
+      "Collector Ouphe",
+      "Goblin Settler",
+      "Vengevine",
+      "Void Winnower"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/e/b/ebf6550a-b01e-45b0-807c-5593ed419bac.jpg?1682712813",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "mikls-ligeti-andworld-design",
+    "name": "Miklós Ligeti & AndWorld Design",
+    "release_date": "2024-07-24",
+    "cards": [
+      "Conqueror's Flail",
+      "Darksteel Plate",
+      "Deathrender",
+      "Haystack",
+      "Whispersilk Cloak"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/b/a/ba7c2428-a3a9-4498-a743-2cb35fd99403.jpg?1741677765",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "imiri-sakabashira",
+    "name": "Imiri Sakabashira",
+    "release_date": "2025-06-09",
+    "cards": [
+      "Consecrated Sphinx",
+      "Mirage Mirror",
+      "Resculpt",
+      "Scion of Draco"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/6/0/6059f2ae-94cb-42f1-80ae-45b44551d169.jpg?1749164763",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "phil-foglio",
+    "name": "Phil Foglio",
+    "release_date": "2025-06-09",
+    "cards": [
+      "Constant Mists",
+      "Goblin Bombardment",
+      "Orcish Lumberjack",
+      "Song of the Dryads"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/6/9/69ffe198-2696-43ea-b63b-9329f751d9ad.jpg?1748261258",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "nils-hamm",
+    "name": "Nils Hamm",
+    "release_date": "2022-11-02",
+    "cards": [
+      "Contagion Engine",
+      "Deepglow Skate",
+      "Tireless Tracker",
+      "Paradise Druid",
+      "Ravenous Rotbelly"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/6/a/6acd847d-7474-4d6a-8281-aa59991a1b87.jpg?1742250529",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "lars-grant",
+    "name": "Lars Grant",
+    "release_date": "2021-11-05",
+    "cards": [
+      "Craterhoof Behemoth",
+      "Ghostly Prison",
+      "Toxin Sliver"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/2/7/2750bee4-7dfa-4128-989c-5f81af1b322a.jpg?1645561147",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "allen-williams",
+    "name": "Allen Williams",
+    "release_date": "2022-08-13",
+    "cards": [
+      "Crystalline Sliver",
+      "Horned Sliver",
+      "Mental Note"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/e/6/e6a1b96a-ff75-4b4c-aea7-b41d9f9ac710.jpg?1667592965",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "kawasumi",
+    "name": "Kawasumi",
+    "release_date": "2022-08-11",
+    "cards": [
+      "Curiosity",
+      "Greed",
+      "Last Chance",
+      "Peek"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/2/4/2433b8e1-749b-4086-8819-e45e65e9df7c.jpg?1667522126",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "richard-kane-ferguson",
+    "name": "Richard Kane Ferguson",
+    "release_date": "2022-04-12",
+    "cards": [
+      "Dakkon Blackblade",
+      "Muscle Sliver",
+      "Sedge Sliver"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/9/a/9aeb8c31-cf87-4058-bc14-991310a9e1d5.jpg?1662729943",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "mark-bagley-jay-david-ramos",
+    "name": "Mark Bagley & Jay David Ramos",
+    "release_date": "2025-09-22",
+    "cards": [
+      "Damnation",
+      "Dark Ritual",
+      "Peer into the Abyss",
+      "Surgical Extraction",
+      "Tendrils of Agony"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/5/8/58c26685-9f47-42fe-8cfa-7eed5f90cab9.jpg?1757342932",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "ivan-shavrin",
+    "name": "Ivan Shavrin",
+    "release_date": "2024-09-30",
+    "cards": [
+      "Dauthi Voidwalker",
+      "Gonti, Lord of Luxury",
+      "Krosan Beast",
+      "Palladia-Mors",
+      "Xorn"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/b/f/bf5e853d-05bd-49b2-b7da-c968e24a2400.jpg?1739790404",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "justine-cruz",
+    "name": "Justine Cruz",
+    "release_date": "2025-04-01",
+    "cards": [
+      "Deadpool, Trading Card",
+      "Monologue Tax",
+      "Unnatural Growth"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/3/a/3a14d6c5-cfd1-4860-834a-5a0dc9df0320.jpg?1743765756",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "magali-villeneuve",
+    "name": "Magali Villeneuve",
+    "release_date": "2020-02-18",
+    "cards": [
+      "Death's Shadow",
+      "Mother of Runes",
+      "Kasmina, Enigmatic Mentor",
+      "Kaya, Bane of the Dead",
+      "Vivien, Champion of the Wilds",
+      "Kratos, God of War",
+      "Sacred Foundry",
+      "Storm, Force of Nature",
+      "Teyo, the Shieldmage",
+      "Thalia, Guardian of Thraben"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/f/7/f776cb6c-548f-45a9-b605-b386c5468885.jpg?1649270044",
+    "card_count": 10,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "mike-burns",
+    "name": "Mike Burns",
+    "release_date": "2024-10-14",
+    "cards": [
+      "Delayed Blast Fireball",
+      "Fierce Guardianship",
+      "Mana Geyser",
+      "Solve the Equation",
+      "Ghalta, Primal Hunger // Ghalta, Primal Hunger",
+      "Ulamog, the Ceaseless Hunger // Ulamog, the Ceaseless Hunger",
+      "Open the Armory"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/9/a/9a6468b6-ac2f-4af5-985f-e9cae5eb2251.jpg?1743065637",
+    "card_count": 7,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "kozyndan",
+    "name": "kozyndan",
+    "release_date": "2022-12-02",
+    "cards": [
+      "Demonic Consultation",
+      "Rapid Hybridization",
+      "Serra Ascendant",
+      "Winds of Change"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/9/1/91bdfd40-dbc7-42a8-a122-5834193b8f5e.jpg?1682712840",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "ziuk",
+    "name": "ZIUK",
+    "release_date": "2021-10-15",
+    "cards": [
+      "Demonlord Belzenlok",
+      "Kothophed, Soul Hoarder",
+      "Razaketh, the Foulblooded"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/2/7/27197660-8489-419b-9ad6-29a8713e4673.jpg?1645564310",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "tatamepi",
+    "name": "Tatamepi",
+    "release_date": "2022-11-17",
+    "cards": [
+      "Descendants' Path",
+      "Lord Windgrace",
+      "Violent Outburst"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/d/9/d97797cf-1e4a-4e76-91a4-cac557a17416.jpg?1682690514",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "leonardo-santanna",
+    "name": "Leonardo Santanna",
+    "release_date": "2025-08-18",
+    "cards": [
+      "Diabolic Tutor",
+      "Pack Rat",
+      "Shared Summons",
+      "Sorin Markov"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/d/f/df6ba63e-0168-45e4-abf3-f7a5b87a4b85.jpg?1719001730",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "narendra-bintara-adi",
+    "name": "Narendra Bintara Adi",
+    "release_date": "2024-03-01",
+    "cards": [
+      "Discord, Lord of Disharmony",
+      "Harmless Offering",
+      "Hullbreaker Horror"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/c/4/c474c0f1-08c7-4183-b024-297a11594a96.jpg?1733162117",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "justyna-dura",
+    "name": "Justyna Dura",
+    "release_date": "2024-08-27",
+    "cards": [
+      "Dolmen Gate",
+      "Exquisite Blood",
+      "Garruk Relentless // Garruk, the Veil-Cursed",
+      "Miscast",
+      "Passionate Archaeologist",
+      "Iron Man, Titan of Innovation",
+      "Rose Noble",
+      "The Fourteenth Doctor"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/1/7/17518e8e-46ad-4730-b10b-b8875c0536b6.jpg?1724010175",
+    "card_count": 8,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "ed-repka",
+    "name": "Ed Repka",
+    "release_date": "2024-09-30",
+    "cards": [
+      "Doom Whisperer",
+      "Koma, Cosmos Serpent",
+      "Mazirek, Kraul Death Priest",
+      "Ravenous Chupacabra",
+      "Uril, the Miststalker"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/d/e/de1a8780-726b-47f2-904b-a840cfc69d76.jpg?1727568296",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "matt-jukes",
+    "name": "Matt Jukes",
+    "release_date": "2022-04-12",
+    "cards": [
+      "Dragonskull Summit",
+      "Drowned Catacomb",
+      "Glacial Fortress",
+      "Rootbound Crag",
+      "Sunpetal Grove"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/6/0/60ecd9bf-757b-4eeb-bef3-0b9ad2e86fca.jpg?1682712889",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "fiona-staples",
+    "name": "Fiona Staples",
+    "release_date": "2021-06-21",
+    "cards": [
+      "Dryad of the Ilysian Grove",
+      "Metallic Mimic",
+      "Sakura-Tribe Elder",
+      "Spell Queller"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/2/2/22e22287-21c5-4733-a527-b176fbf3725d.jpg?1682696713",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "justine-jones",
+    "name": "Justine Jones",
+    "release_date": "2019-12-08",
+    "cards": [
+      "Ebondeath, Dracolich",
+      "Sliver Overlord",
+      "The Ur-Dragon"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/b/e/bea750e6-cdb8-4119-b26d-86abdbc14fb2.jpg?1739790683",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "yuko-shimizu",
+    "name": "Yuko Shimizu",
+    "release_date": "2022-02-18",
+    "cards": [
+      "Eidolon of the Great Revel",
+      "Elvish Spirit Guide",
+      "Hokori, Dust Drinker",
+      "Kira, Great Glass-Spinner",
+      "Go-Shintai of Life's Origin",
+      "Skewer the Critics"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/d/e/ded4ab9d-91af-4cb9-90dc-b6bd6897b1ed.jpg?1682712895",
+    "card_count": 6,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "alayna-danner",
+    "name": "Alayna Danner",
+    "release_date": "2023-04-23",
+    "cards": [
+      "Eladamri's Vineyard",
+      "Emeria, the Sky Ruin",
+      "Linvala, Keeper of Silence",
+      "Sunblast Angel",
+      "Godless Shrine",
+      "Seraph Sanctuary",
+      "Slayers' Stronghold"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/2/f/2f999f30-df29-4b60-9415-ef7c4fbd5d77.jpg?1733142216",
+    "card_count": 7,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "cosmin-podar",
+    "name": "Cosmin Podar",
+    "release_date": "2021-06-21",
+    "cards": [
+      "Eldrazi Monument",
+      "Ornithopter",
+      "Hedron Archive",
+      "Pilgrim's Eye",
+      "Sorcerous Spyglass",
+      "Tangle Wire",
+      "Panharmonicon",
+      "Rogue's Passage"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/7/2/72a63ff8-97ae-4ba2-a62b-4be10892a7a2.jpg?1739113870",
+    "card_count": 8,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "wooden-cyclops",
+    "name": "Wooden Cyclops",
+    "release_date": "2023-09-15",
+    "cards": [
+      "Eldritch Evolution",
+      "Giant Adephage",
+      "Grist, the Hunger Tide",
+      "Noxious Revival",
+      "Giant Growth",
+      "Yisan, the Wanderer Bard",
+      "Krark's Thumb // Krark's Thumb"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/5/7/57906b54-9fea-4608-87ce-43a16b95df9a.jpg?1693254827",
+    "card_count": 7,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "volkan-baa",
+    "name": "Volkan Baǵa",
+    "release_date": "2022-06-13",
+    "cards": [
+      "Elspeth, Knight-Errant",
+      "Patron Wizard",
+      "Verduran Enchantress",
+      "Halimar Depths"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/4/1/41f40636-6899-4ea8-adda-9b60bcde18a0.jpg?1668122883",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "julie-bell",
+    "name": "Julie Bell",
+    "release_date": "2024-06-24",
+    "cards": [
+      "Elves of Deep Shadow",
+      "Good-Fortune Unicorn",
+      "Shivan Dragon",
+      "Soul Warden"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/9/0/90438697-02be-4bb4-8ef3-8536c4fb0446.jpg?1719002719",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "matt-stewart",
+    "name": "Matt Stewart",
+    "release_date": "2022-04-12",
+    "cards": [
+      "Empress Galina",
+      "Pollenbright Druid",
+      "Skemfar Shadowsage"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/d/7/d76435d9-beab-4419-95f9-afc8b5c8f3f1.jpg?1649275829",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "john-avon",
+    "name": "John Avon",
+    "release_date": "2023-10-02",
+    "cards": [
+      "Emrakul, the Promised End",
+      "Progenitus",
+      "Serra Angel",
+      "Gemhide Sliver",
+      "Quick Sliver",
+      "Steam Vents"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/4/e/4eec0470-82bf-4a07-a7d9-e5d40a518041.jpg?1694819158",
+    "card_count": 6,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "sidharth-chaturvedi",
+    "name": "Sidharth Chaturvedi",
+    "release_date": "2022-04-11",
+    "cards": [
+      "Ertai, the Corrupted",
+      "Ghost Quarter",
+      "Nomad Outpost"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/3/4/3476e706-f71a-4f7a-b026-cd8cb0665c39.jpg?1682712969",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "heikala",
+    "name": "Heikala",
+    "release_date": "2025-04-22",
+    "cards": [
+      "Esika's Chariot",
+      "Realms Uncharted",
+      "Secret Rendezvous",
+      "Serenity",
+      "Felidar Sovereign"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/b/f/bf333864-1299-43a4-a03f-5df98b7498e8.jpg?1745327789",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "natalie-andrewson",
+    "name": "Natalie Andrewson",
+    "release_date": "2025-10-13",
+    "cards": [
+      "Explore",
+      "Sol Ring",
+      "Maze's End",
+      "Morophon, the Boundless"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/5/f/5f4d7eb5-5c0e-4c89-91b5-0cd200c5cb88.jpg?1759233840",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "tracy-yardley",
+    "name": "Tracy Yardley",
+    "release_date": "2025-07-14",
+    "cards": [
+      "Fabricate",
+      "Generous Gift",
+      "Shadow the Hedgehog",
+      "Super State"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/2/a/2a82c31b-4b8c-45b8-8e44-a8c201954052.jpg?1752436168",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "kathleen-neeley-andworld-design",
+    "name": "Kathleen Neeley & AndWorld Design",
+    "release_date": "2024-06-24",
+    "cards": [
+      "Fecundity",
+      "Mayhem Devil",
+      "Moldervine Reclamation",
+      "Prossh, Skyraider of Kher"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/6/c/6c402380-2de7-4a47-993e-c365dc104dad.jpg?1719002102",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "rowynn-ellis",
+    "name": "Rowynn Ellis",
+    "release_date": "2024-02-05",
+    "cards": [
+      "Felidar Guardian",
+      "Peregrine Drake",
+      "Scourge of Valkas",
+      "Serpent of Yawning Depths",
+      "Voracious Hydra"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/9/b/9b464549-a84d-44bf-a684-d59db5babc6d.jpg?1739114103",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "yu-maeda",
+    "name": "Yu Maeda",
+    "release_date": "2023-08-29",
+    "cards": [
+      "Flamekin Harbinger",
+      "Omnath, Locus of Rage",
+      "Risen Reef",
+      "Voice of Resurgence"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/0/4/0420119f-a25b-44c7-b82f-51d05dfd94c5.jpg?1690593243",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "chris-rahn",
+    "name": "Chris Rahn",
+    "release_date": "2022-06-13",
+    "cards": [
+      "Flawless Maneuver",
+      "Huntmaster of the Fells // Ravager of the Fells",
+      "Kozilek, the Great Distortion",
+      "Platinum Angel",
+      "Primeval Titan",
+      "Mikaeus, the Unhallowed"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/b/e/becd6a66-51b5-4ef1-a8a4-f65343bda3f8.jpg?1729274152",
+    "card_count": 6,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "timba-smits",
+    "name": "Timba Smits",
+    "release_date": "2021-10-18",
+    "cards": [
+      "Fleet Swallower",
+      "Gishath, Sun's Avatar",
+      "Goblin Trashmaster",
+      "Ilharg, the Raze-Boar",
+      "Protean Hulk"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/f/d/fd334816-f058-4296-b1c3-924f22e91820.jpg?1682690751",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "pete-venters",
+    "name": "Pete Venters",
+    "release_date": "2025-02-10",
+    "cards": [
+      "Fleshbag Marauder",
+      "Lys Alana Huntmaster",
+      "Ward Sliver"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/6/f/6fed4a07-de78-49f9-a6a3-f8494135a060.jpg?1741203912",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "anna-steinbauer",
+    "name": "Anna Steinbauer",
+    "release_date": "2020-02-18",
+    "cards": [
+      "Fluttershy",
+      "Jiang Yanggu, Wildcrafter",
+      "Vraska, Swarm's Eminence",
+      "Saskia the Unyielding"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/a/d/ad9c0698-aaa3-4aef-b1a6-0963e10cd94b.jpg?1695076679",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "ori-toor",
+    "name": "Ori Toor",
+    "release_date": "2022-12-02",
+    "cards": [
+      "Forced Fruition",
+      "Future Sight",
+      "Mental Misstep",
+      "Mind's Dilation",
+      "Well of Lost Dreams"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/9/0/90ccf45b-dee2-4d92-bd45-05d77840d0c6.jpg?1682690779",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "ashley-dreyfus",
+    "name": "Ashley Dreyfus",
+    "release_date": "2025-09-25",
+    "cards": [
+      "Forest",
+      "Mountain",
+      "Plains",
+      "Swamp"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/4/b/4b535df5-f79c-4ab5-9b2f-cbbb5adad70a.jpg?1758801202",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "ryan-alexander-lee",
+    "name": "Ryan Alexander Lee",
+    "release_date": "2023-08-29",
+    "cards": [
+      "Gaea's Blessing",
+      "Nemesis of Reason",
+      "Twilight Prophet",
+      "Worldspine Wurm",
+      "Wurm"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/3/c/3cb93d27-ca54-4d56-a55e-19cec740cd69.jpg?1733152567",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "bakshi-productions",
+    "name": "Bakshi Productions",
+    "release_date": "2023-08-29",
+    "cards": [
+      "Gandalf, Friend of the Shire",
+      "Gríma Wormtongue",
+      "Mirror of Galadriel",
+      "Shire Terrace",
+      "Slip On the Ring"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/d/7/d745f592-8d4d-46f4-b631-c014da1ab3a9.jpg?1687811857",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "catdirty",
+    "name": "CatDirty",
+    "release_date": "2023-12-08",
+    "cards": [
+      "Gargos, Vicious Watcher",
+      "Hydra",
+      "Hydroid Krasis",
+      "Primordial Hydra",
+      "Unbound Flourishing",
+      "Zaxara, the Exemplary"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/5/7/574057d5-d4a3-4d51-9f53-830d533426b2.jpg?1759032984",
+    "card_count": 6,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "jim-woodring",
+    "name": "Jim Woodring",
+    "release_date": "2025-10-13",
+    "cards": [
+      "Glen Elendra Archmage",
+      "Guardian Project",
+      "Roon of the Hidden Realm",
+      "Soulherder"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/5/a/5ace8996-5a6d-4968-893c-fe537a7df36f.jpg?1759412263",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "steve-argyle",
+    "name": "Steve Argyle",
+    "release_date": "2023-04-14",
+    "cards": [
+      "Glistener Elf",
+      "Mayael's Aria",
+      "Teferi's Protection"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/9/7/97685645-43ab-4dd3-926a-f7439d7a31e6.jpg?1689411456",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "mike-uziel",
+    "name": "Mike Uziel",
+    "release_date": "2019-12-07",
+    "cards": [
+      "Goblin Bushwhacker",
+      "Goblin Piledriver",
+      "Goblin Sharpshooter"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/7/4/7450c7d6-4c09-4264-a711-b956f62f4d0e.jpg?1575842105",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "fay-dalton",
+    "name": "Fay Dalton",
+    "release_date": "2021-10-15",
+    "cards": [
+      "Gravecrawler",
+      "Liliana, Death's Majesty",
+      "Rise of the Dark Realms",
+      "Zombie"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/5/5/55e62436-8e4a-48d0-bcb2-fa650b1aafbb.jpg?1682713195",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "jason-loik-matthew-cohen",
+    "name": "Jason Loik & Matthew Cohen",
+    "release_date": "2025-09-26",
+    "cards": [
+      "Greensleeves, Maro-Sorcerer",
+      "Scute Swarm",
+      "Wurmcoil Engine"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/6/4/643b6832-0fa1-4ce8-bda8-00fe9810ffeb.jpg?1758777130",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "david-robert-hovey-scott-okumura",
+    "name": "David Robert Hovey & Scott Okumura",
+    "release_date": "2024-05-13",
+    "cards": [
+      "Grenzo, Havoc Raiser",
+      "Karona, False God",
+      "Rampant Growth"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/9/b/9b6f7f0e-7a0a-42ae-8bc9-c20f62dd3264.jpg?1759032802",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "jake-murray",
+    "name": "Jake Murray",
+    "release_date": "2020-10-13",
+    "cards": [
+      "Greymond, Avacyn's Stalwart",
+      "Malik, Grim Manipulator",
+      "The Celestial Toymaker"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/0/a/0a8e78b3-3232-4d48-9d6c-540951a0330e.jpg?1757464296",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "adam-paquette",
+    "name": "Adam Paquette",
+    "release_date": "2025-12-01",
+    "cards": [
+      "Haunted Fengraf",
+      "Mechanized Production",
+      "Overgrown Tomb"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/6/0/60642c42-15f7-4e22-80ad-4eed3a14b624.jpg?1759031189",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "jungshan",
+    "name": "JungShan",
+    "release_date": "2021-08-24",
+    "cards": [
+      "Heartless Hidetsugu",
+      "Kami of the Crescent Moon",
+      "Michiko Konda, Truth Seeker",
+      "Reki, the History of Kamigawa",
+      "Toshiro Umezawa",
+      "Ink-Eyes, Servant of Oni",
+      "Xantcha, Sleeper Agent"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/8/5/85fe9de5-3b0d-47ed-9302-ef58972592b7.jpg?1682691027",
+    "card_count": 7,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "crocodile-jackson",
+    "name": "Crocodile Jackson",
+    "release_date": "2021-11-29",
+    "cards": [
+      "Ice-Fang Coatl",
+      "Lurking Crocodile",
+      "Managorger Hydra",
+      "Pathbreaker Ibex",
+      "Temur Sabertooth",
+      "Winding Constrictor"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/1/9/1950aed0-f34b-4dc6-a01e-31313fa442bc.jpg?1682691119",
+    "card_count": 6,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "wesley-burt",
+    "name": "Wesley Burt",
+    "release_date": "2019-12-16",
+    "cards": [
+      "Immard, the Stormcleaver",
+      "Ral, Storm Conduit",
+      "The Wanderer"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/e/2/e2fca7f9-ed46-440f-9ea3-225440fc5be5.jpg?1757465435",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "jrmie-solomon",
+    "name": "Jérémie Solomon",
+    "release_date": "2022-11-28",
+    "cards": [
+      "Imprisoned in the Moon",
+      "Prismatic Omen",
+      "Stasis",
+      "Wheel of Sun and Moon"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/e/7/e75a663c-f12f-49d6-b84f-3f941049872e.jpg?1682691717",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "dani-pendergast",
+    "name": "Dani Pendergast",
+    "release_date": "2024-05-13",
+    "cards": [
+      "Inspiring Vantage",
+      "Kaya, Ghost Assassin",
+      "Merfolk of the Pearl Trident",
+      "Shrine"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/e/0/e086d1eb-4d45-4c39-b361-48fcf61d8a26.jpg?1714512133",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "aya-kakeda",
+    "name": "Aya Kakeda",
+    "release_date": "2023-04-23",
+    "cards": [
+      "Joraga Treespeaker",
+      "Nature's Will",
+      "Ulvenwald Tracker",
+      "Yeva, Nature's Herald"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/7/6/76d71b38-c770-4d06-aa03-73d5e8381b9d.jpg?1682691861",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "martin-ontiveros",
+    "name": "Martin Ontiveros",
+    "release_date": "2022-12-02",
+    "cards": [
+      "Kess, Dissident Mage",
+      "Magus of the Wheel",
+      "Spellseeker"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/6/3/63a795db-6b70-4534-b6e9-240895875d12.jpg?1682692138",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "justin-gerard",
+    "name": "Justin Gerard",
+    "release_date": "2024-07-29",
+    "cards": [
+      "Kiora, Behemoth Beckoner",
+      "Minsc & Boo, Timeless Heroes",
+      "Serum Visions"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/0/f/0ffe59ce-b4f3-44ff-9972-44c0549cb9eb.jpg?1722219744",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "erol-otus",
+    "name": "Erol Otus",
+    "release_date": "2025-02-21",
+    "cards": [
+      "Kokusho, the Evening Star",
+      "Niv-Mizzet, Parun",
+      "Scion of the Ur-Dragon",
+      "Skyline Despot"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/1/5/154c2d54-6dc2-4350-8cc1-f099c7d13ccc.jpg?1740414448",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "chase-stone",
+    "name": "Chase Stone",
+    "release_date": "2023-04-14",
+    "cards": [
+      "K'rrik, Son of Yawgmoth",
+      "Tamiyo, Collector of Tales",
+      "Tibalt, Rakish Instigator",
+      "Tibalt, the Fiend-Blooded"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/0/6/068d2a94-e4f5-4789-9228-30d72684e3b9.jpg?1689411436",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "toru-terada",
+    "name": "Toru Terada",
+    "release_date": "2025-04-28",
+    "cards": [
+      "Lava Dart",
+      "Mishra's Bauble",
+      "Monastery Swiftspear",
+      "Soul-Scar Mage",
+      "Underworld Breach"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/8/9/8933ec5c-dd73-4c10-aafe-ad14520cda10.jpg?1745849880",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "svetlin-velinov",
+    "name": "Svetlin Velinov",
+    "release_date": "2022-12-15",
+    "cards": [
+      "Leeching Sliver",
+      "Pyretic Ritual",
+      "Shiny Impetus"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/9/7/971f81ce-8731-4ff7-9bd8-8d108217fad2.jpg?1674246638",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "craig-drake",
+    "name": "Craig Drake",
+    "release_date": "2025-05-19",
+    "cards": [
+      "Liesa, Shroud of Dusk",
+      "Marwyn, the Nurturer",
+      "Oloro, Ageless Ascetic",
+      "Sythis, Harvest's Hand"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/b/a/ba0cef5d-cc4f-40c4-aaad-d832659b4e19.jpg?1747216566",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "mitsuhiro-arita",
+    "name": "Mitsuhiro Arita",
+    "release_date": "2025-02-10",
+    "cards": [
+      "Light-Paws, Emperor's Voice",
+      "Murktide Regent",
+      "Shorikai, Genesis Engine"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/a/0/a02ae105-e643-43a5-a44f-52e077291410.jpg?1739104020",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "lauren-ys",
+    "name": "Lauren YS",
+    "release_date": "2023-04-23",
+    "cards": [
+      "Llawan, Cephalid Empress",
+      "Master of Waves",
+      "Thassa, Deep-Dwelling",
+      "Thassa's Oracle"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/7/c/7cc29468-66bb-4136-a233-283004800d35.jpg?1682692278",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "tomo77",
+    "name": "TOMO77",
+    "release_date": "2023-09-15",
+    "cards": [
+      "Mass Hysteria",
+      "Oppression",
+      "Terminate"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/3/d/3d938eab-76f9-4168-8de2-ec11a38d789f.jpg?1739114624",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "jeannie-l-paske",
+    "name": "Jeannie L Paske",
+    "release_date": "2022-11-02",
+    "cards": [
+      "Matter Reshaper",
+      "Pir, Imaginative Rascal",
+      "The Gitrog Monster",
+      "Toothy, Imaginary Friend"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/9/2/92ff105f-58bd-4c4c-ba18-dedbe7aab75e.jpg?1682692409",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "ivan-shavrin-rob-pavic",
+    "name": "Ivan Shavrin & Rob Pavic",
+    "release_date": "2025-02-10",
+    "cards": [
+      "Mechtitan Core // Mechtitan Core",
+      "Mechtitan // Mechtitan",
+      "Parhelion II // Parhelion II",
+      "Peacewalker Colossus // Peacewalker Colossus",
+      "Reckoner Bankbuster // Reckoner Bankbuster"
+    ],
+    "image": "",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "signalnoise",
+    "name": "Signalnoise",
+    "release_date": "2023-12-06",
+    "cards": [
+      "Mycosynth Golem",
+      "Mycosynth Lattice",
+      "Mycosynth Wellspring"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/6/9/69c35da2-7dc0-4901-ac44-5ed197e5ea43.jpg?1700489507",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "dave-allsop",
+    "name": "Dave Allsop",
+    "release_date": "2022-12-16",
+    "cards": [
+      "Necrotic Sliver",
+      "Plague Sliver",
+      "Walker"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/6/9/699dc42d-3ceb-46dc-bc91-6a93c0d7ddc3.jpg?1676509093",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "igor-kieryluk",
+    "name": "Igor Kieryluk",
+    "release_date": "2025-06-20",
+    "cards": [
+      "Neheb, Dreadhorde Champion",
+      "Sliver Hive",
+      "Spiteful Prankster",
+      "Varina, Lich Queen"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/b/5/b5c81384-c3c7-4033-9e5c-70143f145be5.jpg?1753711324",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "thomas-m-baxa",
+    "name": "Thomas M. Baxa",
+    "release_date": "2021-08-24",
+    "cards": [
+      "Ob Nixilis Reignited",
+      "Sire of Insanity",
+      "Sliver Hivelord",
+      "Synapse Sliver",
+      "Wirewood Symbiote"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/9/4/94e2221e-60c9-4880-9513-f7223772bb0b.jpg?1640818164",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "alexis-ziritt",
+    "name": "Alexis Ziritt",
+    "release_date": "2022-04-22",
+    "cards": [
+      "Okaun, Eye of Chaos // Okaun, Eye of Chaos",
+      "Zndrsplt, Eye of Wisdom // Zndrsplt, Eye of Wisdom",
+      "Saproling"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/5/a/5a88aa73-baca-49c2-a6c3-0a1624b6078b.jpg?1670376092",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "sam-heimer",
+    "name": "Sam Heimer",
+    "release_date": "2025-10-13",
+    "cards": [
+      "Satoru Umezawa",
+      "Vito, Thorn of the Dusk Rose",
+      "Wilhelt, the Rotcleaver"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/7/4/7413839d-5e21-46b8-a41b-ae3cdf87c570.jpg?1759412549",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "ernanda-souza",
+    "name": "Ernanda Souza",
+    "release_date": "2024-11-04",
+    "cards": [
+      "Secure the Wastes",
+      "Warrior",
+      "Shalai, Voice of Plenty"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/4/4/44f0da2e-3513-4891-bea2-27dd138064b3.jpg?1729274125",
+    "card_count": 3,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "elk64",
+    "name": "ELK64",
+    "release_date": "2023-12-06",
+    "cards": [
+      "Snow-Covered Forest",
+      "Snow-Covered Island",
+      "Snow-Covered Mountain",
+      "Snow-Covered Plains",
+      "Snow-Covered Swamp"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/3/9/3995734f-5fa2-4039-af64-0bca88741089.jpg?1700491048",
+    "card_count": 5,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  },
+  {
+    "slug": "mark-riddick",
+    "name": "Mark Riddick",
+    "release_date": "2023-08-29",
+    "cards": [
+      "Syr Konrad, the Grim",
+      "Tevesh Szat, Doom of Fools",
+      "Underworld Dreams",
+      "Waste Not"
+    ],
+    "image": "https://cards.scryfall.io/art_crop/front/f/8/f8b49030-55fe-4bf4-a2b9-c78f36e2d425.jpg?1687820489",
+    "card_count": 4,
+    "price": null,
+    "status": "active",
+    "theme": null,
+    "description": null
+  }
+]

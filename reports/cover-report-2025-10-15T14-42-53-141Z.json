@@ -1,0 +1,38 @@
+{
+  "timestamp": "2025-10-15T14:42:53.140Z",
+  "summary": {
+    "total_drops": 167,
+    "has_cover": 165,
+    "missing_cover": 2,
+    "invalid_cover": 0,
+    "fixed_count": 0,
+    "cover_rate": "98.8"
+  },
+  "details": [
+    {
+      "slug": "ivan-shavrin-rob-pavic",
+      "name": "Secret Lair: Ivan Shavrin & Rob Pavic",
+      "reason": "no_image",
+      "cards": [
+        "Mechtitan Core // Mechtitan Core",
+        "Mechtitan // Mechtitan",
+        "Parhelion II // Parhelion II",
+        "Peacewalker Colossus // Peacewalker Colossus",
+        "Reckoner Bankbuster // Reckoner Bankbuster"
+      ]
+    },
+    {
+      "slug": "nana-qi-godmachine",
+      "name": "Secret Lair: Nana Qi & GodMachine",
+      "reason": "no_image",
+      "cards": [
+        "Archangel Avacyn // Avacyn, the Purifier",
+        "Bloodline Keeper // Lord of Lineage",
+        "Delver of Secrets // Insectile Aberration",
+        "Esika, God of the Tree // The Prismatic Bridge",
+        "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+        "Westvale Abbey // Ormendahl, Profane Prince"
+      ]
+    }
+  ]
+}

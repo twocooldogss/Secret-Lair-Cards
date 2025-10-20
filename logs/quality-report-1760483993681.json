@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-10-14T23:19:53.681Z",
+  "total_drops": 167,
+  "average_quality": 86.5,
+  "invalid_drops": 0,
+  "quality_distribution": {
+    "excellent": 43,
+    "good": 124,
+    "fair": 0,
+    "poor": 0
+  },
+  "invalid_drops_list": []
+}
