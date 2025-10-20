@@ -119,7 +119,7 @@ export default async function HomePage() {
                 <div className="flex-shrink-0">
                   <div className="w-16 h-16 rounded-lg overflow-hidden">
                     <Image 
-                      src={post.image} 
+                      src={post.coverImage} 
                       alt={post.title}
                       width={64}
                       height={64}
