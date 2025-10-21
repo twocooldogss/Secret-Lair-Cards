@@ -3,8 +3,6 @@ import { generateSeoMeta } from "@/lib/seo";
 import { generateArticleSchema } from "@/lib/schema";
 import CardCard from "@/components/CardCard";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/footer";
-import CanonicalUrl from "@/components/CanonicalUrl";
 
 export async function generateMetadata() {
   return generateSeoMeta({
@@ -26,7 +24,6 @@ export default function CardsPage() {
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
-      <CanonicalUrl url="/cards" />
       <Navbar />
       <main className="flex-1 max-w-6xl mx-auto px-6 py-12">
         <h1 className="text-3xl font-bold mb-6">Browse All Secret Lair Cards</h1>
@@ -45,7 +42,6 @@ export default function CardsPage() {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
       </main>
-      <Footer />
     </div>
   );
 }

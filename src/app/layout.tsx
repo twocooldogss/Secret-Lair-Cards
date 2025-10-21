@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Script from 'next/script'
 import './globals.css'
 import Footer from '@/components/footer'
 
@@ -39,7 +40,7 @@ export const metadata: Metadata = {
     siteName: 'SecretLairCards.com',
     images: [
       {
-        url: '/logo.png',
+        url: 'https://www.secretlaircards.com/og-default.jpg',
         width: 1200,
         height: 630,
         alt: 'SecretLairCards.com - MTG Secret Lair Hub',
@@ -66,11 +67,6 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  verification: {
-    google: 'your-google-verification-code',
-    yandex: 'your-yandex-verification-code',
-    yahoo: 'your-yahoo-verification-code',
-  },
 }
 
 export default function RootLayout({
@@ -82,21 +78,21 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-D54X1NZ1HJ"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-D54X1NZ1HJ');
-            `,
-          }}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-D54X1NZ1HJ"
+          strategy="afterInteractive"
         />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-D54X1NZ1HJ');
+          `}
+        </Script>
         
         <link rel="manifest" href="/manifest.json" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="icon" href="/logo.png" type="image/png" />
         <link rel="apple-touch-icon" href="/logo.png" />
         <meta name="theme-color" content="#7c3aed" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -115,6 +111,8 @@ export default function RootLayout({
               "name": "Secret Lair Cards",
               "url": "https://www.secretlaircards.com",
               "description": "Secret Lair Cards – explore every MTG Secret Lair drop, prices, art, and collector insights. Your complete 2025 guide to Magic's most exclusive cards.",
+              "inLanguage": "en",
+              "dateModified": "2025-01-20",
               "publisher": {
                 "@type": "Organization",
                 "name": "Secret Lair Cards",
@@ -134,6 +132,27 @@ export default function RootLayout({
                 "https://www.instagram.com/SecretLairCards",
                 "https://www.facebook.com/SecretLairCards"
               ],
+            }),
+          }}
+        />
+        
+        {/* WebPage Schema for Homepage */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              "name": "Secret Lair Cards Home",
+              "description": "Explore every Secret Lair drop with release info, prices, and collector insights.",
+              "url": "https://www.secretlaircards.com",
+              "inLanguage": "en",
+              "dateModified": "2025-01-20",
+              "isPartOf": {
+                "@type": "WebSite",
+                "name": "Secret Lair Cards",
+                "url": "https://www.secretlaircards.com"
+              }
             }),
           }}
         />

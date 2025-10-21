@@ -6,22 +6,58 @@ interface SeoMetaParams {
   url: string;
   keywords?: string[];
   image?: string;
+  type?: 'website' | 'product' | 'article';
+  price?: string;
+  author?: string;
+  datePublished?: string;
+  dateModified?: string;
 }
 
-export function generateSeoMeta({ title, description, url, keywords = [], image }: SeoMetaParams): Metadata {
+export function generateSeoMeta({ 
+  title, 
+  description, 
+  url, 
+  keywords = [], 
+  image,
+  type = 'website',
+  price,
+  author,
+  datePublished,
+  dateModified
+}: SeoMetaParams): Metadata {
+  const baseUrl = 'https://www.secretlaircards.com';
+  const canonicalUrl = url.startsWith('http') ? url : `${baseUrl}${url}`;
+  const imageUrl = image ? (image.startsWith('http') ? image : `${baseUrl}${image}`) : undefined;
+
+  // 生成JSON-LD结构化数据
+  const jsonLd = generateJsonLd({
+    title,
+    description,
+    url: canonicalUrl,
+    image: imageUrl,
+    type,
+    price,
+    author,
+    datePublished,
+    dateModified
+  });
+
   return {
     title,
     description,
     keywords: keywords.join(', '),
+    alternates: {
+      canonical: canonicalUrl
+    },
     openGraph: {
       title,
       description,
-      url,
-      siteName: 'Secret Lair Cards',
+      url: canonicalUrl,
+      siteName: 'SecretLairCards.com',
       type: 'website',
-      images: image ? [
+      images: imageUrl ? [
         {
-          url: image.startsWith('http') ? image : `https://www.secretlaircards.com${image}`,
+          url: imageUrl,
           width: 1200,
           height: 630,
           alt: title,
@@ -32,8 +68,99 @@ export function generateSeoMeta({ title, description, url, keywords = [], image 
       card: 'summary_large_image',
       title,
       description,
-      images: image ? [image] : undefined,
+      images: imageUrl ? [imageUrl] : undefined,
     },
+    other: {
+      'script:ld+json': JSON.stringify(jsonLd)
+    }
+  };
+}
+
+// 统一的JSON-LD生成函数
+function generateJsonLd({
+  title,
+  description,
+  url,
+  image,
+  type,
+  price,
+  author,
+  datePublished,
+  dateModified
+}: {
+  title: string;
+  description: string;
+  url: string;
+  image?: string;
+  type?: string;
+  price?: string;
+  author?: string;
+  datePublished?: string;
+  dateModified?: string;
+}) {
+  const baseSchema = {
+    "@context": "https://schema.org",
+    "name": title,
+    "description": description,
+    "url": url,
+    ...(image && {
+      "image": {
+        "@type": "ImageObject",
+        "url": image,
+        "width": 1200,
+        "height": 630
+      }
+    }),
+    "publisher": {
+      "@type": "Organization",
+      "name": "SecretLairCards.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.secretlaircards.com/logo.png"
+      }
+    }
+  };
+
+  if (type === 'product') {
+    return {
+      ...baseSchema,
+      "@type": "Product",
+      "brand": {
+        "@type": "Brand",
+        "name": "Magic: The Gathering Secret Lair"
+      },
+      "category": "Trading Card Game",
+      ...(price && {
+        "offers": {
+          "@type": "Offer",
+          "price": price,
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": url
+        }
+      })
+    };
+  }
+
+  if (type === 'article') {
+    return {
+      ...baseSchema,
+      "@type": "Article",
+      "headline": title,
+      ...(author && {
+        "author": {
+          "@type": "Organization",
+          "name": author
+        }
+      }),
+      ...(datePublished && { "datePublished": datePublished }),
+      ...(dateModified && { "dateModified": dateModified })
+    };
+  }
+
+  return {
+    ...baseSchema,
+    "@type": "WebPage"
   };
 }
 

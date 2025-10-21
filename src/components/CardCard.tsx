@@ -9,15 +9,15 @@ export default function CardCard({ card }: { card: any }) {
       <div className="relative w-full h-40 rounded-md overflow-hidden">
         <Image 
           src={card.image} 
-          alt={card.alt || card.name} 
+          alt={String(card.alt || card.name || 'Card')} 
           fill
           className="object-cover"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </div>
-      <h4 className="mt-2 font-medium">{card.name}</h4>
-      <p className="text-gray-500 text-sm">{card.type}</p>
-      <p className="text-purple-600 text-xs font-medium">{card.rarity}</p>
+      <h4 className="mt-2 font-medium">{String(card.name || 'Unknown Card')}</h4>
+      <p className="text-gray-500 text-sm">{String(card.type || 'Unknown Type')}</p>
+      <p className="text-purple-600 text-xs font-medium">{String(card.rarity || 'Unknown Rarity')}</p>
     </Link>
   );
 }

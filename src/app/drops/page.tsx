@@ -1,7 +1,6 @@
 import DropCard from "@/components/DropCard";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/footer";
-import CanonicalUrl from "@/components/CanonicalUrl";
 import { getDropsData, normalizeDrop } from "@/lib/data";
 
 import { generateSeoMeta } from "@/lib/seo";
@@ -18,7 +17,6 @@ export default async function DropsPage() {
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
-      <CanonicalUrl url="/drops" />
       <Navbar />
       <main className="flex-1 max-w-6xl mx-auto px-6 py-12">
         <h1 className="text-3xl font-bold mb-8">Secret Lair Drops</h1>

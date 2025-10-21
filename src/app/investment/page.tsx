@@ -4,7 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/footer";
-import CanonicalUrl from "@/components/CanonicalUrl";
 
 import { generateSeoMeta } from "@/lib/seo";
 
@@ -21,7 +20,6 @@ export default async function InvestmentPage() {
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
-      <CanonicalUrl url="/investment" />
       <Navbar />
       <main className="flex-1 max-w-5xl mx-auto px-6 py-12">
         <h1 className="text-3xl font-bold mb-8">Investment Insights</h1>

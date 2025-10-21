@@ -5,8 +5,6 @@ import Image from "next/image";
 import { generateSeoMeta } from "@/lib/seo";
 import { generateArticleSchema } from "@/lib/schema";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/footer";
-import CanonicalUrl from "@/components/CanonicalUrl";
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const dataPath = path.join(process.cwd(), "data", "mock.json");
@@ -24,6 +22,11 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     title: news.title,
     description: news.metaDescription || news.excerpt,
     url: `/news/${params.slug}`,
+    image: news.coverImage || news.image,
+    type: 'article',
+    author: 'SecretLairCards Editorial Team',
+    datePublished: news.date,
+    dateModified: news.date
   });
 }
 
@@ -42,7 +45,6 @@ export default async function NewsDetail({ params }: { params: { slug: string } 
             <p className="text-gray-500">The requested news article could not be found.</p>
           </div>
         </div>
-        <Footer />
       </div>
     );
   }
@@ -64,7 +66,6 @@ export default async function NewsDetail({ params }: { params: { slug: string } 
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
-      <CanonicalUrl url={`/news/${params.slug}`} />
       <Navbar />
       <main className="flex-1 max-w-4xl mx-auto px-6 py-12">
         <article>

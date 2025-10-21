@@ -3,9 +3,7 @@ import path from "path";
 import Image from "next/image";
 import { generateSeoMeta } from "@/lib/seo";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/footer";
 import Breadcrumb from "@/components/Breadcrumb";
-import CanonicalUrl from "@/components/CanonicalUrl";
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const dataPath = path.join(process.cwd(), "data", "mock.json");
@@ -25,6 +23,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     url: `/cards/${params.slug}`,
     keywords: ["Secret Lair", "MTG", "Magic The Gathering", card.name],
     image: card.image,
+    type: 'product'
   });
 }
 
@@ -43,7 +42,6 @@ export default async function CardDetail({ params }: { params: { slug: string } 
             <p className="text-gray-500">The requested card could not be found.</p>
           </div>
         </div>
-        <Footer />
       </div>
     );
   }
@@ -52,7 +50,6 @@ export default async function CardDetail({ params }: { params: { slug: string } 
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
-      <CanonicalUrl url={`/cards/${params.slug}`} />
       <Navbar />
       <main className="flex-1 max-w-4xl mx-auto px-6 py-12">
         <Breadcrumb 

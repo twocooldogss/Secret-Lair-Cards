@@ -4,9 +4,7 @@ import { getSchema } from "@/lib/schema";
 import { getDropsData, getDropBySlugFromDrops, normalizeDrop } from "@/lib/data";
 import CardCard from "@/components/CardCard";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/footer";
 import Breadcrumb from "@/components/Breadcrumb";
-import CanonicalUrl from "@/components/CanonicalUrl";
 import DropProductSchema from "@/components/DropProductSchema";
 import DropMerchantSchema from "@/components/DropMerchantSchema";
 
@@ -26,6 +24,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     title: drop.title,
     description: drop.description,
     url: `/drops/${params.slug}`,
+    image: drop.image,
+    type: 'product',
+    price: drop.price || '39.99'
   });
 }
 
@@ -42,7 +43,6 @@ export default async function DropDetail({ params }: { params: { slug: string } 
             <p className="text-gray-500">The requested Secret Lair drop could not be found.</p>
           </div>
         </div>
-        <Footer />
       </div>
     );
   }
@@ -60,7 +60,6 @@ export default async function DropDetail({ params }: { params: { slug: string } 
       />
       <DropProductSchema drop={drop} />
       <DropMerchantSchema drop={drop} />
-      <CanonicalUrl url={`/drops/${params.slug}`} />
       <Navbar />
       <main className="flex-1 max-w-5xl mx-auto px-6 py-12">
         <Breadcrumb 
