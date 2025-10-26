@@ -18,7 +18,21 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'Noto Sans SC', 'system-ui', 'sans-serif'],
+      },
+      fontSize: {
+        base: ['1rem', { lineHeight: '1.75rem' }],
+        lg: ['1.125rem', { lineHeight: '1.9rem' }],
+        xl: ['1.25rem', { lineHeight: '2rem' }],
+        '2xl': ['1.5rem', { lineHeight: '2.25rem' }],
+        '3xl': ['1.875rem', { lineHeight: '2.5rem' }],
+      },
       colors: {
+        brand: {
+          purple: '#7c3aed',
+          dark: '#4c1d95',
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -74,7 +88,7 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
 } satisfies Config
 
 export default config

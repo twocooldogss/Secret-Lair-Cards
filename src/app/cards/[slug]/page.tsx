@@ -1,8 +1,7 @@
-import fs from "fs";
-import path from "path";
+import * as fs from "fs";
+import * as path from "path";
 import Image from "next/image";
 import { generateSeoMeta } from "@/lib/seo";
-import Navbar from "@/components/Navbar";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
@@ -35,7 +34,6 @@ export default async function CardDetail({ params }: { params: { slug: string } 
   if (!card) {
     return (
       <div className="min-h-screen flex flex-col bg-gray-50">
-        <Navbar />
         <div className="flex-1 flex items-center justify-center">
           <div className="text-center">
             <h1 className="text-2xl font-bold text-gray-600 mb-4">Card Not Found</h1>
@@ -50,8 +48,7 @@ export default async function CardDetail({ params }: { params: { slug: string } 
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
-      <Navbar />
-      <main className="flex-1 max-w-4xl mx-auto px-6 py-12">
+      <main className="flex-1 max-w-4xl mx-auto px-6 pt-20 pb-12">
         <Breadcrumb 
           items={[
             { label: "Cards", href: "/cards" },

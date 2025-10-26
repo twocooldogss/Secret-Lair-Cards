@@ -1,8 +1,6 @@
-import { getData } from "@/lib/data";
+import { getCardsData } from "@/lib/data";
 import { generateSeoMeta } from "@/lib/seo";
-import { generateArticleSchema } from "@/lib/schema";
 import CardCard from "@/components/CardCard";
-import Navbar from "@/components/Navbar";
 
 export async function generateMetadata() {
   return generateSeoMeta({
@@ -13,36 +11,25 @@ export async function generateMetadata() {
 }
 
 export default function CardsPage() {
-  const data = getData();
-  const cards = data.cards;
-
-  const schema = generateArticleSchema({
-    title: "Browse All Secret Lair Cards",
-    description: "Explore all Magic: The Gathering cards from Secret Lair drops with detailed information, artwork, and rarity.",
-    url: "/cards",
-  });
+  const cards = getCardsData();
 
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50">
-      <Navbar />
-      <main className="flex-1 max-w-6xl mx-auto px-6 py-12">
-        <h1 className="text-3xl font-bold mb-6">Browse All Secret Lair Cards</h1>
-        <p className="text-gray-600 mb-10">
-          Explore all Magic: The Gathering cards from Secret Lair drops with unique artwork and special treatments.
-        </p>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {cards.map((card) => (
-            <CardCard key={card.id} card={card} />
-          ))}
+    <main className="min-h-screen bg-gradient-to-b from-[#18121E] via-[#221933] to-[#0D0A12] text-white">
+      {/* CARDS GRID */}
+      <section className="w-full bg-gradient-to-b from-[#221933] to-[#18121E] pt-20 pb-20">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="mb-8 flex items-end justify-between">
+            <h2 className="text-2xl font-semibold">All Secret Lair Cards</h2>
+            <span className="text-sm text-purple-300">{cards.length} cards available</span>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {cards.map((card: any, index: number) => (
+              <CardCard key={card.slug || card.name || index} card={card} />
+            ))}
+          </div>
         </div>
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
-      </main>
-    </div>
+      </section>
+    </main>
   );
 }
 

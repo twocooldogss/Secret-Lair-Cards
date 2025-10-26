@@ -1,6 +1,4 @@
 import DropCard from "@/components/DropCard";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/footer";
 import { getDropsData, normalizeDrop } from "@/lib/data";
 
 import { generateSeoMeta } from "@/lib/seo";
@@ -16,16 +14,21 @@ export default async function DropsPage() {
   const drops = dropsData.map(normalizeDrop);
 
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50">
-      <Navbar />
-      <main className="flex-1 max-w-6xl mx-auto px-6 py-12">
-        <h1 className="text-3xl font-bold mb-8">Secret Lair Drops</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {drops.map((drop) => (
-            <DropCard key={drop.slug} drop={drop} />
-          ))}
+    <main className="min-h-screen bg-gradient-to-b from-[#18121E] via-[#221933] to-[#0D0A12] text-white">
+      {/* DROPS GRID */}
+      <section className="w-full bg-gradient-to-b from-[#221933] to-[#18121E] pt-20 pb-20">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="mb-8 flex items-end justify-between">
+            <h2 className="text-2xl font-semibold">All Secret Lair Drops</h2>
+            <span className="text-sm text-purple-300">{drops.length} drops available</span>
+          </div>
+          <div className="grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
+            {drops.map((drop: any) => (
+              <DropCard key={drop.slug} drop={drop} />
+            ))}
+          </div>
         </div>
-      </main>
-    </div>
+      </section>
+    </main>
   );
 }

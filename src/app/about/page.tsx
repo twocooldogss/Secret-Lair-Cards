@@ -1,5 +1,3 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/footer";
 
 export const metadata = {
   title: "About | SecretLairCards.com",
@@ -9,7 +7,6 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
-      <Navbar />
       <main className="flex-1 max-w-4xl mx-auto px-6 py-12">
         <h1 className="text-3xl font-bold mb-6">About SecretLairCards.com</h1>
         <div className="prose max-w-none">

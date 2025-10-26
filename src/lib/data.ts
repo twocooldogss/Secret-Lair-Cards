@@ -1,5 +1,5 @@
-import fs from 'fs'
-import path from 'path'
+import fs from 'fs';
+import path from 'path';
 
 export interface Drop {
   id: string
@@ -50,6 +50,7 @@ export interface Investment {
   title: string
   date: string
   coverImage: string
+  image?: string  // 添加可选的image字段
   alt: string
   metaTitle: string
   metaDescription: string
@@ -72,92 +73,83 @@ export interface Data {
   investment: Investment[]
 }
 
-let cachedData: Data | null = null
-
-export function getData(): Data {
-  if (cachedData) {
-    return cachedData
-  }
-
-  const dataPath = path.join(process.cwd(), 'data', 'mock.json')
-  const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'))
-  
-  cachedData = data
-  return data
-}
-
-export function getDrops(): Drop[] {
-  return getData().drops
-}
-
-export function getCards(): Card[] {
-  return getData().cards
-}
-
-export function getNews(): News[] {
-  return getData().news
-}
-
-export function getInvestment(): Investment[] {
-  return getData().investment
-}
-
-export function getDropBySlug(slug: string): Drop | undefined {
-  return getDrops().find(drop => drop.slug === slug)
-}
-
-export function getCardBySlug(slug: string): Card | undefined {
-  return getCards().find(card => card.slug === slug)
-}
-
-export function getNewsBySlug(slug: string): News | undefined {
-  return getNews().find(news => news.slug === slug)
-}
-
-export function getInvestmentBySlug(slug: string): Investment | undefined {
-  return getInvestment().find(investment => investment.slug === slug)
-}
-
-// 读取大型 drops 源数据（data/drops.json）供首页等使用
-export function getDropsData(): any[] {
-  const dropsPath = path.join(process.cwd(), 'data', 'drops.json')
+// 从 drops.json 读取数据
+export function getDropsData() {
   try {
-    const raw = fs.readFileSync(dropsPath, 'utf-8')
-    const arr = JSON.parse(raw)
-    return Array.isArray(arr) ? arr : []
-  } catch (e) {
-    return []
+    const dataPath = path.join(process.cwd(), 'data', 'drops.json');
+    const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    return data;
+  } catch (error) {
+    console.error('Error reading drops data:', error);
+    return [];
   }
 }
 
-// 规范化 drops.json 的条目到站点统一的 Drop 形状
+// 将 drops.json 数据转换为 Drop 接口
 export function normalizeDrop(input: any): Drop {
+  // 确保图片URL有效
+  const imageUrl = input.image && input.image.trim() !== '' ? input.image : '/images/placeholder.svg';
+  
   return {
-    id: String(input.id ?? input.slug ?? ''),
-    slug: String(input.slug ?? ''),
-    title: String(input.title || input.name || input.slug || ''),
-    releaseDate: String(input.release_date || input.releaseDate || ''),
-    theme: String(input.theme || ''),
-    // 对空字符串做回退，避免 next/image 报错
-    image: String((input.image && input.image.trim()) || (input.imageUrl && input.imageUrl.trim()) || '/images/placeholder.svg'),
-    alt: String(input.alt || input.title || input.name || input.slug || 'Drop Cover'),
-    price: String(
-      input.price == null
-        ? ''
-        : typeof input.price === 'number'
-          ? input.price.toFixed(2)
-          : String(input.price)
-    ),
-    description: String(input.description || ''),
-    tags: Array.isArray(input.tags) ? input.tags : [],
+    id: input.id || input.slug || '',
+    slug: input.slug || '',
+    title: input.name || input.title || '',
+    description: input.description || '',
+    image: imageUrl,
+    releaseDate: input.release_date || '',
+    theme: input.theme || 'miscellaneous',
+    alt: input.alt || input.name || input.title || 'Drop Cover',
+    price: input.price || '39.99',
+    tags: input.tags || [],
     name: input.name,
-    cards: Array.isArray(input.cards) ? input.cards : undefined
+    cards: input.cards || []
+  };
+}
+
+// 从 drops.json 获取特定 drop
+export function getDropBySlugFromDrops(slug: string) {
+  try {
+    const dataPath = path.join(process.cwd(), 'data', 'drops.json');
+    const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    return data.find((drop: any) => drop.slug === slug);
+  } catch (error) {
+    console.error('Error reading drop data:', error);
+    return null;
   }
 }
 
-// 从 data/drops.json 中按 slug 查找原始条目
-export function getDropBySlugFromDrops(slug: string): any | undefined {
-  const drops = getDropsData()
-  return drops.find((d: any) => d.slug === slug)
+// 从 mock.json 读取新闻数据
+export function getNewsData() {
+  try {
+    const dataPath = path.join(process.cwd(), 'data', 'mock.json');
+    const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    return data.news || [];
+  } catch (error) {
+    console.error('Error reading news data:', error);
+    return [];
+  }
 }
 
+// 从 mock.json 读取投资数据
+export function getInvestmentData() {
+  try {
+    const dataPath = path.join(process.cwd(), 'data', 'mock.json');
+    const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    return data.investment || [];
+  } catch (error) {
+    console.error('Error reading investment data:', error);
+    return [];
+  }
+}
+
+// 从 mock.json 读取卡牌数据
+export function getCardsData() {
+  try {
+    const dataPath = path.join(process.cwd(), 'data', 'mock.json');
+    const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+    return data.cards || [];
+  } catch (error) {
+    console.error('Error reading cards data:', error);
+    return [];
+  }
+}

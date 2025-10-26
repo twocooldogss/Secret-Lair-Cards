@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+/* fix Cursor CSS layering */
+:root {
+  --tw-bg-opacity: 1;
+}
+
+html, body {
+  scroll-behavior: smooth;
+  background-color: #18121E;
+}
+
+.bg-gradient-to-b {
+  background-blend-mode: overlay;
+}
+
+img {
+  pointer-events: none;
+  user-select: none;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -54,7 +73,25 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+  }
+  
+  /* 修复页面宽度问题 - 防止layout.css覆盖 */
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  main {
+    max-width: 1800px !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+  }
+}
+
+@layer utilities {
+  .grid-auto-fit {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   }
 }
 

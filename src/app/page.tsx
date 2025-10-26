@@ -1,144 +1,201 @@
-import Link from "next/link";
 import Image from "next/image";
-import { generateSeoMeta } from "@/lib/seo";
-import { getSchema } from "@/lib/schema";
-import { getData, getDropsData, normalizeDrop } from "@/lib/data";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/footer";
-import DropCard from "@/components/DropCard";
-import NewsCard from "@/components/NewsCard";
-import CardCard from "@/components/CardCard";
+import { generateSeoMeta } from '@/lib/seo';
+import { getDropsData, normalizeDrop, Drop, News, Investment } from '@/lib/data';
+import { getNewsThumbImageUrl } from '@/lib/newsImages';
+import * as fs from 'fs';
+import * as path from 'path';
 
 export async function generateMetadata() {
   return generateSeoMeta({
-    title: "Secret Lair Cards - MTG Secret Lair Drops, Cards & Investment",
-    description: "Explore all Magic: The Gathering Secret Lair drops – card lists, release dates, prices, and investment insights.",
-    url: "/",
+    title: 'Secret Lair Cards – The Ultimate MTG Secret Lair Hub',
+    description: 'Explore every Magic: The Gathering Secret Lair drop – release info, card lists, investment insights, and collector guides.',
+    url: '/',
+    keywords: ['Secret Lair', 'MTG', 'Magic The Gathering', 'Secret Lair cards', 'Scryfall', 'MTG investment'],
+    image: '/og-default.jpg'
   });
 }
 
 export default async function HomePage() {
-  const data = getData();
-  const dropsData = getDropsData();
+  // 获取真实的drops数据
+  const allDrops = getDropsData().map(normalizeDrop);
+  const featuredDrops = allDrops.slice(0, 3);
   
-  const drops = dropsData.slice(0, 3).map(normalizeDrop); // Featured Drops
-  const news = data.news.slice(0, 2);   // Latest News
-  const cards = data.cards.slice(0, 3); // Popular Cards
-  const investments = data.investment.slice(0, 2);
-
-  const schema = getSchema('home', {});
+  // 获取investment和news数据
+  const dataPath = path.join(process.cwd(), 'data', 'mock.json');
+  const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+  const featuredInvestment = data.investment.slice(0, 3);
+  const featuredNews = data.news.slice(0, 3);
 
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50">        
-      <Navbar />
-      <main className="flex-1 max-w-6xl mx-auto px-4 py-10 space-y-16">
-      {/* Hero */}
-      <section className="text-center">
-        <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
-          Secret Lair Cards
-        </h1>
-        <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-6">
-          Explore all Magic: The Gathering Secret Lair drops – card lists,
-          release dates, prices, and investment insights.
-        </p>
-        <Link
-          href="/drops"
-          className="bg-purple-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-purple-700 transition"
-        >
-          Browse All Drops
-        </Link>
-      </section>
+    <main className="min-h-screen bg-gradient-to-b from-[#18121E] via-[#221933] to-[#0D0A12] text-white">
+      {/* HERO */}
+      <section className="relative flex flex-col items-center justify-center overflow-hidden py-28 text-center">
+        <div className="absolute inset-0 bg-gradient-to-b from-purple-800/40 via-indigo-900/50 to-black" />
+        <div className="absolute top-1/2 left-1/2 w-[900px] h-[900px] bg-purple-500/25 rounded-full blur-[160px] -translate-x-1/2 -translate-y-1/2 opacity-50" />
+        <div className="absolute inset-0 bg-[url('/images/stars-texture.png')] bg-cover bg-center opacity-10" />
 
-      {/* Featured Drops */}
-      <section>
-        <div className="flex justify-between items-center mb-6">
-          <h2 className="text-2xl font-bold">Featured Drops</h2>
-          <Link href="/drops" className="text-purple-600 hover:underline">
-            View all
-          </Link>
-        </div>
-        <div className="grid md:grid-cols-3 gap-6">
-          {drops.map((drop) => (
-            <DropCard key={drop.slug} drop={drop} />
-          ))}
-        </div>
-      </section>
+        <div className="relative z-10 px-6">
+          <h1 className="mx-auto max-w-4xl bg-gradient-to-r from-purple-200 via-white to-yellow-200 bg-clip-text text-5xl font-extrabold tracking-tight text-transparent md:text-6xl">
+            Discover the Art of Secret Lair
+          </h1>
+          <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-200">
+            Explore every <span className="text-white font-semibold">Magic: The Gathering Secret Lair</span> drop — art, prices, and collector insights.
+          </p>
+          <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
+            <a href="/drops" className="rounded-xl bg-purple-600 px-7 py-3 font-semibold shadow-lg transition hover:scale-[1.03] hover:bg-purple-500">
+              Browse All Drops
+            </a>
+            <a href="/investment" className="rounded-xl border border-white/20 px-7 py-3 font-semibold text-gray-200 transition hover:border-purple-500 hover:bg-white/5">
+              Investment Insights
+            </a>
+          </div>
 
-      {/* Latest News */}
-      <section>
-        <div className="flex justify-between items-center mb-6">
-          <h2 className="text-2xl font-bold">Latest News</h2>
-          <Link href="/news" className="text-purple-600 hover:underline">
-            View all
-          </Link>
-        </div>
-        <div className="grid md:grid-cols-2 gap-6">
-          {news.map((item) => (
-            <NewsCard key={item.slug} news={item} />
-          ))}
+          {/* STATISTICS */}
+          <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-3">
+            <div className="text-center">
+              <div className="bg-gradient-to-r from-purple-400 via-white to-purple-400 bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
+                187+
+              </div>
+              <div className="mt-2 text-sm text-gray-300">Drops Indexed</div>
+            </div>
+            <div className="text-center">
+              <div className="bg-gradient-to-r from-purple-400 via-white to-purple-400 bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
+                1171+
+              </div>
+              <div className="mt-2 text-sm text-gray-300">Cards Tracked</div>
+            </div>
+            <div className="text-center">
+              <div className="bg-gradient-to-r from-purple-400 via-white to-purple-400 bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
+                2019-2025
+              </div>
+              <div className="mt-2 text-sm text-gray-300">Complete History</div>
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* Popular Cards */}
-      <section>
-        <div className="flex justify-between items-center mb-6">
-          <h2 className="text-2xl font-bold">Popular Cards</h2>
-          <Link href="/cards" className="text-purple-600 hover:underline">
-            View all
-          </Link>
+      {/* FEATURED DROPS */}
+      <section className="w-full bg-gradient-to-b from-[#221933] to-[#18121E] py-20">
+        <div className="mx-auto max-w-5xl px-6">
+        <div className="mb-8 flex items-end justify-between">
+          <h2 className="text-2xl font-semibold">Featured Drops</h2>
+          <a href="/drops" className="text-sm text-purple-300 hover:text-white">
+            View all →
+          </a>
         </div>
-        <div className="grid md:grid-cols-3 gap-6">
-          {cards.map((card) => (
-            <CardCard key={card.slug} card={card} />
-          ))}
-        </div>
-      </section>
-
-      {/* Investment Insights */}
-      <section className="bg-gradient-to-r from-purple-50 to-blue-50 rounded-xl p-8">
-        <div className="flex justify-between items-center mb-6">
-          <h2 className="text-2xl font-bold">Investment Insights</h2>
-          <Link href="/investment" className="text-purple-600 hover:underline font-medium">
-            View all
-          </Link>
-        </div>
-        <div className="grid md:grid-cols-2 gap-6">
-          {investments.slice(0, 2).map((post) => (
-            <Link
-              key={post.slug}
-              href={`/investment/${post.slug}`}
-              className="block bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-purple-100 hover:border-purple-200"
+        <div className="grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
+          {featuredDrops.map((drop: Drop, i: number) => (
+            <a
+              key={drop.slug}
+              href={`/drops/${drop.slug}`}
+              className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white text-gray-900 shadow-sm transition hover:shadow-lg"
             >
-              <div className="flex items-start gap-4">
-                <div className="flex-shrink-0">
-                  <div className="w-16 h-16 rounded-lg overflow-hidden">
-                    <Image 
-                      src={post.coverImage} 
-                      alt={post.title}
-                      width={64}
-                      height={64}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-semibold mb-2 text-gray-800">{post.title}</h3>
-                  <p className="text-gray-600 mb-4 line-clamp-2">
-                    {post.excerpt || post.metaDescription || "Investment analysis and insights for Secret Lair collectors."}
-                  </p>
-                  <div className="flex justify-between items-center">
-                    <span className="text-sm text-gray-500">{post.date}</span>
-                    <span className="text-purple-600 hover:text-purple-800 font-medium transition-colors flex items-center gap-1">
-                      Read more →
-                    </span>
-                  </div>
+              <div className="relative h-56 w-full overflow-hidden">
+                <Image
+                  src={drop.image}
+                  alt={drop.title}
+                  fill
+                  sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
+                  className="object-cover transition duration-500 group-hover:scale-[1.03]"
+                />
+              </div>
+              <div className="p-5">
+                <h3 className="text-lg font-semibold leading-snug transition group-hover:text-purple-700">
+                  {drop.title}
+                </h3>
+                <p className="mt-1 text-sm text-gray-600 line-clamp-2">{drop.description}</p>
+                <div className="mt-3 flex items-center justify-between text-xs">
+                  <span className="text-gray-500">{drop.releaseDate}</span>
+                  <span className="rounded-full bg-purple-100 px-2 py-0.5 text-purple-700">{drop.theme}</span>
                 </div>
               </div>
-            </Link>
+            </a>
           ))}
         </div>
+        </div>
       </section>
-      </main>
-    </div>
+
+      {/* LATEST NEWS */}
+      <section className="w-full bg-gradient-to-b from-[#18121E] to-[#221933] py-20">
+        <div className="mx-auto max-w-5xl px-6">
+        <div className="mb-8 flex items-end justify-between">
+          <h2 className="text-2xl font-semibold">Latest News</h2>
+          <a href="/news" className="text-sm text-purple-300 hover:text-white">
+            View all →
+          </a>
+        </div>
+        <div className="grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
+          {featuredNews.map((news: News, idx: number) => (
+            <article
+              key={news.slug}
+              className="overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-0 backdrop-blur-sm transition hover:border-purple-400/50"
+            >
+              <a href={`/news/${news.slug}`} className="block">
+                <div className="relative w-full aspect-[1200/800] overflow-hidden">
+                  <Image
+                    src={getNewsThumbImageUrl(news)}
+                    alt={news.title}
+                    fill
+                    priority={idx === 0}
+                    sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
+                    className="object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold text-white">{news.title}</h3>
+                  <p className="mt-2 line-clamp-3 text-sm text-gray-300">{news.excerpt}</p>
+                  <div className="mt-3 flex items-center justify-between text-sm text-gray-400">
+                    <span>{news.date}</span>
+                    <span className="text-purple-300">Read More →</span>
+                  </div>
+                </div>
+              </a>
+            </article>
+          ))}
+        </div>
+        </div>
+      </section>
+
+      {/* INVESTMENT INSIGHTS */}
+      <section className="w-full bg-gradient-to-b from-[#221933] to-[#0D0A12] py-20">
+        <div className="mx-auto max-w-5xl px-6">
+        <div className="mb-8 flex items-end justify-between">
+          <h2 className="text-2xl font-semibold">Investment Insights</h2>
+          <a href="/investment" className="text-sm text-purple-300 hover:text-white">
+            View all →
+          </a>
+        </div>
+        <div className="grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
+          {featuredInvestment.map((item: Investment, idx: number) => (
+            <article
+              key={item.slug}
+              className="overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-0 backdrop-blur-sm transition hover:border-purple-400/50"
+            >
+              <a href={`/investment/${item.slug}`} className="block">
+                <div className="relative w-full aspect-[1200/630] overflow-hidden">
+                  <Image
+                    src={item.image || item.coverImage || '/images/placeholder.svg'}
+                    alt={item.title}
+                    fill
+                    priority={idx === 0}
+                    sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
+                    className="object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold text-white">{item.title}</h3>
+                  <p className="mt-2 line-clamp-3 text-sm text-gray-300">{item.excerpt}</p>
+                  <div className="mt-3 flex items-center justify-between text-sm text-gray-400">
+                    <span>{item.date}</span>
+                    <span className="text-purple-300">Read Analysis →</span>
+                  </div>
+                </div>
+              </a>
+            </article>
+          ))}
+        </div>
+        </div>
+      </section>
+    </main>
   );
 }

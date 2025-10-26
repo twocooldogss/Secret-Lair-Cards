@@ -8,15 +8,21 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "fetch-drops": "node scripts/fetchDrops.js"
+    "fetch-drops": "node scripts/fetchDrops.js",
+    "generate-content": "node scripts/generateDropContent.js",
+    "fill-content": "node scripts/fillDropContent.js",
+    "generate-card-images": "node scripts/generateCardImages.js",
+    "process-images": "node scripts/processNewsImages.js"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.19",
     "autoprefixer": "^10.4.21",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
-    "framer-motion": "^11.0.0",
+    "framer-motion": "^11.18.2",
+    "gray-matter": "^4.0.3",
     "lucide-react": "^0.400.0",
-    "marked": "^16.3.0",
+    "marked": "^16.4.1",
     "next": "14.2.5",
     "node-fetch": "^2.7.0",
     "react": "^18",
@@ -31,6 +37,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "postcss": "^8.5.6",
+    "sharp": "^0.34.4",
     "tailwindcss": "^3.4.1",
     "tailwindcss-animate": "^1.0.7",
     "typescript": "^5"

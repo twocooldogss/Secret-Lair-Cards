@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { getNewsThumbImageUrl } from "@/lib/newsImages";
 
 export default function NewsCard({ news }: { news: any }) {
   if (!news) return null;
@@ -8,7 +9,7 @@ export default function NewsCard({ news }: { news: any }) {
     <Link href={`/news/${news.slug}`} className="bg-white rounded-lg shadow p-4 hover:shadow-md transition block">
       <div className="relative w-full h-48 rounded-md overflow-hidden mb-3">
         <Image 
-          src={news.coverImage} 
+          src={getNewsThumbImageUrl(news)} 
           alt={news.alt || news.title} 
           fill
           className="object-cover"

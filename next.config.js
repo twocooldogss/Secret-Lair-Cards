@@ -1,6 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    optimizePackageImports: ['lucide-react'],
+  },
+  reactStrictMode: false,
+  compiler: {
+    removeConsole: false,
+  },
   images: {
+    domains: ["cards.scryfall.io", "api.scryfall.com", "www.secretlaircards.com"],
     remotePatterns: [
       {
         protocol: 'https',
@@ -33,9 +41,6 @@ const nextConfig = {
         pathname: '/**',
       },
     ],
-  },
-  experimental: {
-    optimizePackageImports: ['lucide-react'],
   },
   async redirects() {
     return [

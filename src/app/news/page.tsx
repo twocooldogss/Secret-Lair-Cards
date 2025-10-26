@@ -1,8 +1,6 @@
-import fs from "fs";
-import path from "path";
+import * as fs from "fs";
+import * as path from "path";
 import NewsCard from "@/components/NewsCard";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/footer";
 
 import { generateSeoMeta } from "@/lib/seo";
 
@@ -18,16 +16,21 @@ export default async function NewsPage() {
   const news = data.news;
 
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50">
-      <Navbar />
-      <main className="flex-1 max-w-5xl mx-auto px-6 py-12">
-        <h1 className="text-3xl font-bold mb-8">Secret Lair News</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {news.map((n: any) => (
-            <NewsCard key={n.slug} news={n} />
-          ))}
+    <main className="min-h-screen bg-gradient-to-b from-[#18121E] via-[#221933] to-[#0D0A12] text-white">
+      {/* NEWS GRID */}
+      <section className="w-full bg-gradient-to-b from-[#221933] to-[#18121E] pt-20 pb-20">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="mb-8 flex items-end justify-between">
+            <h2 className="text-2xl font-semibold">Latest News & Updates</h2>
+            <span className="text-sm text-purple-300">{news.length} articles available</span>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
+            {news.map((n: any) => (
+              <NewsCard key={n.slug} news={n} />
+            ))}
+          </div>
         </div>
-      </main>
-    </div>
+      </section>
+    </main>
   );
 }

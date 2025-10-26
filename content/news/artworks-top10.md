@@ -50,3 +50,5 @@ Art makes MTG immortal — it connects gameplay, lore, and emotion.
 
 
 
+
+
