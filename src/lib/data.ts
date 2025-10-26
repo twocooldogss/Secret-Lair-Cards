@@ -15,6 +15,9 @@ export interface Drop {
   // 透传字段（来自 data/drops.json），在详情页等处可用
   name?: string
   cards?: string[]
+  status?: string
+  artist?: string
+  investmentScore?: string
 }
 
 export interface Card {
@@ -102,7 +105,10 @@ export function normalizeDrop(input: any): Drop {
     price: input.price || '39.99',
     tags: input.tags || [],
     name: input.name,
-    cards: input.cards || []
+    cards: input.cards || [],
+    status: input.status || 'Available',
+    artist: input.artist || 'Various Artists',
+    investmentScore: input.investment_score || 'N/A'
   };
 }
 
