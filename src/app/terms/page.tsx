@@ -40,7 +40,7 @@ export default function TermsPage() {
 
               <h2 className="text-2xl font-semibold text-white mb-4 mt-8">1. Site Purpose</h2>
               <p className="text-gray-200 mb-8">
-                SecretLairCards.com is a <strong>fan-created, non-commercial resource</strong> providing information, guides, and analysis about Magic: The Gathering's Secret Lair product line.  
+                SecretLairCards.com is a <strong>fan-created, non-commercial resource</strong> providing information, guides, and analysis about Magic: The Gathering&apos;s Secret Lair product line.  
                 We are <strong>not affiliated with Wizards of the Coast</strong>, Hasbro, or any official entity.
               </p>
 
@@ -66,19 +66,19 @@ export default function TermsPage() {
               <ul className="text-gray-200 mb-6">
                 <li>Use this site for unlawful or fraudulent activity.</li>
                 <li>Copy or redistribute data from this site without attribution.</li>
-                <li>Attempt to harm the site's operation or infrastructure.</li>
+                <li>Attempt to harm the site&apos;s operation or infrastructure.</li>
               </ul>
 
               <h2 className="text-2xl font-semibold text-white mb-4 mt-8">5. Disclaimer</h2>
               <p className="text-gray-200 mb-8">
-                SecretLairCards.com is provided <strong>"as is"</strong> without warranties of any kind.  
+                SecretLairCards.com is provided <strong>&quot;as is&quot;</strong> without warranties of any kind.  
                 We make no guarantees about the accuracy, reliability, or availability of content.  
                 Use this site at your own risk.
               </p>
 
               <h2 className="text-2xl font-semibold text-white mb-4 mt-8">6. Changes to Terms</h2>
               <p className="text-gray-200 mb-8">
-                We may update these Terms periodically. The "Last updated" date reflects the latest revision.
+                We may update these Terms periodically. The &quot;Last updated&quot; date reflects the latest revision.
               </p>
 
               <div className="bg-purple-600/20 border border-purple-500/30 rounded-lg p-6 mt-8">
