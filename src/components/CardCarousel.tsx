@@ -14,16 +14,28 @@ interface CardData {
 interface CardCarouselProps {
   cards: string[];
   dropName: string;
+  initialCardData?: Array<{
+    name: string;
+    image: string;
+    type?: string;
+    rarity?: string;
+  }>;
 }
 
-export default function CardCarousel({ cards, dropName }: CardCarouselProps) {
-  const [cardData, setCardData] = useState<CardData[]>([]);
+export default function CardCarousel({ cards, dropName, initialCardData }: CardCarouselProps) {
+  const [cardData, setCardData] = useState<CardData[]>(initialCardData || []);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(!initialCardData || initialCardData.length === 0);
   const [error, setError] = useState<string | null>(null);
 
-  // 从Scryfall API获取卡牌数据
+  // 从Scryfall API获取卡牌数据（仅在客户端且没有初始数据时）
   useEffect(() => {
+    // 如果已经有初始数据，跳过客户端获取
+    if (initialCardData && initialCardData.length > 0) {
+      setLoading(false);
+      return;
+    }
+
     const fetchCardData = async () => {
       if (!cards || cards.length === 0) {
         setLoading(false);
@@ -100,7 +112,7 @@ export default function CardCarousel({ cards, dropName }: CardCarouselProps) {
     };
 
     fetchCardData();
-  }, [cards]);
+  }, [cards, initialCardData]);
 
   const nextCard = () => {
     setCurrentIndex((prev) => (prev + 1) % cardData.length);

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { generateSeoMeta } from "@/lib/seo";
-import { getDropBySlugFromDrops, normalizeDrop } from "@/lib/data";
+import { getDropBySlugFromDrops, normalizeDrop, fetchMultipleCardsData } from "@/lib/data";
 import { getDropContent, getRelatedDrops } from "@/lib/content";
 import CardCarousel from "@/components/CardCarousel";
 
@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   });
 }
 
-export default function DropDetail({ params }: { params: { slug: string } }) {
+export default async function DropDetail({ params }: { params: { slug: string } }) {
   const dropData = getDropBySlugFromDrops(params.slug);
   
   if (!dropData) {
@@ -49,6 +49,9 @@ export default function DropDetail({ params }: { params: { slug: string } }) {
   const drop = normalizeDrop(dropData);
   const dropContent = getDropContent(params.slug);
   const relatedDrops = getRelatedDrops(params.slug, 3);
+  
+  // 在服务端获取卡片数据
+  const cardDataList = await fetchMultipleCardsData(drop.cards || []);
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#18121E] via-[#221933] to-[#0D0A12] text-white">
@@ -97,6 +100,7 @@ export default function DropDetail({ params }: { params: { slug: string } }) {
               <CardCarousel 
                 cards={drop.cards || []} 
                 dropName={drop.title}
+                initialCardData={cardDataList}
               />
             </div>
           </div>

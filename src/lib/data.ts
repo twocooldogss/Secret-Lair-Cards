@@ -159,3 +159,80 @@ export function getCardsData() {
     return [];
   }
 }
+
+// 从 Scryfall API 获取卡牌详细信息（同步，用于服务端渲染）
+export async function fetchCardDataFromScryfall(cardName: string): Promise<{
+  name: string;
+  image: string;
+  type?: string;
+  rarity?: string;
+} | null> {
+  try {
+    // 优先查找 Secret Lair 版本
+    const searchQuery = encodeURIComponent(`!"${cardName}" (set:sld OR set:slu OR set:slc OR set:slp)`);
+    const response = await fetch(`https://api.scryfall.com/cards/search?q=${searchQuery}`, {
+      next: { revalidate: 3600 } // 缓存1小时
+    });
+    
+    if (response.ok) {
+      const data = await response.json();
+      if (data.data && data.data.length > 0) {
+        const card = data.data[0];
+        return {
+          name: card.name,
+          image: card.image_uris?.art_crop || card.image_uris?.normal || card.image_uris?.large || '/images/placeholder.svg',
+          type: card.type_line,
+          rarity: card.rarity
+        };
+      }
+    }
+    
+    // 如果没找到 Secret Lair 版本，尝试查找普通版本
+    const fallbackQuery = encodeURIComponent(`!"${cardName}"`);
+    const fallbackResponse = await fetch(`https://api.scryfall.com/cards/search?q=${fallbackQuery}`, {
+      next: { revalidate: 3600 }
+    });
+    
+    if (fallbackResponse.ok) {
+      const fallbackData = await fallbackResponse.json();
+      if (fallbackData.data && fallbackData.data.length > 0) {
+        const card = fallbackData.data[0];
+        return {
+          name: card.name,
+          image: card.image_uris?.art_crop || card.image_uris?.normal || card.image_uris?.large || '/images/placeholder.svg',
+          type: card.type_line,
+          rarity: card.rarity
+        };
+      }
+    }
+    
+    // 如果都没找到，返回占位符数据
+    return {
+      name: cardName,
+      image: '/images/placeholder.svg',
+      type: 'Unknown',
+      rarity: 'Unknown'
+    };
+  } catch (error) {
+    console.warn(`Failed to fetch card data for ${cardName}:`, error);
+    return {
+      name: cardName,
+      image: '/images/placeholder.svg',
+      type: 'Unknown',
+      rarity: 'Unknown'
+    };
+  }
+}
+
+// 批量获取多张卡牌的数据
+export async function fetchMultipleCardsData(cardNames: string[]) {
+  const cardData = await Promise.all(
+    cardNames.map(name => fetchCardDataFromScryfall(name))
+  );
+  return cardData.filter(card => card !== null) as Array<{
+    name: string;
+    image: string;
+    type?: string;
+    rarity?: string;
+  }>;
+}
