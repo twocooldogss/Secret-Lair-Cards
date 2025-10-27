@@ -24,7 +24,15 @@ export default async function HomePage() {
   const dataPath = path.join(process.cwd(), 'data', 'mock.json');
   const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
   const featuredInvestment = data.investment.slice(0, 3);
-  const featuredNews = data.news.slice(0, 3);
+  
+  // 获取指定的3篇精选新闻文章
+  const featuredNewsSlugs = [
+    'secret-lair-explained-2025',
+    'top-10-secret-lair-artworks-2025',
+    'evolution-of-secret-lair-2019-2025'
+  ];
+  
+  const featuredNews = data.news.filter((n: News) => featuredNewsSlugs.includes(n.slug));
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#18121E] via-[#221933] to-[#0D0A12] text-white">
