@@ -7,10 +7,10 @@ import * as path from 'path';
 
 export async function generateMetadata() {
   return generateSeoMeta({
-    title: 'Secret Lair Cards – The Ultimate MTG Secret Lair Hub',
-    description: 'Explore every Magic: The Gathering Secret Lair drop – release info, card lists, investment insights, and collector guides.',
+    title: 'Secret Lair (MTG) – All Drops, Cards & Collector Guide 2025 | SecretLairCards.com',
+    description: 'Explore every Magic: The Gathering Secret Lair drop from 2019 to 2025 — full card lists, artworks, prices, and collector insights. Your complete MTG Secret Lair guide.',
     url: '/',
-    keywords: ['Secret Lair', 'MTG', 'Magic The Gathering', 'Secret Lair cards', 'Scryfall', 'MTG investment'],
+    keywords: ['Secret Lair', 'MTG Secret Lair', 'Secret Lair Drops', 'Magic The Gathering Secret Lair', 'Secret Lair Cards', 'Secret Lair 2025', 'Secret Lair Collector Guide'],
     image: '/og-default.jpg'
   });
 }

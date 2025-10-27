@@ -40,11 +40,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              "name": "SecretLairCards.com",
-              "description": "The ultimate resource for Magic: The Gathering Secret Lair collectors.",
+              "name": "Secret Lair Cards",
+              "description": "SecretLairCards.com is the ultimate resource for Magic: The Gathering Secret Lair collectors — explore every drop, card, and investment trend from 2019 to 2025.",
               "url": "https://www.secretlaircards.com",
               "inLanguage": "en",
+              "keywords": "Secret Lair, MTG Secret Lair, Secret Lair Drops, Magic The Gathering Secret Lair, Secret Lair Cards, Secret Lair 2025",
               "dateModified": "2025-01-20",
+              "publisher": {
+                "@type": "Organization",
+                "name": "SecretLairCards.com",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://www.secretlaircards.com/logo.png"
+                }
+              },
               "potentialAction": {
                 "@type": "SearchAction",
                 "target": "https://www.secretlaircards.com/search?q={search_term_string}",
@@ -62,9 +71,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "@context": "https://schema.org",
               "@type": "WebPage",
               "name": "Secret Lair Cards Home",
-              "description": "Explore every Secret Lair drop with release info, prices, and collector insights.",
+              "description": "Explore every Magic: The Gathering Secret Lair drop from 2019 to 2025 — full card lists, artworks, prices, and collector insights.",
               "url": "https://www.secretlaircards.com",
               "inLanguage": "en",
+              "keywords": "Secret Lair, MTG Secret Lair, Secret Lair Drops, Magic The Gathering Secret Lair, Secret Lair Cards, Secret Lair 2025",
               "dateModified": "2025-01-20",
               "isPartOf": {
                 "@type": "WebSite",

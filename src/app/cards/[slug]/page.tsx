@@ -7,7 +7,20 @@ import Breadcrumb from "@/components/Breadcrumb";
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const dataPath = path.join(process.cwd(), "data", "mock.json");
   const data = JSON.parse(fs.readFileSync(dataPath, "utf-8"));
-  const card = data.cards.find((c: any) => c.slug === params.slug);
+  
+  // 尝试精确匹配
+  let card = data.cards.find((c: any) => c.slug === params.slug);
+  
+  // 如果精确匹配失败，尝试模糊匹配（从URL中提取card name）
+  if (!card) {
+    // 例如: "reaper-king-secret-scare" -> "reaper-king"
+    const slugParts = params.slug.split('-');
+    for (let i = slugParts.length - 1; i > 0; i--) {
+      const possibleSlug = slugParts.slice(0, i).join('-');
+      card = data.cards.find((c: any) => c.slug === possibleSlug);
+      if (card) break;
+    }
+  }
 
   if (!card) {
     return {
@@ -29,7 +42,20 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 export default async function CardDetail({ params }: { params: { slug: string } }) {
   const dataPath = path.join(process.cwd(), "data", "mock.json");
   const data = JSON.parse(fs.readFileSync(dataPath, "utf-8"));
-  const card = data.cards.find((c: any) => c.slug === params.slug);
+  
+  // 尝试精确匹配
+  let card = data.cards.find((c: any) => c.slug === params.slug);
+  
+  // 如果精确匹配失败，尝试模糊匹配（从URL中提取card name）
+  if (!card) {
+    // 例如: "reaper-king-secret-scare" -> "reaper-king"
+    const slugParts = params.slug.split('-');
+    for (let i = slugParts.length - 1; i > 0; i--) {
+      const possibleSlug = slugParts.slice(0, i).join('-');
+      card = data.cards.find((c: any) => c.slug === possibleSlug);
+      if (card) break;
+    }
+  }
 
   if (!card) {
     return (
@@ -44,7 +70,7 @@ export default async function CardDetail({ params }: { params: { slug: string } 
     );
   }
 
-  const drop = data.drops.find((d: any) => d.slug === card.drop);
+  const drop = data.drops.find((d: any) => d.id === card.dropId || d.slug === card.drop);
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
