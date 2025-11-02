@@ -234,3 +234,7 @@ export const getInvestmentBySlug = (slug: string) => {
 
 
 
+
+
+
+

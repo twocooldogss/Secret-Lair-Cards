@@ -49,3 +49,7 @@ export default function SearchBar({ onSearch }: { onSearch: (query: string) => v
 
 
 
+
+
+
+

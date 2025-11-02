@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Script from "next/script";
 import { generateSeoMeta } from '@/lib/seo';
 import { getDropsData, normalizeDrop, Drop, News, Investment } from '@/lib/data';
 import { getNewsThumbImageUrl } from '@/lib/newsImages';
@@ -7,11 +8,15 @@ import * as path from 'path';
 
 export async function generateMetadata() {
   return generateSeoMeta({
-    title: 'Secret Lair (MTG) – All Drops, Cards & Collector Guide 2025 | SecretLairCards.com',
-    description: 'Explore every Magic: The Gathering Secret Lair drop from 2019 to 2025 — full card lists, artworks, prices, and collector insights. Your complete MTG Secret Lair guide.',
+    title: 'Secret Lair 2025 – Complete MTG Drop, Art & Investment Guide | SecretLairCards.com',
+    description: 'Explore every Magic: The Gathering Secret Lair drop from 2019–2025 — card lists, stunning artworks, and collector insights. Discover which 2025 Secret Lair drops are truly worth investing in.',
     url: '/',
-    keywords: ['Secret Lair', 'MTG Secret Lair', 'Secret Lair Drops', 'Magic The Gathering Secret Lair', 'Secret Lair Cards', 'Secret Lair 2025', 'Secret Lair Collector Guide'],
-    image: '/og-default.jpg'
+    keywords: ['Secret Lair', 'MTG Secret Lair', 'Secret Lair Drops', 'Magic The Gathering Secret Lair', 'Secret Lair Cards', 'Secret Lair 2025', 'MTG Collector Guide', 'Secret Lair Art', 'Secret Lair Value', 'Secret Lair Investment'],
+    image: '/og-secret-lair-2025.jpg',
+    ogTitle: 'Secret Lair 2025 – The Art & Value of MTG Drops | SecretLairCards.com',
+    ogDescription: 'Discover every Secret Lair drop, card, and artwork from 2019–2025. A complete MTG guide for collectors and investors.',
+    twitterTitle: 'Secret Lair 2025 – Art, Drops & Collector Insights',
+    twitterDescription: 'Your ultimate 2025 MTG Secret Lair resource: drops, artworks, prices, and collector insights.'
   });
 }
 
@@ -34,8 +39,33 @@ export default async function HomePage() {
   
   const featuredNews = data.news.filter((n: News) => featuredNewsSlugs.includes(n.slug));
 
+  // 生成 ItemList 结构化数据
+  const baseUrl = 'https://www.secretlaircards.com';
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Secret Lair 2025 Drops",
+    "itemListElement": featuredDrops.map((drop: Drop, index: number) => ({
+      "@type": "Product",
+      "position": index + 1,
+      "name": drop.title,
+      "image": drop.image.startsWith('http') ? drop.image : `${baseUrl}${drop.image}`,
+      "description": drop.description || `MTG Secret Lair drop: ${drop.title}`,
+      "url": `${baseUrl}/drops/${drop.slug}`
+    }))
+  };
+
   return (
-    <main className="min-h-screen bg-gradient-to-b from-[#18121E] via-[#221933] to-[#0D0A12] text-white">
+    <>
+      {/* ItemList Structured Data */}
+      <Script
+        id="itemlist-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(itemListSchema),
+        }}
+      />
+      <main className="min-h-screen bg-gradient-to-b from-[#18121E] via-[#221933] to-[#0D0A12] text-white">
       {/* HERO */}
       <section className="relative flex flex-col items-center justify-center overflow-hidden py-28 text-center">
         <div className="absolute inset-0 bg-gradient-to-b from-purple-800/40 via-indigo-900/50 to-black" />
@@ -205,5 +235,6 @@ export default async function HomePage() {
         </div>
       </section>
     </main>
+    </>
   );
 }

@@ -11,6 +11,11 @@ interface SeoMetaParams {
   author?: string;
   datePublished?: string;
   dateModified?: string;
+  // 自定义 OG 和 Twitter 标签（可选）
+  ogTitle?: string;
+  ogDescription?: string;
+  twitterTitle?: string;
+  twitterDescription?: string;
 }
 
 export function generateSeoMeta({ 
@@ -23,7 +28,11 @@ export function generateSeoMeta({
   price,
   author,
   datePublished,
-  dateModified
+  dateModified,
+  ogTitle,
+  ogDescription,
+  twitterTitle,
+  twitterDescription
 }: SeoMetaParams): Metadata {
   const baseUrl = 'https://www.secretlaircards.com';
   const canonicalUrl = url.startsWith('http') ? url : `${baseUrl}${url}`;
@@ -50,8 +59,8 @@ export function generateSeoMeta({
       canonical: canonicalUrl
     },
     openGraph: {
-      title,
-      description,
+      title: ogTitle || title,
+      description: ogDescription || description,
       url: canonicalUrl,
       siteName: 'SecretLairCards.com',
       type: 'website',
@@ -60,14 +69,14 @@ export function generateSeoMeta({
           url: imageUrl,
           width: 1200,
           height: 630,
-          alt: title,
+          alt: ogTitle || title,
         }
       ] : undefined,
     },
     twitter: {
       card: 'summary_large_image',
-      title,
-      description,
+      title: twitterTitle || title,
+      description: twitterDescription || description,
       images: imageUrl ? [imageUrl] : undefined,
     },
     other: {
