@@ -7,6 +7,7 @@ import Script from "next/script";
 import { generateSeoMeta } from "@/lib/seo";
 import { generateNewsDetailGraphSchema } from "@/lib/schema";
 import { getNewsSeoImageUrl, getNewsDetailImageUrl } from "@/lib/newsImages";
+import ShareButtons from "@/components/ShareButtons";
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const dataPath = path.join(process.cwd(), "data", "mock.json");
@@ -85,7 +86,17 @@ export default async function NewsDetail({ params }: { params: { slug: string } 
         <article>
           <header className="mb-8">
             <h1 className="text-3xl font-bold mb-4">{news.title}</h1>
-            <p className="text-gray-500 text-sm mb-6">{news.date}</p>
+            <p className="text-gray-500 text-sm mb-4">{news.date}</p>
+            
+            {/* 分享按钮 */}
+            <div className="mb-6">
+              <ShareButtons
+                url={`/news/${news.slug}`}
+                title={news.title}
+                description={news.metaDescription || news.excerpt}
+                hashtags={['SecretLair', 'MTG', 'MagicTheGathering']}
+              />
+            </div>
             
             {/* 主图 - 使用统一的图片显示方式 */}
             <div className="relative w-full max-h-[500px] overflow-hidden rounded-xl shadow-md mb-6">

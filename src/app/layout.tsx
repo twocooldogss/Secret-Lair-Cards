@@ -46,7 +46,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "url": "https://www.secretlaircards.com",
               "inLanguage": "en",
               "keywords": "Secret Lair, MTG Secret Lair, Secret Lair Drops, Magic The Gathering Secret Lair, Secret Lair Cards, Secret Lair 2025",
-              "dateModified": "2025-01-20",
+              "dateModified": new Date().toISOString().slice(0, 10),
               "publisher": {
                 "@type": "Organization",
                 "name": "SecretLairCards.com",

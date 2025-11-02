@@ -1,9 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
+import Script from "next/script";
+import * as fs from "fs";
+import * as path from "path";
 import { generateSeoMeta } from "@/lib/seo";
 import { getDropBySlugFromDrops, normalizeDrop, fetchMultipleCardsData } from "@/lib/data";
 import { getDropContent, getRelatedDrops } from "@/lib/content";
 import CardCarousel from "@/components/CardCarousel";
+import { generateDropProductSchema, getMarketPriceForSchema } from "@/lib/dropSchema";
+import ShareButtons from "@/components/ShareButtons";
+
+// 使用统一的函数读取市场价格数据
+const getMarketPrice = getMarketPriceForSchema;
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const dropData = getDropBySlugFromDrops(params.slug);
@@ -50,10 +58,25 @@ export default async function DropDetail({ params }: { params: { slug: string } 
   const dropContent = getDropContent(params.slug);
   const relatedDrops = getRelatedDrops(params.slug, 3);
   
+  // 获取市场价格数据（如果有）
+  const marketPrice = getMarketPrice(params.slug);
+  
+  // 生成增强的 Product Schema（包含 AggregateOffer）
+  const productSchema = generateDropProductSchema(drop, marketPrice);
+  
   // 在服务端获取卡片数据
   const cardDataList = await fetchMultipleCardsData(drop.cards || []);
 
   return (
+    <>
+      {/* Product Schema with AggregateOffer */}
+      <Script
+        id="drop-product-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(productSchema),
+        }}
+      />
     <main className="min-h-screen bg-gradient-to-b from-[#18121E] via-[#221933] to-[#0D0A12] text-white">
       {/* HERO SECTION - 与首页风格一致 */}
       <section className="relative overflow-hidden py-20">
@@ -77,21 +100,79 @@ export default async function DropDetail({ params }: { params: { slug: string } 
               <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-purple-200 via-white to-yellow-200 bg-clip-text text-transparent">
                 {drop.title}
               </h1>
-              <p className="text-gray-300 text-lg mb-6">{drop.releaseDate}</p>
+              <p className="text-gray-300 text-lg mb-4">{drop.releaseDate}</p>
+              
+              {/* 分享按钮 */}
+              <div className="mb-6">
+                <ShareButtons
+                  url={`/drops/${drop.slug}`}
+                  title={drop.title}
+                  description={drop.description || `Explore the ${drop.title} Secret Lair collection`}
+                  hashtags={['SecretLair', 'MTG', 'MagicTheGathering']}
+                />
+              </div>
+              
               <p className="text-gray-200 text-lg leading-relaxed mb-8">
                 {drop.description || `Explore the ${drop.title} Secret Lair collection featuring unique artwork and premium Magic: The Gathering cards.`}
               </p>
               
               {/* 价格和状态信息 */}
-              <div className="flex items-center gap-6 mb-8">
-                <div className="bg-purple-600/20 border border-purple-500/30 rounded-lg px-4 py-2">
-                  <span className="text-purple-200 text-sm">Price</span>
-                  <div className="text-white font-semibold">${drop.price || '39.99'}</div>
+              <div className="space-y-4 mb-8">
+                <div className="flex items-center gap-6">
+                  {/* 官方价格（MSRP） */}
+                  <div className="bg-purple-600/20 border border-purple-500/30 rounded-lg px-4 py-3 flex-1">
+                    <span className="text-purple-200 text-sm block mb-1">Original Price (MSRP)</span>
+                    <div className="text-white font-semibold text-xl">${drop.price || '39.99'}</div>
+                  </div>
+                  
+                  {/* 状态 */}
+                  <div className="bg-green-600/20 border border-green-500/30 rounded-lg px-4 py-3">
+                    <span className="text-green-200 text-sm block mb-1">Status</span>
+                    <div className="text-white font-semibold">{drop.status || 'Available'}</div>
+                  </div>
                 </div>
-                <div className="bg-green-600/20 border border-green-500/30 rounded-lg px-4 py-2">
-                  <span className="text-green-200 text-sm">Status</span>
-                  <div className="text-white font-semibold">{drop.status || 'Available'}</div>
-                </div>
+                
+                {/* 市场价格（如果有） */}
+                {marketPrice && (
+                  <div className="bg-blue-600/20 border border-blue-500/30 rounded-lg px-4 py-3">
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <span className="text-blue-200 text-sm block mb-1">Current Market Value</span>
+                        <div className="text-white font-semibold text-xl">
+                          ${marketPrice.total_price_usd.toFixed(2)}
+                        </div>
+                        <div className="text-gray-300 text-xs mt-1">
+                          Avg: ${marketPrice.average_price_usd.toFixed(2)} per card · {marketPrice.valid_card_count || marketPrice.card_count} cards tracked
+                        </div>
+                      </div>
+                      {marketPrice.change_pct !== 0 && (
+                        <div className="text-right">
+                          <span className={`text-sm font-semibold ${
+                            marketPrice.change_pct > 0 ? 'text-green-400' : 
+                            marketPrice.change_pct < 0 ? 'text-red-400' : 
+                            'text-gray-400'
+                          }`}>
+                            {marketPrice.change_pct > 0 ? '+' : ''}
+                            {marketPrice.change_pct.toFixed(2)}%
+                          </span>
+                          <div className="text-gray-400 text-xs mt-1">
+                            {marketPrice.change_pct > 0 ? '↑' : marketPrice.change_pct < 0 ? '↓' : '→'} 24h change
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                    <div className="mt-2 pt-2 border-t border-blue-500/20 text-xs text-gray-400">
+                      <span>Updated: {marketPrice.last_updated}</span>
+                      <span className="mx-2">·</span>
+                      <a 
+                        href="/investment" 
+                        className="text-blue-300 hover:text-blue-200 underline"
+                      >
+                        View all market trends →
+                      </a>
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
             
@@ -193,5 +274,6 @@ export default async function DropDetail({ params }: { params: { slug: string } 
         </div>
       </section>
     </main>
+    </>
   );
 }

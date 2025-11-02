@@ -56,7 +56,7 @@ export default function UnifiedDropSchema({ drop }: UnifiedDropSchemaProps) {
       {
         "@type": "Review",
         "author": { "@type": "Person", "name": "MTG Collector" },
-        "datePublished": "2025-01-20",
+        "datePublished": drop.releaseDate || new Date().toISOString().slice(0, 10),
         "reviewBody": "Beautifully designed cards with top-tier printing quality.",
         "reviewRating": {
           "@type": "Rating",

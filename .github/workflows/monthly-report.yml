@@ -1,0 +1,49 @@
+name: Generate Monthly Market Report
+
+on:
+  schedule:
+    # 每月1日 UTC 4:00 运行（北京时间 12:00）
+    - cron: "0 4 1 * *"
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  generate-report:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+          cache: "npm"
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Fetch latest prices (if needed)
+        run: npm run fetch-prices || true
+        
+      - name: Generate monthly report
+        run: npm run generate-report
+        
+      - name: Check for changes
+        id: verify-changed-files
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+          
+      - name: Commit and push changes
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add content/news/secret-lair-market-report-*.md data/mock.json
+          git commit -m "📊 Generate monthly market report [skip ci]" || exit 0
+          git push
+

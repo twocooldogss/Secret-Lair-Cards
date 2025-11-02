@@ -12,7 +12,11 @@
     "generate-content": "node scripts/generateDropContent.js",
     "fill-content": "node scripts/fillDropContent.js",
     "generate-card-images": "node scripts/generateCardImages.js",
-    "process-images": "node scripts/processNewsImages.js"
+    "process-images": "node scripts/processNewsImages.js",
+    "fetch-prices": "node scripts/fetchDropPricesPro.js",
+    "fetch-prices:test": "node scripts/fetchDropPricesPro-test.js",
+    "supplement-history": "node scripts/supplementHistory.js",
+    "generate-report": "node scripts/generateMonthlyReport.js"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.19",

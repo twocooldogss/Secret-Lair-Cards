@@ -69,7 +69,7 @@ export function generateArticleSchema({ title, description, url, image, author, 
 // 生成首页 @graph 格式 Schema（WebPage + FAQPage + BreadcrumbList）
 export function generateHomepageGraphSchema() {
   const baseUrl = 'https://www.secretlaircards.com';
-  const dateModified = '2025-01-20';
+  const dateModified = new Date().toISOString().slice(0, 10);
   
   return {
     "@context": "https://schema.org",
@@ -160,7 +160,7 @@ export function generateBreadcrumbSchema(items: Array<{ name: string; url: strin
 // 生成 News 页面 @graph 格式 Schema
 export function generateNewsPageGraphSchema() {
   const baseUrl = 'https://www.secretlaircards.com';
-  const dateModified = '2025-01-20';
+  const dateModified = new Date().toISOString().slice(0, 10);
   
   return {
     "@context": "https://schema.org",
@@ -305,10 +305,10 @@ export function generateNewsDetailGraphSchema(params: {
   };
 }
 
-// 生成 Investment 页面 @graph 格式 Schema
+// 生成 Investment 页面 @graph 格式 Schema（包含 Dataset）
 export function generateInvestmentPageGraphSchema() {
   const baseUrl = 'https://www.secretlaircards.com';
-  const dateModified = '2025-01-20';
+  const dateModified = new Date().toISOString().slice(0, 10);
   
   return {
     "@context": "https://schema.org",
@@ -351,6 +351,60 @@ export function generateInvestmentPageGraphSchema() {
             "url": `${baseUrl}/logo.png`
           }
         }
+      },
+      {
+        "@type": "Dataset",
+        "@id": `${baseUrl}/investment#dataset`,
+        "name": "Secret Lair 2025 Market Price Dataset",
+        "description": "Daily updated market prices and 30-day price trends for all Magic: The Gathering Secret Lair drops. Data sourced from Scryfall API with automatic daily updates.",
+        "url": `${baseUrl}/investment`,
+        "keywords": ["Secret Lair prices", "MTG market data", "Scryfall API", "Secret Lair investment", "Magic The Gathering collectibles"],
+        "creator": {
+          "@type": "Organization",
+          "name": "SecretLairCards.com",
+          "url": baseUrl
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "SecretLairCards.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": `${baseUrl}/logo.png`
+          }
+        },
+        "dateModified": dateModified,
+        "temporalCoverage": "2019-01-01/2025-12-31",
+        "spatialCoverage": {
+          "@type": "Place",
+          "name": "Global"
+        },
+        "distribution": [
+          {
+            "@type": "DataDownload",
+            "contentUrl": `${baseUrl}/investment`,
+            "encodingFormat": "application/json",
+            "description": "Real-time market prices accessible via web interface"
+          }
+        ],
+        "measurementTechnique": "API-based price aggregation from Scryfall",
+        "variableMeasured": [
+          {
+            "@type": "PropertyValue",
+            "name": "Total Drop Value",
+            "description": "Total market value in USD for all cards in a Secret Lair drop"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Average Card Price",
+            "description": "Average market price per card in USD"
+          },
+          {
+            "@type": "PropertyValue",
+            "name": "Price Change Percentage",
+            "description": "24-hour price change percentage"
+          }
+        ],
+        "citation": "Scryfall API - https://scryfall.com/docs/api"
       }
     ]
   };
@@ -456,7 +510,7 @@ export function generateInvestmentDetailGraphSchema(params: {
 // 生成 About 页面 Schema
 export function generateAboutPageSchema() {
   const baseUrl = 'https://www.secretlaircards.com';
-  const dateModified = '2025-01-20';
+  const dateModified = new Date().toISOString().slice(0, 10);
   
   return {
     "@context": "https://schema.org",
@@ -485,7 +539,7 @@ export function generateAboutPageSchema() {
 // 生成 Contact 页面 Schema
 export function generateContactPageSchema() {
   const baseUrl = 'https://www.secretlaircards.com';
-  const dateModified = '2025-01-20';
+  const dateModified = new Date().toISOString().slice(0, 10);
   
   return {
     "@context": "https://schema.org",
@@ -524,7 +578,7 @@ export function generateContactPageSchema() {
 // 生成 Terms 页面 Schema
 export function generateTermsPageSchema() {
   const baseUrl = 'https://www.secretlaircards.com';
-  const dateModified = '2025-01-20';
+  const dateModified = new Date().toISOString().slice(0, 10);
   
   return {
     "@context": "https://schema.org",
@@ -557,7 +611,7 @@ export function generateTermsPageSchema() {
 // 生成 Privacy 页面 Schema
 export function generatePrivacyPageSchema() {
   const baseUrl = 'https://www.secretlaircards.com';
-  const dateModified = '2025-01-20';
+  const dateModified = new Date().toISOString().slice(0, 10);
   
   return {
     "@context": "https://schema.org",

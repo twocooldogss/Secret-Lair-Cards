@@ -6,6 +6,7 @@ import Link from "next/link";
 import Script from "next/script";
 import { generateSeoMeta } from "@/lib/seo";
 import { generateInvestmentDetailGraphSchema } from "@/lib/schema";
+import ShareButtons from "@/components/ShareButtons";
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const dataPath = path.join(process.cwd(), "data", "mock.json");
@@ -84,7 +85,17 @@ export default async function InvestmentDetail({ params }: { params: { slug: str
         <article>
           <header className="mb-8">
             <h1 className="text-3xl font-bold mb-4">{item.title}</h1>
-            <p className="text-gray-500 text-sm mb-6">{item.date}</p>
+            <p className="text-gray-500 text-sm mb-4">{item.date}</p>
+            
+            {/* 分享按钮 */}
+            <div className="mb-6">
+              <ShareButtons
+                url={`/investment/${item.slug}`}
+                title={item.title}
+                description={item.metaDescription || item.excerpt}
+                hashtags={['SecretLair', 'MTG', 'Investment', 'MagicTheGathering']}
+              />
+            </div>
             
             {/* 主图 - 使用统一的图片显示方式 */}
             <div className="relative w-full max-h-[500px] overflow-hidden rounded-xl shadow-md mb-6">

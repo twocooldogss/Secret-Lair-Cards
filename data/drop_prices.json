@@ -1,0 +1,1862 @@
+{
+  "adam-paquette": {
+    "name": "Secret Lair: Adam Paquette",
+    "slug": "adam-paquette",
+    "card_count": 3,
+    "valid_card_count": 2,
+    "total_price_usd": 15.88,
+    "average_price_usd": 7.94,
+    "change_pct": -65.1,
+    "last_updated": "2025-11-02"
+  },
+  "secret-scare-superdrop-2025": {
+    "name": "Secret Lair: Secret Scare Superdrop 2025",
+    "slug": "secret-scare-superdrop-2025",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 8.42,
+    "average_price_usd": 2.1,
+    "change_pct": -85.67,
+    "last_updated": "2025-11-02"
+  },
+  "trick-or-treat": {
+    "name": "Secret Lair: Trick or Treat",
+    "slug": "trick-or-treat",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 30.14,
+    "average_price_usd": 10.05,
+    "change_pct": -28.75,
+    "last_updated": "2025-11-02"
+  },
+  "wayne-wu": {
+    "name": "Secret Lair: Wayne Wu",
+    "slug": "wayne-wu",
+    "card_count": 3,
+    "valid_card_count": 2,
+    "total_price_usd": 22.96,
+    "average_price_usd": 11.48,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "dominik-mayer": {
+    "name": "Secret Lair: Dominik Mayer",
+    "slug": "dominik-mayer",
+    "card_count": 10,
+    "valid_card_count": 8,
+    "total_price_usd": 165.95,
+    "average_price_usd": 20.74,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "justyna-dura": {
+    "name": "Secret Lair: Justyna Dura",
+    "slug": "justyna-dura",
+    "card_count": 10,
+    "valid_card_count": 7,
+    "total_price_usd": 248.19,
+    "average_price_usd": 35.46,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "fajareka-setiawan": {
+    "name": "Secret Lair: Fajareka Setiawan",
+    "slug": "fajareka-setiawan",
+    "card_count": 5,
+    "valid_card_count": 4,
+    "total_price_usd": 58.35,
+    "average_price_usd": 14.59,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "bastien-l-deharme": {
+    "name": "Secret Lair: Bastien L. Deharme",
+    "slug": "bastien-l-deharme",
+    "card_count": 4,
+    "valid_card_count": 3,
+    "total_price_usd": 29.46,
+    "average_price_usd": 9.82,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "iron-maiden": {
+    "name": "Secret Lair: Iron Maiden",
+    "slug": "iron-maiden",
+    "card_count": 8,
+    "valid_card_count": 6,
+    "total_price_usd": 203.03,
+    "average_price_usd": 33.84,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "laura-plansker": {
+    "name": "Secret Lair: Laura Plansker",
+    "slug": "laura-plansker",
+    "card_count": 21,
+    "valid_card_count": 19,
+    "total_price_usd": 433.05,
+    "average_price_usd": 22.79,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "nathalie-fourdraine": {
+    "name": "Secret Lair: Nathalie Fourdraine",
+    "slug": "nathalie-fourdraine",
+    "card_count": 10,
+    "valid_card_count": 6,
+    "total_price_usd": 71.14,
+    "average_price_usd": 11.86,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "evyn-fong": {
+    "name": "Secret Lair: Evyn Fong",
+    "slug": "evyn-fong",
+    "card_count": 3,
+    "valid_card_count": 1,
+    "total_price_usd": 1.73,
+    "average_price_usd": 1.73,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "stephen-andrade": {
+    "name": "Secret Lair: Stephen Andrade",
+    "slug": "stephen-andrade",
+    "card_count": 7,
+    "valid_card_count": 5,
+    "total_price_usd": 182.8,
+    "average_price_usd": 36.56,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "jim-woodring": {
+    "name": "Secret Lair: Jim Woodring",
+    "slug": "jim-woodring",
+    "card_count": 4,
+    "valid_card_count": 1,
+    "total_price_usd": 29.99,
+    "average_price_usd": 29.99,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "allen-williams": {
+    "name": "Secret Lair: Allen Williams",
+    "slug": "allen-williams",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 45.2,
+    "average_price_usd": 11.3,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "jason-loik-matthew-cohen": {
+    "name": "Secret Lair: Jason Loik & Matthew Cohen",
+    "slug": "jason-loik-matthew-cohen",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 29.68,
+    "average_price_usd": 9.89,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "ashley-dreyfus": {
+    "name": "Secret Lair: Ashley Dreyfus",
+    "slug": "ashley-dreyfus",
+    "card_count": 9,
+    "valid_card_count": 9,
+    "total_price_usd": 140.55,
+    "average_price_usd": 15.62,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "mark-bagley-jay-david-ramos": {
+    "name": "Secret Lair: Mark Bagley & Jay David Ramos",
+    "slug": "mark-bagley-jay-david-ramos",
+    "card_count": 5,
+    "valid_card_count": 5,
+    "total_price_usd": 34.66,
+    "average_price_usd": 6.93,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "lucas-graciano": {
+    "name": "Secret Lair: Lucas Graciano",
+    "slug": "lucas-graciano",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 33.29,
+    "average_price_usd": 8.32,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "leonardo-santanna": {
+    "name": "Secret Lair: Leonardo Santanna",
+    "slug": "leonardo-santanna",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 23.85,
+    "average_price_usd": 5.96,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "jon-vermilyea": {
+    "name": "Secret Lair: Jon Vermilyea",
+    "slug": "jon-vermilyea",
+    "card_count": 9,
+    "valid_card_count": 9,
+    "total_price_usd": 96.67,
+    "average_price_usd": 10.74,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "deathburger": {
+    "name": "Secret Lair: Deathburger",
+    "slug": "deathburger",
+    "card_count": 5,
+    "valid_card_count": 5,
+    "total_price_usd": 32.51,
+    "average_price_usd": 6.5,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "tracy-yardley": {
+    "name": "Secret Lair: Tracy Yardley",
+    "slug": "tracy-yardley",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 20.48,
+    "average_price_usd": 5.12,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "igor-kieryluk": {
+    "name": "Secret Lair: Igor Kieryluk",
+    "slug": "igor-kieryluk",
+    "card_count": 6,
+    "valid_card_count": 6,
+    "total_price_usd": 261.57,
+    "average_price_usd": 43.59,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "caroline-gariba": {
+    "name": "Secret Lair: Caroline Gariba",
+    "slug": "caroline-gariba",
+    "card_count": 3,
+    "valid_card_count": 2,
+    "total_price_usd": 8.23,
+    "average_price_usd": 4.12,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "jaws-terror-of-amity-island": {
+    "name": "Secret Lair x Jaws: Terror of Amity Island",
+    "slug": "jaws-terror-of-amity-island",
+    "card_count": 2,
+    "valid_card_count": 1,
+    "total_price_usd": 58.45,
+    "average_price_usd": 58.45,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "imiri-sakabashira": {
+    "name": "Secret Lair: Imiri Sakabashira",
+    "slug": "imiri-sakabashira",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 36.07,
+    "average_price_usd": 9.02,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "phil-foglio": {
+    "name": "Secret Lair: Phil Foglio",
+    "slug": "phil-foglio",
+    "card_count": 6,
+    "valid_card_count": 6,
+    "total_price_usd": 60.79,
+    "average_price_usd": 10.13,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "aerith-s-curaga-magic": {
+    "name": "Secret Lair: Aerith's Curaga Magic",
+    "slug": "aerith-s-curaga-magic",
+    "card_count": 6,
+    "valid_card_count": 6,
+    "total_price_usd": 60.39,
+    "average_price_usd": 10.06,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "magus-sisters": {
+    "name": "Secret Lair: Magus Sisters",
+    "slug": "magus-sisters",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 356.52,
+    "average_price_usd": 89.13,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "craig-drake": {
+    "name": "Secret Lair: Craig Drake",
+    "slug": "craig-drake",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 29.27,
+    "average_price_usd": 7.32,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "doctor-who-encore": {
+    "name": "Secret Lair x Doctor Who Encore",
+    "slug": "doctor-who-encore",
+    "card_count": 2,
+    "valid_card_count": 2,
+    "total_price_usd": 142.41,
+    "average_price_usd": 71.2,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "jay-howell": {
+    "name": "Secret Lair: Jay Howell",
+    "slug": "jay-howell",
+    "card_count": 5,
+    "valid_card_count": 5,
+    "total_price_usd": 46.85,
+    "average_price_usd": 9.37,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "toru-terada": {
+    "name": "Secret Lair: Toru Terada",
+    "slug": "toru-terada",
+    "card_count": 5,
+    "valid_card_count": 5,
+    "total_price_usd": 41.33,
+    "average_price_usd": 8.27,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "heikala": {
+    "name": "Secret Lair: Heikala",
+    "slug": "heikala",
+    "card_count": 5,
+    "valid_card_count": 5,
+    "total_price_usd": 68.46,
+    "average_price_usd": 13.69,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "eric-wilkerson": {
+    "name": "Secret Lair: Eric Wilkerson",
+    "slug": "eric-wilkerson",
+    "card_count": 7,
+    "valid_card_count": 7,
+    "total_price_usd": 200.43,
+    "average_price_usd": 28.63,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "florian-bertmer": {
+    "name": "Secret Lair: Florian Bertmer",
+    "slug": "florian-bertmer",
+    "card_count": 12,
+    "valid_card_count": 12,
+    "total_price_usd": 169.25,
+    "average_price_usd": 14.1,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "rian-gonzales": {
+    "name": "Secret Lair: Rian Gonzales",
+    "slug": "rian-gonzales",
+    "card_count": 11,
+    "valid_card_count": 10,
+    "total_price_usd": 109.04,
+    "average_price_usd": 10.9,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "the-office-dwights-destiny": {
+    "name": "Secret Lair x The Office: Dwight's Destiny",
+    "slug": "the-office-dwights-destiny",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 133.47,
+    "average_price_usd": 33.37,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "erol-otus": {
+    "name": "Secret Lair: Erol Otus",
+    "slug": "erol-otus",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 57.08,
+    "average_price_usd": 14.27,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "hari-deepti": {
+    "name": "Secret Lair: Hari & Deepti",
+    "slug": "hari-deepti",
+    "card_count": 5,
+    "valid_card_count": 5,
+    "total_price_usd": 21.16,
+    "average_price_usd": 4.23,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "luke-pearson": {
+    "name": "Secret Lair: Luke Pearson",
+    "slug": "luke-pearson",
+    "card_count": 5,
+    "valid_card_count": 5,
+    "total_price_usd": 57.62,
+    "average_price_usd": 11.52,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "kirokaze-chuck-lukacs": {
+    "name": "Secret Lair: Kirokaze & Chuck Lukacs",
+    "slug": "kirokaze-chuck-lukacs",
+    "card_count": 5,
+    "valid_card_count": 5,
+    "total_price_usd": 42.47,
+    "average_price_usd": 8.49,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "jesper-ejsing": {
+    "name": "Secret Lair: Jesper Ejsing",
+    "slug": "jesper-ejsing",
+    "card_count": 8,
+    "valid_card_count": 8,
+    "total_price_usd": 100.72,
+    "average_price_usd": 12.59,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "tsubonari": {
+    "name": "Secret Lair: Tsubonari",
+    "slug": "tsubonari",
+    "card_count": 9,
+    "valid_card_count": 9,
+    "total_price_usd": 227.22,
+    "average_price_usd": 25.25,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "pete-venters": {
+    "name": "Secret Lair: Pete Venters",
+    "slug": "pete-venters",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 9.31,
+    "average_price_usd": 3.1,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "mitsuhiro-arita": {
+    "name": "Secret Lair: Mitsuhiro Arita",
+    "slug": "mitsuhiro-arita",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 33.22,
+    "average_price_usd": 11.07,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "ivan-shavrin-rob-pavic": {
+    "name": "Secret Lair: Ivan Shavrin & Rob Pavic",
+    "slug": "ivan-shavrin-rob-pavic",
+    "card_count": 5,
+    "valid_card_count": 5,
+    "total_price_usd": 16.33,
+    "average_price_usd": 3.27,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "kekai-kotaki": {
+    "name": "Secret Lair: Kekai Kotaki",
+    "slug": "kekai-kotaki",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 22.03,
+    "average_price_usd": 7.34,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "jessica-rossier": {
+    "name": "Secret Lair: Jessica Rossier",
+    "slug": "jessica-rossier",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 98.91,
+    "average_price_usd": 24.73,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "brandon-kitkouski": {
+    "name": "Secret Lair: Brandon Kitkouski",
+    "slug": "brandon-kitkouski",
+    "card_count": 5,
+    "valid_card_count": 5,
+    "total_price_usd": 19.62,
+    "average_price_usd": 3.92,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "mike-bierek": {
+    "name": "Secret Lair: Mike Bierek",
+    "slug": "mike-bierek",
+    "card_count": 11,
+    "valid_card_count": 11,
+    "total_price_usd": 144.02,
+    "average_price_usd": 13.09,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "peach-momoko": {
+    "name": "Secret Lair: Peach Momoko",
+    "slug": "peach-momoko",
+    "card_count": 5,
+    "valid_card_count": 5,
+    "total_price_usd": 69.29,
+    "average_price_usd": 13.86,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "helvetica-blanc": {
+    "name": "Secret Lair: Helvetica Blanc",
+    "slug": "helvetica-blanc",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 34.92,
+    "average_price_usd": 8.73,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "ed-repka": {
+    "name": "Secret Lair: Ed Repka",
+    "slug": "ed-repka",
+    "card_count": 5,
+    "valid_card_count": 5,
+    "total_price_usd": 32.99,
+    "average_price_usd": 6.6,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "mila-pesic": {
+    "name": "Secret Lair: Mila Pesic",
+    "slug": "mila-pesic",
+    "card_count": 3,
+    "valid_card_count": 2,
+    "total_price_usd": 37.45,
+    "average_price_usd": 18.73,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "raymond-swanland": {
+    "name": "Secret Lair: Raymond Swanland",
+    "slug": "raymond-swanland",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 105.82,
+    "average_price_usd": 26.46,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "beholder-s-disintegration-ray": {
+    "name": "Secret Lair: Beholder's Disintegration Ray",
+    "slug": "beholder-s-disintegration-ray",
+    "card_count": 10,
+    "valid_card_count": 10,
+    "total_price_usd": 51.4,
+    "average_price_usd": 5.14,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "the-big-score": {
+    "name": "Secret Lair: The Big Score",
+    "slug": "the-big-score",
+    "card_count": 2,
+    "valid_card_count": 2,
+    "total_price_usd": 12.67,
+    "average_price_usd": 6.33,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "andrew-maclean": {
+    "name": "Secret Lair: Andrew MacLean",
+    "slug": "andrew-maclean",
+    "card_count": 7,
+    "valid_card_count": 7,
+    "total_price_usd": 98.1,
+    "average_price_usd": 14.01,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "jackson-epstein": {
+    "name": "Secret Lair: Jackson Epstein",
+    "slug": "jackson-epstein",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 23.08,
+    "average_price_usd": 7.69,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "alex-negrea": {
+    "name": "Secret Lair: Alex Negrea",
+    "slug": "alex-negrea",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 292.72,
+    "average_price_usd": 97.57,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "kathleen-neeley-andworld-design": {
+    "name": "Secret Lair: Kathleen Neeley & AndWorld Design",
+    "slug": "kathleen-neeley-andworld-design",
+    "card_count": 9,
+    "valid_card_count": 9,
+    "total_price_usd": 78,
+    "average_price_usd": 8.67,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "j-r-mie-solomon": {
+    "name": "Secret Lair: Jérémie Solomon",
+    "slug": "j-r-mie-solomon",
+    "card_count": 9,
+    "valid_card_count": 9,
+    "total_price_usd": 86.08,
+    "average_price_usd": 9.56,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "sidharth-chaturvedi-scott-okumura": {
+    "name": "Secret Lair: Sidharth Chaturvedi & Scott Okumura",
+    "slug": "sidharth-chaturvedi-scott-okumura",
+    "card_count": 48,
+    "valid_card_count": 47,
+    "total_price_usd": 2293.62,
+    "average_price_usd": 48.8,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "bene-rohlmann": {
+    "name": "Secret Lair: Bene Rohlmann",
+    "slug": "bene-rohlmann",
+    "card_count": 6,
+    "valid_card_count": 6,
+    "total_price_usd": 31.09,
+    "average_price_usd": 5.18,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "ekaterina-burmak": {
+    "name": "Secret Lair: Ekaterina Burmak",
+    "slug": "ekaterina-burmak",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 30.75,
+    "average_price_usd": 10.25,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "ravenna-tran": {
+    "name": "Secret Lair: Ravenna Tran",
+    "slug": "ravenna-tran",
+    "card_count": 8,
+    "valid_card_count": 8,
+    "total_price_usd": 117.59,
+    "average_price_usd": 14.7,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "phoebe-wahl": {
+    "name": "Secret Lair: Phoebe Wahl",
+    "slug": "phoebe-wahl",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 39.18,
+    "average_price_usd": 9.79,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "desmuncubic": {
+    "name": "Secret Lair: Desmuncubic",
+    "slug": "desmuncubic",
+    "card_count": 8,
+    "valid_card_count": 8,
+    "total_price_usd": 67.56,
+    "average_price_usd": 8.45,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "akqa": {
+    "name": "Secret Lair: AKQA",
+    "slug": "akqa",
+    "card_count": 11,
+    "valid_card_count": 11,
+    "total_price_usd": 1444.7,
+    "average_price_usd": 131.34,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "john-thacker": {
+    "name": "Secret Lair: John Thacker",
+    "slug": "john-thacker",
+    "card_count": 5,
+    "valid_card_count": 4,
+    "total_price_usd": 66.79,
+    "average_price_usd": 16.7,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "narendra-bintara-adi": {
+    "name": "Secret Lair: Narendra Bintara Adi",
+    "slug": "narendra-bintara-adi",
+    "card_count": 3,
+    "valid_card_count": 2,
+    "total_price_usd": 36.98,
+    "average_price_usd": 18.49,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "ricardo-cavolo": {
+    "name": "Secret Lair: Ricardo Cavolo",
+    "slug": "ricardo-cavolo",
+    "card_count": 8,
+    "valid_card_count": 8,
+    "total_price_usd": 153.76,
+    "average_price_usd": 19.22,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "graham-yarrington": {
+    "name": "Secret Lair: Graham Yarrington",
+    "slug": "graham-yarrington",
+    "card_count": 5,
+    "valid_card_count": 5,
+    "total_price_usd": 76.1,
+    "average_price_usd": 15.22,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "rowynn-ellis": {
+    "name": "Secret Lair: Rowynn Ellis",
+    "slug": "rowynn-ellis",
+    "card_count": 7,
+    "valid_card_count": 7,
+    "total_price_usd": 136.51,
+    "average_price_usd": 19.5,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "allison-carl": {
+    "name": "Secret Lair: Allison Carl",
+    "slug": "allison-carl",
+    "card_count": 4,
+    "valid_card_count": 3,
+    "total_price_usd": 37.32,
+    "average_price_usd": 12.44,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "catdirty": {
+    "name": "Secret Lair: CatDirty",
+    "slug": "catdirty",
+    "card_count": 6,
+    "valid_card_count": 6,
+    "total_price_usd": 52.18,
+    "average_price_usd": 8.7,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "michael-bruinsma": {
+    "name": "Secret Lair: Michael Bruinsma",
+    "slug": "michael-bruinsma",
+    "card_count": 10,
+    "valid_card_count": 10,
+    "total_price_usd": 403.74,
+    "average_price_usd": 40.37,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "michael-c-hayes": {
+    "name": "Secret Lair: Michael C. Hayes",
+    "slug": "michael-c-hayes",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 20.06,
+    "average_price_usd": 5.01,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "jesse-ledoux": {
+    "name": "Secret Lair: Jesse LeDoux",
+    "slug": "jesse-ledoux",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 42.83,
+    "average_price_usd": 10.71,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "signalnoise": {
+    "name": "Secret Lair: Signalnoise",
+    "slug": "signalnoise",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 66.21,
+    "average_price_usd": 22.07,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "elk64": {
+    "name": "Secret Lair: ELK64",
+    "slug": "elk64",
+    "card_count": 5,
+    "valid_card_count": 5,
+    "total_price_usd": 79.93,
+    "average_price_usd": 15.99,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "secretversary-2023": {
+    "name": "Secret Lair: Secretversary 2023",
+    "slug": "secretversary-2023",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 593.21,
+    "average_price_usd": 148.3,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "anna-podedworna": {
+    "name": "Secret Lair: Anna Podedworna",
+    "slug": "anna-podedworna",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 19.7,
+    "average_price_usd": 6.57,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "nino-vecia": {
+    "name": "Secret Lair: Nino Vecia",
+    "slug": "nino-vecia",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 35.29,
+    "average_price_usd": 8.82,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "jehan-choo": {
+    "name": "Secret Lair: Jehan Choo",
+    "slug": "jehan-choo",
+    "card_count": 6,
+    "valid_card_count": 6,
+    "total_price_usd": 199.15,
+    "average_price_usd": 33.19,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "adam-volker": {
+    "name": "Secret Lair: Adam Volker",
+    "slug": "adam-volker",
+    "card_count": 8,
+    "valid_card_count": 8,
+    "total_price_usd": 93.24,
+    "average_price_usd": 11.66,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "wooden-cyclops": {
+    "name": "Secret Lair: Wooden Cyclops",
+    "slug": "wooden-cyclops",
+    "card_count": 7,
+    "valid_card_count": 7,
+    "total_price_usd": 463.79,
+    "average_price_usd": 66.26,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "tomo77": {
+    "name": "Secret Lair: TOMO77",
+    "slug": "tomo77",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 43.75,
+    "average_price_usd": 14.58,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "dani-pendergast": {
+    "name": "Secret Lair: Dani Pendergast",
+    "slug": "dani-pendergast",
+    "card_count": 11,
+    "valid_card_count": 11,
+    "total_price_usd": 887.97,
+    "average_price_usd": 80.72,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "aya-kakeda": {
+    "name": "Secret Lair: Aya Kakeda",
+    "slug": "aya-kakeda",
+    "card_count": 8,
+    "valid_card_count": 8,
+    "total_price_usd": 107.24,
+    "average_price_usd": 13.4,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "ryan-alexander-lee": {
+    "name": "Secret Lair: Ryan Alexander Lee",
+    "slug": "ryan-alexander-lee",
+    "card_count": 5,
+    "valid_card_count": 5,
+    "total_price_usd": 38.24,
+    "average_price_usd": 7.65,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "bakshi-productions": {
+    "name": "Secret Lair: Bakshi Productions",
+    "slug": "bakshi-productions",
+    "card_count": 5,
+    "valid_card_count": 5,
+    "total_price_usd": 71.16,
+    "average_price_usd": 14.23,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "mark-riddick": {
+    "name": "Secret Lair: Mark Riddick",
+    "slug": "mark-riddick",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 155.93,
+    "average_price_usd": 38.98,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "castle-of-aaargh": {
+    "name": "Secret Lair: Castle of Aaargh",
+    "slug": "castle-of-aaargh",
+    "card_count": 14,
+    "valid_card_count": 14,
+    "total_price_usd": 510.36,
+    "average_price_usd": 36.45,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "scott-m-fischer": {
+    "name": "Secret Lair: Scott M. Fischer",
+    "slug": "scott-m-fischer",
+    "card_count": 12,
+    "valid_card_count": 9,
+    "total_price_usd": 262.77,
+    "average_price_usd": 29.2,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "jurassic-world": {
+    "name": "Secret Lair x Jurassic World",
+    "slug": "jurassic-world",
+    "card_count": 9,
+    "valid_card_count": 8,
+    "total_price_usd": 208.34,
+    "average_price_usd": 26.04,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "nana-qi-godmachine": {
+    "name": "Secret Lair: Nana Qi & GodMachine",
+    "slug": "nana-qi-godmachine",
+    "card_count": 6,
+    "valid_card_count": 6,
+    "total_price_usd": 144.57,
+    "average_price_usd": 24.09,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "mandy-jurgens": {
+    "name": "Secret Lair: Mandy Jurgens",
+    "slug": "mandy-jurgens",
+    "card_count": 9,
+    "valid_card_count": 9,
+    "total_price_usd": 57.7,
+    "average_price_usd": 6.41,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "rebecca-guay": {
+    "name": "Secret Lair: Rebecca Guay",
+    "slug": "rebecca-guay",
+    "card_count": 5,
+    "valid_card_count": 4,
+    "total_price_usd": 55.99,
+    "average_price_usd": 14,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "lauren-ys": {
+    "name": "Secret Lair: Lauren YS",
+    "slug": "lauren-ys",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 181.02,
+    "average_price_usd": 45.25,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "paul-mafayon": {
+    "name": "Secret Lair: Paul Mafayon",
+    "slug": "paul-mafayon",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 91.26,
+    "average_price_usd": 22.82,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "jake-murray": {
+    "name": "Secret Lair: Jake Murray",
+    "slug": "jake-murray",
+    "card_count": 12,
+    "valid_card_count": 10,
+    "total_price_usd": 182.95,
+    "average_price_usd": 18.3,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "rope-arrow": {
+    "name": "Secret Lair: Rope Arrow",
+    "slug": "rope-arrow",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 67.36,
+    "average_price_usd": 16.84,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "chase-stone": {
+    "name": "Secret Lair: Chase Stone",
+    "slug": "chase-stone",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 20.09,
+    "average_price_usd": 5.02,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "phyrexian-faves": {
+    "name": "Secret Lair: Phyrexian Faves",
+    "slug": "phyrexian-faves",
+    "card_count": 6,
+    "valid_card_count": 5,
+    "total_price_usd": 81.64,
+    "average_price_usd": 16.33,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "dave-allsop": {
+    "name": "Secret Lair: Dave Allsop",
+    "slug": "dave-allsop",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 22.8,
+    "average_price_usd": 7.6,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "daarken": {
+    "name": "Secret Lair: Daarken",
+    "slug": "daarken",
+    "card_count": 4,
+    "valid_card_count": 3,
+    "total_price_usd": 109.24,
+    "average_price_usd": 36.41,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "svetlin-velinov": {
+    "name": "Secret Lair: Svetlin Velinov",
+    "slug": "svetlin-velinov",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 56.31,
+    "average_price_usd": 18.77,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "martin-ontiveros": {
+    "name": "Secret Lair: Martin Ontiveros",
+    "slug": "martin-ontiveros",
+    "card_count": 6,
+    "valid_card_count": 6,
+    "total_price_usd": 114.66,
+    "average_price_usd": 19.11,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "aleksi-briclot": {
+    "name": "Secret Lair: Aleksi Briclot",
+    "slug": "aleksi-briclot",
+    "card_count": 10,
+    "valid_card_count": 10,
+    "total_price_usd": 215.12,
+    "average_price_usd": 21.51,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "billy-christian": {
+    "name": "Secret Lair: Billy Christian",
+    "slug": "billy-christian",
+    "card_count": 7,
+    "valid_card_count": 7,
+    "total_price_usd": 101.64,
+    "average_price_usd": 14.52,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "kozyndan": {
+    "name": "Secret Lair: kozyndan",
+    "slug": "kozyndan",
+    "card_count": 4,
+    "valid_card_count": 3,
+    "total_price_usd": 79.09,
+    "average_price_usd": 26.36,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "ori-toor": {
+    "name": "Secret Lair: Ori Toor",
+    "slug": "ori-toor",
+    "card_count": 5,
+    "valid_card_count": 5,
+    "total_price_usd": 153.83,
+    "average_price_usd": 30.77,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "omar-rayyan": {
+    "name": "Secret Lair: Omar Rayyan",
+    "slug": "omar-rayyan",
+    "card_count": 7,
+    "valid_card_count": 7,
+    "total_price_usd": 75.13,
+    "average_price_usd": 10.73,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "antonio-jos-manzanedo": {
+    "name": "Secret Lair: Antonio José Manzanedo",
+    "slug": "antonio-jos-manzanedo",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 68.27,
+    "average_price_usd": 22.76,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "junji-ito": {
+    "name": "Secret Lair: Junji Ito",
+    "slug": "junji-ito",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 104.91,
+    "average_price_usd": 26.23,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "tatamepi": {
+    "name": "Secret Lair: Tatamepi",
+    "slug": "tatamepi",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 151.27,
+    "average_price_usd": 50.42,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "trevor-hairsine": {
+    "name": "Secret Lair: Trevor Hairsine",
+    "slug": "trevor-hairsine",
+    "card_count": 5,
+    "valid_card_count": 5,
+    "total_price_usd": 82.65,
+    "average_price_usd": 16.53,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "victor-adame-minguez": {
+    "name": "Secret Lair: Victor Adame Minguez",
+    "slug": "victor-adame-minguez",
+    "card_count": 11,
+    "valid_card_count": 10,
+    "total_price_usd": 104.11,
+    "average_price_usd": 10.41,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "nils-hamm": {
+    "name": "Secret Lair: Nils Hamm",
+    "slug": "nils-hamm",
+    "card_count": 5,
+    "valid_card_count": 5,
+    "total_price_usd": 21.79,
+    "average_price_usd": 4.36,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "jeannie-l-paske": {
+    "name": "Secret Lair: Jeannie L Paske",
+    "slug": "jeannie-l-paske",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 60.25,
+    "average_price_usd": 15.06,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "kawasumi": {
+    "name": "Secret Lair: Kawasumi",
+    "slug": "kawasumi",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 42.21,
+    "average_price_usd": 10.55,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "ron-spencer": {
+    "name": "Secret Lair: Ron Spencer",
+    "slug": "ron-spencer",
+    "card_count": 4,
+    "valid_card_count": 3,
+    "total_price_usd": 13.05,
+    "average_price_usd": 4.35,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "dance-battle": {
+    "name": "Secret Lair: Dance Battle",
+    "slug": "dance-battle",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 12.33,
+    "average_price_usd": 4.11,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "battle-of-olympus": {
+    "name": "Secret Lair: Battle of Olympus",
+    "slug": "battle-of-olympus",
+    "card_count": 3,
+    "valid_card_count": 2,
+    "total_price_usd": 49.34,
+    "average_price_usd": 24.67,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "livia-prima": {
+    "name": "Secret Lair: Livia Prima",
+    "slug": "livia-prima",
+    "card_count": 7,
+    "valid_card_count": 7,
+    "total_price_usd": 72.54,
+    "average_price_usd": 10.36,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "heather-hudson": {
+    "name": "Secret Lair: Heather Hudson",
+    "slug": "heather-hudson",
+    "card_count": 6,
+    "valid_card_count": 5,
+    "total_price_usd": 47.16,
+    "average_price_usd": 9.43,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "kelogsloops": {
+    "name": "Secret Lair: Kelogsloops",
+    "slug": "kelogsloops",
+    "card_count": 7,
+    "valid_card_count": 5,
+    "total_price_usd": 135.44,
+    "average_price_usd": 27.09,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "chris-ostrowski": {
+    "name": "Secret Lair: Chris Ostrowski",
+    "slug": "chris-ostrowski",
+    "card_count": 11,
+    "valid_card_count": 11,
+    "total_price_usd": 215.93,
+    "average_price_usd": 19.63,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "zoltan-boros": {
+    "name": "Secret Lair: Zoltan Boros",
+    "slug": "zoltan-boros",
+    "card_count": 5,
+    "valid_card_count": 4,
+    "total_price_usd": 34.92,
+    "average_price_usd": 8.73,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "hillary-wilson": {
+    "name": "Secret Lair: Hillary Wilson",
+    "slug": "hillary-wilson",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 19.1,
+    "average_price_usd": 6.37,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "jack-hughes": {
+    "name": "Secret Lair: Jack Hughes",
+    "slug": "jack-hughes",
+    "card_count": 16,
+    "valid_card_count": 15,
+    "total_price_usd": 155.55,
+    "average_price_usd": 10.37,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "wayne-reynolds": {
+    "name": "Secret Lair: Wayne Reynolds",
+    "slug": "wayne-reynolds",
+    "card_count": 7,
+    "valid_card_count": 7,
+    "total_price_usd": 59.88,
+    "average_price_usd": 8.55,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "richard-kane-ferguson": {
+    "name": "Secret Lair: Richard Kane Ferguson",
+    "slug": "richard-kane-ferguson",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 9.1,
+    "average_price_usd": 3.03,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "matt-stewart": {
+    "name": "Secret Lair: Matt Stewart",
+    "slug": "matt-stewart",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 35.68,
+    "average_price_usd": 8.92,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "sidharth-chaturvedi": {
+    "name": "Secret Lair: Sidharth Chaturvedi",
+    "slug": "sidharth-chaturvedi",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 15.43,
+    "average_price_usd": 5.14,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "uta-natsume": {
+    "name": "Secret Lair: Uta Natsume",
+    "slug": "uta-natsume",
+    "card_count": 19,
+    "valid_card_count": 19,
+    "total_price_usd": 678.38,
+    "average_price_usd": 35.7,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "rorubei": {
+    "name": "Secret Lair: Rorubei",
+    "slug": "rorubei",
+    "card_count": 5,
+    "valid_card_count": 5,
+    "total_price_usd": 100.16,
+    "average_price_usd": 20.03,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "yuko-shimizu": {
+    "name": "Secret Lair: Yuko Shimizu",
+    "slug": "yuko-shimizu",
+    "card_count": 6,
+    "valid_card_count": 6,
+    "total_price_usd": 66.37,
+    "average_price_usd": 11.06,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "maria-zolotukhina": {
+    "name": "Secret Lair: Maria Zolotukhina",
+    "slug": "maria-zolotukhina",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 30.36,
+    "average_price_usd": 10.12,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "mateus-manhanini": {
+    "name": "Secret Lair: Mateus Manhanini",
+    "slug": "mateus-manhanini",
+    "card_count": 5,
+    "valid_card_count": 3,
+    "total_price_usd": 48.91,
+    "average_price_usd": 16.3,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "marco-teixeira": {
+    "name": "Secret Lair: Marco Teixeira",
+    "slug": "marco-teixeira",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 53.01,
+    "average_price_usd": 17.67,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "crocodile-jackson": {
+    "name": "Secret Lair: Crocodile Jackson",
+    "slug": "crocodile-jackson",
+    "card_count": 6,
+    "valid_card_count": 6,
+    "total_price_usd": 57.19,
+    "average_price_usd": 9.53,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "mschf": {
+    "name": "Secret Lair: MSCHF",
+    "slug": "mschf",
+    "card_count": 4,
+    "valid_card_count": 2,
+    "total_price_usd": 23.07,
+    "average_price_usd": 11.54,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "lars-grant-west-age-52": {
+    "name": "Secret Lair: Lars Grant-West, age 52",
+    "slug": "lars-grant-west-age-52",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 48.76,
+    "average_price_usd": 16.25,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "timba-smits": {
+    "name": "Secret Lair: Timba Smits",
+    "slug": "timba-smits",
+    "card_count": 5,
+    "valid_card_count": 5,
+    "total_price_usd": 79.75,
+    "average_price_usd": 15.95,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "dxtr": {
+    "name": "Secret Lair: DXTR",
+    "slug": "dxtr",
+    "card_count": 6,
+    "valid_card_count": 6,
+    "total_price_usd": 163.71,
+    "average_price_usd": 27.29,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "ziuk": {
+    "name": "Secret Lair: ZIUK",
+    "slug": "ziuk",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 20.52,
+    "average_price_usd": 6.84,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "fay-dalton": {
+    "name": "Secret Lair: Fay Dalton",
+    "slug": "fay-dalton",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 86.42,
+    "average_price_usd": 21.6,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "d-alexander-gregory": {
+    "name": "Secret Lair: D. Alexander Gregory",
+    "slug": "d-alexander-gregory",
+    "card_count": 17,
+    "valid_card_count": 17,
+    "total_price_usd": 172.61,
+    "average_price_usd": 10.15,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "johannes-voss": {
+    "name": "Secret Lair: Johannes Voss",
+    "slug": "johannes-voss",
+    "card_count": 9,
+    "valid_card_count": 9,
+    "total_price_usd": 77.92,
+    "average_price_usd": 8.66,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "jung-park": {
+    "name": "Secret Lair: Jung Park",
+    "slug": "jung-park",
+    "card_count": 8,
+    "valid_card_count": 8,
+    "total_price_usd": 120.15,
+    "average_price_usd": 15.02,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "thomas-m-baxa": {
+    "name": "Secret Lair: Thomas M. Baxa",
+    "slug": "thomas-m-baxa",
+    "card_count": 5,
+    "valid_card_count": 5,
+    "total_price_usd": 65.36,
+    "average_price_usd": 13.07,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "tyler-jacobson-age-39": {
+    "name": "Secret Lair: Tyler Jacobson, age 39",
+    "slug": "tyler-jacobson-age-39",
+    "card_count": 24,
+    "valid_card_count": 23,
+    "total_price_usd": 831.16,
+    "average_price_usd": 36.14,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "frank-frazetta": {
+    "name": "Secret Lair: Frank Frazetta",
+    "slug": "frank-frazetta",
+    "card_count": 31,
+    "valid_card_count": 29,
+    "total_price_usd": 439.88,
+    "average_price_usd": 15.17,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "clint-cearley": {
+    "name": "Secret Lair: Clint Cearley",
+    "slug": "clint-cearley",
+    "card_count": 22,
+    "valid_card_count": 19,
+    "total_price_usd": 198.16,
+    "average_price_usd": 10.43,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "john-darnielle": {
+    "name": "Secret Lair: John Darnielle",
+    "slug": "john-darnielle",
+    "card_count": 7,
+    "valid_card_count": 7,
+    "total_price_usd": 112.57,
+    "average_price_usd": 16.08,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "mark-poole": {
+    "name": "Secret Lair: Mark Poole",
+    "slug": "mark-poole",
+    "card_count": 7,
+    "valid_card_count": 7,
+    "total_price_usd": 77.84,
+    "average_price_usd": 11.12,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "joshua-howard": {
+    "name": "Secret Lair: Joshua Howard",
+    "slug": "joshua-howard",
+    "card_count": 16,
+    "valid_card_count": 15,
+    "total_price_usd": 708.46,
+    "average_price_usd": 47.23,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "seb-mckinnon": {
+    "name": "Secret Lair: Seb McKinnon",
+    "slug": "seb-mckinnon",
+    "card_count": 6,
+    "valid_card_count": 6,
+    "total_price_usd": 83.03,
+    "average_price_usd": 13.84,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "miranda-meeks": {
+    "name": "Secret Lair: Miranda Meeks",
+    "slug": "miranda-meeks",
+    "card_count": 6,
+    "valid_card_count": 6,
+    "total_price_usd": 46.42,
+    "average_price_usd": 7.74,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "christopher-moeller": {
+    "name": "Secret Lair: Christopher Moeller",
+    "slug": "christopher-moeller",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 16.95,
+    "average_price_usd": 5.65,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "secretversary-2020": {
+    "name": "Secret Lair: Secretversary 2020",
+    "slug": "secretversary-2020",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 593.21,
+    "average_price_usd": 148.3,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "rudy-siswanto": {
+    "name": "Secret Lair: Rudy Siswanto",
+    "slug": "rudy-siswanto",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 36.7,
+    "average_price_usd": 12.23,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "romana-kendelic": {
+    "name": "Secret Lair: Romana Kendelic",
+    "slug": "romana-kendelic",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 8.81,
+    "average_price_usd": 2.94,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "david-lvarez": {
+    "name": "Secret Lair: David Álvarez",
+    "slug": "david-lvarez",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 69.05,
+    "average_price_usd": 17.26,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "yongjae-choi": {
+    "name": "Secret Lair: Yongjae Choi",
+    "slug": "yongjae-choi",
+    "card_count": 5,
+    "valid_card_count": 4,
+    "total_price_usd": 11.44,
+    "average_price_usd": 2.86,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "magali-villeneuve": {
+    "name": "Secret Lair: Magali Villeneuve",
+    "slug": "magali-villeneuve",
+    "card_count": 10,
+    "valid_card_count": 10,
+    "total_price_usd": 179.45,
+    "average_price_usd": 17.95,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "anna-steinbauer": {
+    "name": "Secret Lair: Anna Steinbauer",
+    "slug": "anna-steinbauer",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 34.63,
+    "average_price_usd": 8.66,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "jason-rainville": {
+    "name": "Secret Lair: Jason Rainville",
+    "slug": "jason-rainville",
+    "card_count": 15,
+    "valid_card_count": 15,
+    "total_price_usd": 298.02,
+    "average_price_usd": 19.87,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "the-gods-theros-stargazing": {
+    "name": "Secret Lair: The Gods (Theros Stargazing)",
+    "slug": "the-gods-theros-stargazing",
+    "card_count": 2,
+    "valid_card_count": 2,
+    "total_price_usd": 5.47,
+    "average_price_usd": 2.73,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "slawomir-maniak": {
+    "name": "Secret Lair: Slawomir Maniak",
+    "slug": "slawomir-maniak",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 5.58,
+    "average_price_usd": 1.86,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "wesley-burt": {
+    "name": "Secret Lair: Wesley Burt",
+    "slug": "wesley-burt",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 12.36,
+    "average_price_usd": 4.12,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "jakob-eirich": {
+    "name": "Secret Lair: Jakob Eirich",
+    "slug": "jakob-eirich",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 113.3,
+    "average_price_usd": 28.32,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "justine-jones": {
+    "name": "Secret Lair: Justine Jones",
+    "slug": "justine-jones",
+    "card_count": 6,
+    "valid_card_count": 6,
+    "total_price_usd": 149.64,
+    "average_price_usd": 24.94,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "dan-mumford": {
+    "name": "Secret Lair: Dan Mumford",
+    "slug": "dan-mumford",
+    "card_count": 7,
+    "valid_card_count": 6,
+    "total_price_usd": 135.74,
+    "average_price_usd": 22.62,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "angels-theyre-just-like-us-but-cooler": {
+    "name": "Secret Lair: Angels — They're Just Like Us But Cooler (…and with Wings)",
+    "slug": "angels-theyre-just-like-us-but-cooler",
+    "card_count": 1,
+    "valid_card_count": 1,
+    "total_price_usd": 66.08,
+    "average_price_usd": 66.08,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "bitterblossom-dreams": {
+    "name": "Secret Lair: Bitterblossom Dreams",
+    "slug": "bitterblossom-dreams",
+    "card_count": 1,
+    "valid_card_count": 1,
+    "total_price_usd": 32.21,
+    "average_price_usd": 32.21,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "eldraine-wonderland": {
+    "name": "Secret Lair: Eldraine Wonderland",
+    "slug": "eldraine-wonderland",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 107.18,
+    "average_price_usd": 26.8,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "kaleidoscope-killers": {
+    "name": "Secret Lair: Kaleidoscope Killers",
+    "slug": "kaleidoscope-killers",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 22.43,
+    "average_price_usd": 5.61,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "restless-in-peace": {
+    "name": "Secret Lair: Restless in Peace",
+    "slug": "restless-in-peace",
+    "card_count": 3,
+    "valid_card_count": 3,
+    "total_price_usd": 28.72,
+    "average_price_usd": 9.57,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "seeing-visions": {
+    "name": "Secret Lair: Seeing Visions",
+    "slug": "seeing-visions",
+    "card_count": 2,
+    "valid_card_count": 1,
+    "total_price_usd": 15.72,
+    "average_price_usd": 15.72,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "omg-kitties": {
+    "name": "Secret Lair: OMG KITTIES!",
+    "slug": "omg-kitties",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 43.96,
+    "average_price_usd": 10.99,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  },
+  "secretversary-2019": {
+    "name": "Secret Lair: Secretversary 2019",
+    "slug": "secretversary-2019",
+    "card_count": 4,
+    "valid_card_count": 4,
+    "total_price_usd": 593.21,
+    "average_price_usd": 148.3,
+    "change_pct": 0,
+    "last_updated": "2025-11-02"
+  }
+}

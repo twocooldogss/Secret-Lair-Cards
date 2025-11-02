@@ -1,0 +1,4526 @@
+{
+  "haunted fengraf": {
+    "price": 0,
+    "timestamp": 1762061745083
+  },
+  "mechanized production": {
+    "price": 0.99,
+    "timestamp": 1762061745280
+  },
+  "overgrown tomb": {
+    "price": 14.89,
+    "timestamp": 1762061745612
+  },
+  "nightmare shepherd": {
+    "price": 0.25,
+    "timestamp": 1762061746525
+  },
+  "grim harvest": {
+    "price": 1.99,
+    "timestamp": 1762061747042
+  },
+  "haunted dead": {
+    "price": 0.06,
+    "timestamp": 1762061747730
+  },
+  "spirit of the night": {
+    "price": 6.12,
+    "timestamp": 1762061748361
+  },
+  "barktooth warbeard": {
+    "price": 10,
+    "timestamp": 1762061748741
+  },
+  "tibalt's trickery": {
+    "price": 11.48,
+    "timestamp": 1762061749820
+  },
+  "trickbind": {
+    "price": 8.66,
+    "timestamp": 1762061750188
+  },
+  "brisela, voice of nightmares": {
+    "price": 0,
+    "timestamp": 1762061750552
+  },
+  "abby, merciless soldier": {
+    "price": 0,
+    "timestamp": 1762061750730
+  },
+  "cordyceps infected": {
+    "price": 9.99,
+    "timestamp": 1762061750944
+  },
+  "stonecoil serpent": {
+    "price": 12.97,
+    "timestamp": 1762061751520
+  },
+  "all is dust": {
+    "price": 20.53,
+    "timestamp": 1762061751902
+  },
+  "artifact mutation": {
+    "price": 9.6,
+    "timestamp": 1762061752269
+  },
+  "ghostly flicker": {
+    "price": 0,
+    "timestamp": 1762061752595
+  },
+  "jin sakai, ghost of tsushima": {
+    "price": 99.98,
+    "timestamp": 1762061753692
+  },
+  "path to exile": {
+    "price": 0,
+    "timestamp": 1762061754068
+  },
+  "phyrexian unlife": {
+    "price": 8.91,
+    "timestamp": 1762061754230
+  },
+  "dragonlord kolaghan": {
+    "price": 12.9,
+    "timestamp": 1762061754560
+  },
+  "estrid's invocation // estrid's invocation": {
+    "price": 5.88,
+    "timestamp": 1762061754891
+  },
+  "hargilde, kindly runechanter": {
+    "price": 3.15,
+    "timestamp": 1762061755283
+  },
+  "othelm, sigardian outcast": {
+    "price": 5,
+    "timestamp": 1762061755643
+  },
+  "ash barrens": {
+    "price": 7.64,
+    "timestamp": 1762061756282
+  },
+  "nathan drake, treasure hunter": {
+    "price": 0,
+    "timestamp": 1762061756888
+  },
+  "dolmen gate": {
+    "price": 28.33,
+    "timestamp": 1762061757245
+  },
+  "exquisite blood": {
+    "price": 40.43,
+    "timestamp": 1762061757844
+  },
+  "garruk relentless // garruk, the veil-cursed": {
+    "price": 29.8,
+    "timestamp": 1762061758410
+  },
+  "iron man, titan of innovation": {
+    "price": 22.84,
+    "timestamp": 1762061759558
+  },
+  "miscast": {
+    "price": 0,
+    "timestamp": 1762061760122
+  },
+  "passionate archaeologist": {
+    "price": 0,
+    "timestamp": 1762061760688
+  },
+  "rose noble": {
+    "price": 8.16,
+    "timestamp": 1762061761120
+  },
+  "the fourteenth doctor": {
+    "price": 110.99,
+    "timestamp": 1762061761639
+  },
+  "chain reaction": {
+    "price": 0,
+    "timestamp": 1762061762595
+  },
+  "city on fire": {
+    "price": 14.42,
+    "timestamp": 1762061762956
+  },
+  "jaya ballard": {
+    "price": 3.88,
+    "timestamp": 1762061763621
+  },
+  "inventors' fair": {
+    "price": 13.5,
+    "timestamp": 1762061764234
+  },
+  "swords to plowshares": {
+    "price": 26.55,
+    "timestamp": 1762061764853
+  },
+  "haunted one": {
+    "price": 0,
+    "timestamp": 1762061765683
+  },
+  "liliana's contract": {
+    "price": 3.19,
+    "timestamp": 1762061766276
+  },
+  "roil elemental": {
+    "price": 22.71,
+    "timestamp": 1762061767069
+  },
+  "witch's oven": {
+    "price": 3.56,
+    "timestamp": 1762061767994
+  },
+  "animate dead": {
+    "price": 34.16,
+    "timestamp": 1762061768720
+  },
+  "grave titan": {
+    "price": 0,
+    "timestamp": 1762061769914
+  },
+  "lethal scheme": {
+    "price": 25,
+    "timestamp": 1762061770443
+  },
+  "lignify": {
+    "price": 20,
+    "timestamp": 1762061771403
+  },
+  "temporal trespass": {
+    "price": 0,
+    "timestamp": 1762061772087
+  },
+  "unearth": {
+    "price": 20,
+    "timestamp": 1762061772665
+  },
+  "gemhide sliver": {
+    "price": 101.26,
+    "timestamp": 1762061773365
+  },
+  "valkyrie harbinger": {
+    "price": 2.61,
+    "timestamp": 1762061774268
+  },
+  "armageddon": {
+    "price": 61.45,
+    "timestamp": 1762061775054
+  },
+  "demonic tutor": {
+    "price": 97.26,
+    "timestamp": 1762061775759
+  },
+  "dovin, hand of control": {
+    "price": 1.3,
+    "timestamp": 1762061776467
+  },
+  "gideon blackblade": {
+    "price": 1.99,
+    "timestamp": 1762061777147
+  },
+  "lord of the pit": {
+    "price": 30.92,
+    "timestamp": 1762061777827
+  },
+  "northern paladin": {
+    "price": 0,
+    "timestamp": 1762061778541
+  },
+  "sarkhan the masterless": {
+    "price": 2.6,
+    "timestamp": 1762061779074
+  },
+  "savor the moment": {
+    "price": 9.37,
+    "timestamp": 1762061779745
+  },
+  "sonic screwdriver": {
+    "price": 35.73,
+    "timestamp": 1762061780450
+  },
+  "the fifteenth doctor": {
+    "price": 31.42,
+    "timestamp": 1762061781355
+  },
+  "aura shards": {
+    "price": 30.98,
+    "timestamp": 1762061782086
+  },
+  "fiend artisan": {
+    "price": 6.69,
+    "timestamp": 1762061782797
+  },
+  "gravebreaker lamia": {
+    "price": 9.26,
+    "timestamp": 1762061783740
+  },
+  "karador, ghost chieftain": {
+    "price": 1.37,
+    "timestamp": 1762061784410
+  },
+  "eladamri's vineyard": {
+    "price": 8.61,
+    "timestamp": 1762061785972
+  },
+  "emeria, the sky ruin": {
+    "price": 37.8,
+    "timestamp": 1762061786838
+  },
+  "godless shrine": {
+    "price": 16.44,
+    "timestamp": 1762061787636
+  },
+  "linvala, keeper of silence": {
+    "price": 41.53,
+    "timestamp": 1762061788357
+  },
+  "seraph sanctuary": {
+    "price": 0,
+    "timestamp": 1762061789214
+  },
+  "slayers' stronghold": {
+    "price": 5.42,
+    "timestamp": 1762061789779
+  },
+  "sunblast angel": {
+    "price": 2.91,
+    "timestamp": 1762061790575
+  },
+  "atreus, impulsive son": {
+    "price": 0,
+    "timestamp": 1762061791401
+  },
+  "huatli, radiant champion": {
+    "price": 2.93,
+    "timestamp": 1762061792045
+  },
+  "kratos, stoic father": {
+    "price": 0,
+    "timestamp": 1762061792764
+  },
+  "maddening cacophony": {
+    "price": 0,
+    "timestamp": 1762061793399
+  },
+  "dr. eggman": {
+    "price": 0.96,
+    "timestamp": 1762061793962
+  },
+  "unexpected windfall": {
+    "price": 2.53,
+    "timestamp": 1762061794592
+  },
+  "explore": {
+    "price": 0,
+    "timestamp": 1762061795474
+  },
+  "maze's end": {
+    "price": 6.69,
+    "timestamp": 1762061796507
+  },
+  "morophon, the boundless": {
+    "price": 8.26,
+    "timestamp": 1762061797278
+  },
+  "sol ring": {
+    "price": 49.77,
+    "timestamp": 1762061797993
+  },
+  "beloved princess": {
+    "price": 1.73,
+    "timestamp": 1762061798717
+  },
+  "sphere of safety": {
+    "price": 0,
+    "timestamp": 1762061799331
+  },
+  "tamiyo's safekeeping": {
+    "price": 0,
+    "timestamp": 1762061799870
+  },
+  "blood": {
+    "price": 59.99,
+    "timestamp": 1762061800473
+  },
+  "jaws, relentless predator": {
+    "price": 58.45,
+    "timestamp": 1762061801111
+  },
+  "reckless endeavor": {
+    "price": 0,
+    "timestamp": 1762061801778
+  },
+  "sneak attack": {
+    "price": 0,
+    "timestamp": 1762061802352
+  },
+  "glistener elf": {
+    "price": 3.25,
+    "timestamp": 1762061802911
+  },
+  "mayael's aria": {
+    "price": 2.07,
+    "timestamp": 1762061803558
+  },
+  "teferi's protection": {
+    "price": 59.04,
+    "timestamp": 1762061804235
+  },
+  "glen elendra archmage": {
+    "price": 29.99,
+    "timestamp": 1762061804860
+  },
+  "guardian project": {
+    "price": 0,
+    "timestamp": 1762061805971
+  },
+  "roon of the hidden realm": {
+    "price": 0,
+    "timestamp": 1762061807257
+  },
+  "soulherder": {
+    "price": 0,
+    "timestamp": 1762061808144
+  },
+  "academy manufactor": {
+    "price": 7.25,
+    "timestamp": 1762061808877
+  },
+  "polyraptor": {
+    "price": 9.58,
+    "timestamp": 1762061809615
+  },
+  "crystalline sliver": {
+    "price": 18.61,
+    "timestamp": 1762061810433
+  },
+  "horned sliver": {
+    "price": 9.76,
+    "timestamp": 1762061811187
+  },
+  "greensleeves, maro-sorcerer": {
+    "price": 10.87,
+    "timestamp": 1762061811991
+  },
+  "scute swarm": {
+    "price": 13.37,
+    "timestamp": 1762061812719
+  },
+  "wurmcoil engine": {
+    "price": 5.44,
+    "timestamp": 1762061813539
+  },
+  "baleful strix": {
+    "price": 10.07,
+    "timestamp": 1762061814302
+  },
+  "dragonlord dromoka // dragonlord dromoka": {
+    "price": 13.85,
+    "timestamp": 1762061815102
+  },
+  "gilded goose": {
+    "price": 3.05,
+    "timestamp": 1762061815809
+  },
+  "fierce empath": {
+    "price": 2.1,
+    "timestamp": 1762061816621
+  },
+  "forest": {
+    "price": 7.09,
+    "timestamp": 1762061817493
+  },
+  "mountain": {
+    "price": 64.09,
+    "timestamp": 1762061818350
+  },
+  "plains": {
+    "price": 10,
+    "timestamp": 1762061819202
+  },
+  "swamp": {
+    "price": 10,
+    "timestamp": 1762061820036
+  },
+  "utvara hellkite": {
+    "price": 20.3,
+    "timestamp": 1762061821236
+  },
+  "damnation": {
+    "price": 12.09,
+    "timestamp": 1762061822036
+  },
+  "dark ritual": {
+    "price": 12.66,
+    "timestamp": 1762061822856
+  },
+  "peer into the abyss": {
+    "price": 4.77,
+    "timestamp": 1762061823632
+  },
+  "surgical extraction": {
+    "price": 2.42,
+    "timestamp": 1762061824375
+  },
+  "tendrils of agony": {
+    "price": 2.72,
+    "timestamp": 1762061825174
+  },
+  "ephemerate": {
+    "price": 6.51,
+    "timestamp": 1762061826014
+  },
+  "three visits": {
+    "price": 9.91,
+    "timestamp": 1762061826719
+  },
+  "generous patron": {
+    "price": 6.64,
+    "timestamp": 1762061827628
+  },
+  "repercussion": {
+    "price": 10.23,
+    "timestamp": 1762061828282
+  },
+  "diabolic tutor": {
+    "price": 7.25,
+    "timestamp": 1762061829028
+  },
+  "pack rat": {
+    "price": 1.81,
+    "timestamp": 1762061829801
+  },
+  "shared summons": {
+    "price": 0.81,
+    "timestamp": 1762061830569
+  },
+  "sorin markov": {
+    "price": 13.98,
+    "timestamp": 1762061831264
+  },
+  "aggressive mining": {
+    "price": 1.32,
+    "timestamp": 1762061831913
+  },
+  "crucible of worlds": {
+    "price": 38.75,
+    "timestamp": 1762061832575
+  },
+  "reprocess": {
+    "price": 4.39,
+    "timestamp": 1762061833230
+  },
+  "sylvan safekeeper": {
+    "price": 19.69,
+    "timestamp": 1762061833960
+  },
+  "zuran orb": {
+    "price": 18.46,
+    "timestamp": 1762061834632
+  },
+  "deadeye navigator": {
+    "price": 4,
+    "timestamp": 1762061835317
+  },
+  "decree of pain": {
+    "price": 6.11,
+    "timestamp": 1762061835978
+  },
+  "opaline sliver": {
+    "price": 2.43,
+    "timestamp": 1762061836746
+  },
+  "timberwatch elf": {
+    "price": 1.52,
+    "timestamp": 1762061837396
+  },
+  "arcbound ravager": {
+    "price": 8.71,
+    "timestamp": 1762061838080
+  },
+  "dance of the manse": {
+    "price": 1.07,
+    "timestamp": 1762061838728
+  },
+  "ethersworn canonist": {
+    "price": 6.02,
+    "timestamp": 1762061839420
+  },
+  "foundry inspector": {
+    "price": 6.29,
+    "timestamp": 1762061840186
+  },
+  "goblin engineer": {
+    "price": 10.42,
+    "timestamp": 1762061840859
+  },
+  "fabricate": {
+    "price": 4.38,
+    "timestamp": 1762061841559
+  },
+  "generous gift": {
+    "price": 1.67,
+    "timestamp": 1762061842260
+  },
+  "shadow the hedgehog": {
+    "price": 5.17,
+    "timestamp": 1762061843014
+  },
+  "super state": {
+    "price": 9.26,
+    "timestamp": 1762061843777
+  },
+  "neheb, dreadhorde champion": {
+    "price": 1.49,
+    "timestamp": 1762061844464
+  },
+  "sliver hive": {
+    "price": 174.69,
+    "timestamp": 1762061845646
+  },
+  "spiteful prankster": {
+    "price": 0.94,
+    "timestamp": 1762061846293
+  },
+  "varina, lich queen": {
+    "price": 27.51,
+    "timestamp": 1762061847080
+  },
+  "sliver legion": {
+    "price": 26.95,
+    "timestamp": 1762061847772
+  },
+  "tormenting voice": {
+    "price": 29.99,
+    "timestamp": 1762061848505
+  },
+  "food": {
+    "price": 2.24,
+    "timestamp": 1762061849694
+  },
+  "kindred summons": {
+    "price": 5.99,
+    "timestamp": 1762061850432
+  },
+  "spellskite": {
+    "price": 0,
+    "timestamp": 1762061851117
+  },
+  "voja, jaws of the conclave": {
+    "price": 0,
+    "timestamp": 1762061851663
+  },
+  "consecrated sphinx": {
+    "price": 25.03,
+    "timestamp": 1762061852172
+  },
+  "mirage mirror": {
+    "price": 2.12,
+    "timestamp": 1762061852828
+  },
+  "resculpt": {
+    "price": 3.58,
+    "timestamp": 1762061853453
+  },
+  "scion of draco": {
+    "price": 5.34,
+    "timestamp": 1762061854213
+  },
+  "constant mists": {
+    "price": 25.69,
+    "timestamp": 1762061854969
+  },
+  "goblin bombardment": {
+    "price": 7.55,
+    "timestamp": 1762061855530
+  },
+  "orcish lumberjack": {
+    "price": 9.26,
+    "timestamp": 1762061856161
+  },
+  "song of the dryads": {
+    "price": 5.51,
+    "timestamp": 1762061856812
+  },
+  "icingdeath, frost tongue": {
+    "price": 5.37,
+    "timestamp": 1762061857529
+  },
+  "icingdeath, frost tyrant": {
+    "price": 7.41,
+    "timestamp": 1762061858229
+  },
+  "cyclonic rift": {
+    "price": 26.41,
+    "timestamp": 1762061858979
+  },
+  "damn": {
+    "price": 2.87,
+    "timestamp": 1762061859925
+  },
+  "heroic intervention": {
+    "price": 17.45,
+    "timestamp": 1762061860650
+  },
+  "lightning bolt": {
+    "price": 5.52,
+    "timestamp": 1762061861430
+  },
+  "prismatic ending": {
+    "price": 1.99,
+    "timestamp": 1762061862048
+  },
+  "silence": {
+    "price": 6.15,
+    "timestamp": 1762061862720
+  },
+  "endurance": {
+    "price": 330.02,
+    "timestamp": 1762061863480
+  },
+  "grim backwoods": {
+    "price": 2.77,
+    "timestamp": 1762061864187
+  },
+  "vial smasher the fierce": {
+    "price": 21.06,
+    "timestamp": 1762061864921
+  },
+  "mudhole": {
+    "price": 2.67,
+    "timestamp": 1762061865707
+  },
+  "liesa, shroud of dusk": {
+    "price": 3.56,
+    "timestamp": 1762061866441
+  },
+  "marwyn, the nurturer": {
+    "price": 7.3,
+    "timestamp": 1762061867160
+  },
+  "oloro, ageless ascetic": {
+    "price": 11.35,
+    "timestamp": 1762061867858
+  },
+  "sythis, harvest's hand": {
+    "price": 7.06,
+    "timestamp": 1762061868465
+  },
+  "agent of treachery": {
+    "price": 7.27,
+    "timestamp": 1762061869146
+  },
+  "marchesa, the black rose": {
+    "price": 4.07,
+    "timestamp": 1762061869914
+  },
+  "priest of forgotten gods": {
+    "price": 3.77,
+    "timestamp": 1762061870778
+  },
+  "treasonous ogre": {
+    "price": 14.61,
+    "timestamp": 1762061871473
+  },
+  "uncivil unrest": {
+    "price": 17.13,
+    "timestamp": 1762061872334
+  },
+  "lava dart": {
+    "price": 6.69,
+    "timestamp": 1762061873178
+  },
+  "mishra's bauble": {
+    "price": 11.35,
+    "timestamp": 1762061874006
+  },
+  "monastery swiftspear": {
+    "price": 4.25,
+    "timestamp": 1762061874849
+  },
+  "soul-scar mage": {
+    "price": 1.99,
+    "timestamp": 1762061875730
+  },
+  "underworld breach": {
+    "price": 17.05,
+    "timestamp": 1762061876581
+  },
+  "esika's chariot": {
+    "price": 14.34,
+    "timestamp": 1762061877391
+  },
+  "felidar sovereign": {
+    "price": 13.43,
+    "timestamp": 1762061878029
+  },
+  "realms uncharted": {
+    "price": 21.07,
+    "timestamp": 1762061879234
+  },
+  "secret rendezvous": {
+    "price": 10.21,
+    "timestamp": 1762061880057
+  },
+  "serenity": {
+    "price": 9.41,
+    "timestamp": 1762061880949
+  },
+  "amulet of vigor": {
+    "price": 42.01,
+    "timestamp": 1762061881666
+  },
+  "angel of despair": {
+    "price": 2.45,
+    "timestamp": 1762061882408
+  },
+  "kaalia of the vast": {
+    "price": 62.47,
+    "timestamp": 1762061883160
+  },
+  "master of cruelties": {
+    "price": 8.58,
+    "timestamp": 1762061883889
+  },
+  "skithiryx, the blight dragon": {
+    "price": 18.29,
+    "timestamp": 1762061884581
+  },
+  "arahbo, roar of the world": {
+    "price": 61.54,
+    "timestamp": 1762061885236
+  },
+  "rip apart": {
+    "price": 5.09,
+    "timestamp": 1762061886010
+  },
+  "ashaya, soul of the wild": {
+    "price": 12.14,
+    "timestamp": 1762061886650
+  },
+  "elvish reclaimer": {
+    "price": 9.55,
+    "timestamp": 1762061887452
+  },
+  "happily ever after": {
+    "price": 2.78,
+    "timestamp": 1762061888186
+  },
+  "harrow": {
+    "price": 4.5,
+    "timestamp": 1762061888937
+  },
+  "horn of greed": {
+    "price": 15.81,
+    "timestamp": 1762061889590
+  },
+  "world shaper": {
+    "price": 8.04,
+    "timestamp": 1762061890343
+  },
+  "collector ouphe": {
+    "price": 14.23,
+    "timestamp": 1762061891099
+  },
+  "goblin settler": {
+    "price": 2.4,
+    "timestamp": 1762061891915
+  },
+  "vengevine": {
+    "price": 9.5,
+    "timestamp": 1762061892663
+  },
+  "void winnower": {
+    "price": 25.65,
+    "timestamp": 1762061893795
+  },
+  "phage the untouchable": {
+    "price": 45.22,
+    "timestamp": 1762061894466
+  },
+  "raise the palisade": {
+    "price": 19.43,
+    "timestamp": 1762061895156
+  },
+  "chromatic lantern": {
+    "price": 0,
+    "timestamp": 1762061895880
+  },
+  "clever impersonator": {
+    "price": 10.52,
+    "timestamp": 1762061896352
+  },
+  "enduring ideal": {
+    "price": 3.06,
+    "timestamp": 1762061897198
+  },
+  "hedron crab": {
+    "price": 16.73,
+    "timestamp": 1762061897950
+  },
+  "inspiring call": {
+    "price": 15,
+    "timestamp": 1762061898714
+  },
+  "maskwood nexus": {
+    "price": 34.66,
+    "timestamp": 1762061899495
+  },
+  "pitiless plunderer": {
+    "price": 14.29,
+    "timestamp": 1762061900048
+  },
+  "sticker sheet": {
+    "price": 0.58,
+    "timestamp": 1762061900729
+  },
+  "thalia, heretic cathar": {
+    "price": 3.7,
+    "timestamp": 1762061901381
+  },
+  "counterflux": {
+    "price": 2.25,
+    "timestamp": 1762061902026
+  },
+  "duress": {
+    "price": 8.25,
+    "timestamp": 1762061902902
+  },
+  "baral, chief of compliance": {
+    "price": 21.05,
+    "timestamp": 1762061903474
+  },
+  "heliod, sun-crowned": {
+    "price": 44.29,
+    "timestamp": 1762061904162
+  },
+  "reaper king": {
+    "price": 39.62,
+    "timestamp": 1762061904909
+  },
+  "steelshaper's gift": {
+    "price": 28.51,
+    "timestamp": 1762061905702
+  },
+  "kokusho, the evening star": {
+    "price": 24.31,
+    "timestamp": 1762061906446
+  },
+  "niv-mizzet, parun": {
+    "price": 13.51,
+    "timestamp": 1762061907069
+  },
+  "scion of the ur-dragon": {
+    "price": 16.14,
+    "timestamp": 1762061907719
+  },
+  "skyline despot": {
+    "price": 3.12,
+    "timestamp": 1762061908496
+  },
+  "ancient amphitheater": {
+    "price": 1.32,
+    "timestamp": 1762061909236
+  },
+  "auntie's hovel": {
+    "price": 4.74,
+    "timestamp": 1762061909988
+  },
+  "gilt-leaf palace": {
+    "price": 6.3,
+    "timestamp": 1762061910727
+  },
+  "secluded glen": {
+    "price": 6.85,
+    "timestamp": 1762061911369
+  },
+  "wanderwine hub": {
+    "price": 1.95,
+    "timestamp": 1762061912071
+  },
+  "bear umbra": {
+    "price": 16.25,
+    "timestamp": 1762061912725
+  },
+  "realmwalker": {
+    "price": 14.13,
+    "timestamp": 1762061913548
+  },
+  "simic ascendancy": {
+    "price": 11.05,
+    "timestamp": 1762061914217
+  },
+  "solemn simulacrum": {
+    "price": 6.18,
+    "timestamp": 1762061914940
+  },
+  "witch of the moors": {
+    "price": 10.01,
+    "timestamp": 1762061915732
+  },
+  "big score": {
+    "price": 7.88,
+    "timestamp": 1762061916471
+  },
+  "heat shimmer": {
+    "price": 10.16,
+    "timestamp": 1762061917742
+  },
+  "roiling vortex": {
+    "price": 3.28,
+    "timestamp": 1762061918381
+  },
+  "final fortune": {
+    "price": 14.94,
+    "timestamp": 1762061918990
+  },
+  "wheel of misfortune": {
+    "price": 6.21,
+    "timestamp": 1762061919650
+  },
+  "breeches, eager pillager": {
+    "price": 0.81,
+    "timestamp": 1762061920288
+  },
+  "deflecting swat": {
+    "price": 67.69,
+    "timestamp": 1762061920928
+  },
+  "garruk, caller of beasts": {
+    "price": 6.21,
+    "timestamp": 1762061921652
+  },
+  "llanowar elves": {
+    "price": 1.51,
+    "timestamp": 1762061922351
+  },
+  "maro": {
+    "price": 0.83,
+    "timestamp": 1762061923529
+  },
+  "mystic remora": {
+    "price": 13.27,
+    "timestamp": 1762061925051
+  },
+  "storm crow": {
+    "price": 6.87,
+    "timestamp": 1762061925929
+  },
+  "sun titan": {
+    "price": 3.53,
+    "timestamp": 1762061926720
+  },
+  "captain sisay": {
+    "price": 16.11,
+    "timestamp": 1762061927486
+  },
+  "karmic guide": {
+    "price": 14.81,
+    "timestamp": 1762061928332
+  },
+  "massacre girl": {
+    "price": 32.85,
+    "timestamp": 1762061929043
+  },
+  "ninja of the deep hours": {
+    "price": 14.3,
+    "timestamp": 1762061929790
+  },
+  "paradise mantle": {
+    "price": 24.24,
+    "timestamp": 1762061930642
+  },
+  "sakashima the impostor": {
+    "price": 28.77,
+    "timestamp": 1762061931428
+  },
+  "selvala, explorer returned": {
+    "price": 10.03,
+    "timestamp": 1762061932150
+  },
+  "teysa karlov": {
+    "price": 53.97,
+    "timestamp": 1762061932982
+  },
+  "veyran, voice of duality": {
+    "price": 32.14,
+    "timestamp": 1762061933711
+  },
+  "fleshbag marauder": {
+    "price": 2.08,
+    "timestamp": 1762061934359
+  },
+  "lys alana huntmaster": {
+    "price": 4.89,
+    "timestamp": 1762061935308
+  },
+  "ward sliver": {
+    "price": 2.34,
+    "timestamp": 1762061936128
+  },
+  "light-paws, emperor's voice": {
+    "price": 3.91,
+    "timestamp": 1762061936874
+  },
+  "murktide regent": {
+    "price": 19.93,
+    "timestamp": 1762061937578
+  },
+  "shorikai, genesis engine": {
+    "price": 9.38,
+    "timestamp": 1762061938365
+  },
+  "mechtitan core // mechtitan core": {
+    "price": 3.21,
+    "timestamp": 1762061939660
+  },
+  "mechtitan // mechtitan": {
+    "price": 3.6,
+    "timestamp": 1762061940514
+  },
+  "parhelion ii // parhelion ii": {
+    "price": 5,
+    "timestamp": 1762061941214
+  },
+  "peacewalker colossus // peacewalker colossus": {
+    "price": 2,
+    "timestamp": 1762061942048
+  },
+  "reckoner bankbuster // reckoner bankbuster": {
+    "price": 2.52,
+    "timestamp": 1762061942740
+  },
+  "champion of the perished": {
+    "price": 1.68,
+    "timestamp": 1762061943542
+  },
+  "chord of calling": {
+    "price": 9.66,
+    "timestamp": 1762061944370
+  },
+  "glissa, the traitor": {
+    "price": 10.69,
+    "timestamp": 1762061945096
+  },
+  "estrid, the masked // estrid, the masked": {
+    "price": 2.98,
+    "timestamp": 1762061945916
+  },
+  "fatal push": {
+    "price": 59.18,
+    "timestamp": 1762061946648
+  },
+  "mina and denn, wildborn": {
+    "price": 13.95,
+    "timestamp": 1762061947294
+  },
+  "vault of the archangel": {
+    "price": 22.8,
+    "timestamp": 1762061948173
+  },
+  "crib swap": {
+    "price": 0.29,
+    "timestamp": 1762061949021
+  },
+  "farhaven elf": {
+    "price": 0.59,
+    "timestamp": 1762061949728
+  },
+  "secure the wastes": {
+    "price": 1.88,
+    "timestamp": 1762061950557
+  },
+  "shalai, voice of plenty": {
+    "price": 16.16,
+    "timestamp": 1762061951184
+  },
+  "warrior": {
+    "price": 0.7,
+    "timestamp": 1762061951936
+  },
+  "delayed blast fireball": {
+    "price": 9.28,
+    "timestamp": 1762061953524
+  },
+  "fierce guardianship": {
+    "price": 50.33,
+    "timestamp": 1762061954627
+  },
+  "ghalta, primal hunger // ghalta, primal hunger": {
+    "price": 11.52,
+    "timestamp": 1762061955260
+  },
+  "mana geyser": {
+    "price": 6.23,
+    "timestamp": 1762061955909
+  },
+  "open the armory": {
+    "price": 2.62,
+    "timestamp": 1762061956599
+  },
+  "solve the equation": {
+    "price": 3.21,
+    "timestamp": 1762061957352
+  },
+  "ulamog, the ceaseless hunger // ulamog, the ceaseless hunger": {
+    "price": 23.66,
+    "timestamp": 1762061958011
+  },
+  "goblin bushwhacker": {
+    "price": 3.17,
+    "timestamp": 1762061958918
+  },
+  "goblin piledriver": {
+    "price": 5.62,
+    "timestamp": 1762061959797
+  },
+  "goblin sharpshooter": {
+    "price": 27.04,
+    "timestamp": 1762061960760
+  },
+  "scuttling sliver": {
+    "price": 1.34,
+    "timestamp": 1762061961533
+  },
+  "aetherize": {
+    "price": 14.72,
+    "timestamp": 1762061962323
+  },
+  "drown in dreams": {
+    "price": 5.72,
+    "timestamp": 1762061963142
+  },
+  "psychic corrosion": {
+    "price": 15.04,
+    "timestamp": 1762061963820
+  },
+  "time sieve": {
+    "price": 18.09,
+    "timestamp": 1762061964594
+  },
+  "visions of beyond": {
+    "price": 15.72,
+    "timestamp": 1762061965163
+  },
+  "back to basics": {
+    "price": 7.17,
+    "timestamp": 1762061965808
+  },
+  "preordain": {
+    "price": 14.54,
+    "timestamp": 1762061966475
+  },
+  "sphinx of the second sun": {
+    "price": 4.55,
+    "timestamp": 1762061967090
+  },
+  "teferi's ageless insight": {
+    "price": 8.66,
+    "timestamp": 1762061968317
+  },
+  "doom whisperer": {
+    "price": 7.59,
+    "timestamp": 1762061969162
+  },
+  "koma, cosmos serpent": {
+    "price": 13.71,
+    "timestamp": 1762061969767
+  },
+  "mazirek, kraul death priest": {
+    "price": 5.12,
+    "timestamp": 1762061970798
+  },
+  "ravenous chupacabra": {
+    "price": 3.69,
+    "timestamp": 1762061971684
+  },
+  "uril, the miststalker": {
+    "price": 2.88,
+    "timestamp": 1762061972409
+  },
+  "anguished unmaking": {
+    "price": 0,
+    "timestamp": 1762061973125
+  },
+  "karlach, fury of avernus": {
+    "price": 29.94,
+    "timestamp": 1762061973740
+  },
+  "oona, queen of the fae": {
+    "price": 7.51,
+    "timestamp": 1762061974439
+  },
+  "battle angels of tyr": {
+    "price": 66.08,
+    "timestamp": 1762061975115
+  },
+  "belligerent sliver": {
+    "price": 2.04,
+    "timestamp": 1762061975847
+  },
+  "domri, anarch of bolas": {
+    "price": 1.61,
+    "timestamp": 1762061976560
+  },
+  "torment of hailfire": {
+    "price": 36.09,
+    "timestamp": 1762061977276
+  },
+  "blood money": {
+    "price": 3.69,
+    "timestamp": 1762061978383
+  },
+  "bribery": {
+    "price": 6.95,
+    "timestamp": 1762061979776
+  },
+  "defile": {
+    "price": 3.75,
+    "timestamp": 1762061980607
+  },
+  "delay": {
+    "price": 3.32,
+    "timestamp": 1762061981403
+  },
+  "drown in the loch": {
+    "price": 2.6,
+    "timestamp": 1762061982207
+  },
+  "fire covenant": {
+    "price": 5.46,
+    "timestamp": 1762061983009
+  },
+  "fling": {
+    "price": 2.23,
+    "timestamp": 1762061983815
+  },
+  "oubliette": {
+    "price": 2.78,
+    "timestamp": 1762061984646
+  },
+  "snuff out": {
+    "price": 10.34,
+    "timestamp": 1762061985534
+  },
+  "stifle": {
+    "price": 10.28,
+    "timestamp": 1762061986538
+  },
+  "jin-gitaxias, core augur": {
+    "price": 4.79,
+    "timestamp": 1762061987361
+  },
+  "arbor elf": {
+    "price": 11.53,
+    "timestamp": 1762061988232
+  },
+  "maelstrom wanderer": {
+    "price": 6.83,
+    "timestamp": 1762061989066
+  },
+  "nirkana revenant": {
+    "price": 7.77,
+    "timestamp": 1762061989900
+  },
+  "terastodon": {
+    "price": 5.6,
+    "timestamp": 1762061990683
+  },
+  "mirri, weatherlight duelist": {
+    "price": 23.28,
+    "timestamp": 1762061991469
+  },
+  "regal caracal": {
+    "price": 16.69,
+    "timestamp": 1762061992196
+  },
+  "rograkh, son of rohgahh": {
+    "price": 26.4,
+    "timestamp": 1762061993015
+  },
+  "chaos warp": {
+    "price": 2.53,
+    "timestamp": 1762061993770
+  },
+  "skullclamp": {
+    "price": 10.19,
+    "timestamp": 1762061994540
+  },
+  "thought vessel": {
+    "price": 10.36,
+    "timestamp": 1762061995305
+  },
+  "echo of eons": {
+    "price": 271.6,
+    "timestamp": 1762061996115
+  },
+  "grenzo, dungeon warden": {
+    "price": 3.72,
+    "timestamp": 1762061997012
+  },
+  "taurean mauler": {
+    "price": 17.4,
+    "timestamp": 1762061997812
+  },
+  "conqueror's flail": {
+    "price": 11.41,
+    "timestamp": 1762061998724
+  },
+  "darksteel plate": {
+    "price": 13.87,
+    "timestamp": 1762061999532
+  },
+  "deathrender": {
+    "price": 5.39,
+    "timestamp": 1762062000771
+  },
+  "haystack": {
+    "price": 1.94,
+    "timestamp": 1762062001473
+  },
+  "whispersilk cloak": {
+    "price": 19.74,
+    "timestamp": 1762062002073
+  },
+  "fecundity": {
+    "price": 5.77,
+    "timestamp": 1762062002738
+  },
+  "mayhem devil": {
+    "price": 4.01,
+    "timestamp": 1762062003450
+  },
+  "moldervine reclamation": {
+    "price": 6.58,
+    "timestamp": 1762062004094
+  },
+  "prossh, skyraider of kher": {
+    "price": 9.29,
+    "timestamp": 1762062004779
+  },
+  "breya, etherium shaper": {
+    "price": 10.46,
+    "timestamp": 1762062005409
+  },
+  "elves of deep shadow": {
+    "price": 9.38,
+    "timestamp": 1762062006103
+  },
+  "good-fortune unicorn": {
+    "price": 3.07,
+    "timestamp": 1762062007217
+  },
+  "shivan dragon": {
+    "price": 1.97,
+    "timestamp": 1762062008735
+  },
+  "soul warden": {
+    "price": 13.37,
+    "timestamp": 1762062009662
+  },
+  "imprisoned in the moon": {
+    "price": 13.39,
+    "timestamp": 1762062010528
+  },
+  "prismatic omen": {
+    "price": 8.31,
+    "timestamp": 1762062011288
+  },
+  "stasis": {
+    "price": 21.45,
+    "timestamp": 1762062012089
+  },
+  "wheel of sun and moon": {
+    "price": 4.68,
+    "timestamp": 1762062012796
+  },
+  "adrix and nev, twincasters // adrix and nev, twincasters": {
+    "price": 10.27,
+    "timestamp": 1762062013467
+  },
+  "coveted jewel": {
+    "price": 5.7,
+    "timestamp": 1762062014279
+  },
+  "krark, the thumbless // krark, the thumbless": {
+    "price": 9.53,
+    "timestamp": 1762062015080
+  },
+  "sakashima of a thousand faces // sakashima of a thousand faces": {
+    "price": 37.77,
+    "timestamp": 1762062015725
+  },
+  "yargle, glutton of urborg // yargle, glutton of urborg": {
+    "price": 2.32,
+    "timestamp": 1762062016426
+  },
+  "aesi, tyrant of gyre strait // aesi, tyrant of gyre strait": {
+    "price": 11.52,
+    "timestamp": 1762062017531
+  },
+  "anje falkenrath // anje falkenrath": {
+    "price": 1.53,
+    "timestamp": 1762062018199
+  },
+  "chulane, teller of tales // chulane, teller of tales": {
+    "price": 1.31,
+    "timestamp": 1762062018848
+  },
+  "griselbrand": {
+    "price": 7.97,
+    "timestamp": 1762062019605
+  },
+  "radha, heart of keld // radha, heart of keld": {
+    "price": 0.87,
+    "timestamp": 1762062020284
+  },
+  "ajani goldmane // ajani goldmane": {
+    "price": 0,
+    "timestamp": 1762062020930
+  },
+  "chandra nalaar // chandra nalaar": {
+    "price": 423.3,
+    "timestamp": 1762062021526
+  },
+  "jace beleren // jace beleren": {
+    "price": 246.97,
+    "timestamp": 1762062022318
+  },
+  "liliana vess // liliana vess": {
+    "price": 549.99,
+    "timestamp": 1762062023046
+  },
+  "black market": {
+    "price": 15.71,
+    "timestamp": 1762062023798
+  },
+  "dire undercurrents": {
+    "price": 4.32,
+    "timestamp": 1762062025081
+  },
+  "elesh norn, grand cenobite": {
+    "price": 589.18,
+    "timestamp": 1762062025872
+  },
+  "jace, wielder of mysteries": {
+    "price": 20.18,
+    "timestamp": 1762062026975
+  },
+  "korvold, fae-cursed king": {
+    "price": 16.23,
+    "timestamp": 1762062027761
+  },
+  "obeka, brute chronologist": {
+    "price": 4.71,
+    "timestamp": 1762062028551
+  },
+  "reconnaissance": {
+    "price": 16.7,
+    "timestamp": 1762062029273
+  },
+  "blasphemous act": {
+    "price": 5.38,
+    "timestamp": 1762062030097
+  },
+  "brash taunter": {
+    "price": 7.19,
+    "timestamp": 1762062031329
+  },
+  "death baron // death baron": {
+    "price": 19.08,
+    "timestamp": 1762062032134
+  },
+  "fact or fiction": {
+    "price": 3.58,
+    "timestamp": 1762062032989
+  },
+  "food chain": {
+    "price": 36.6,
+    "timestamp": 1762062033723
+  },
+  "frantic search": {
+    "price": 3.89,
+    "timestamp": 1762062034481
+  },
+  "goblin chieftain": {
+    "price": 6.81,
+    "timestamp": 1762062035210
+  },
+  "thrun, the last troll": {
+    "price": 1.55,
+    "timestamp": 1762062036072
+  },
+  "goblin ringleader": {
+    "price": 5.76,
+    "timestamp": 1762062036645
+  },
+  "the first sliver": {
+    "price": 61.62,
+    "timestamp": 1762062037491
+  },
+  "goblin welder": {
+    "price": 15.05,
+    "timestamp": 1762062038308
+  },
+  "impact tremors": {
+    "price": 4.44,
+    "timestamp": 1762062039005
+  },
+  "grenzo, havoc raiser": {
+    "price": 4.53,
+    "timestamp": 1762062039675
+  },
+  "karona, false god": {
+    "price": 5.37,
+    "timestamp": 1762062040434
+  },
+  "rampant growth": {
+    "price": 5.89,
+    "timestamp": 1762062041182
+  },
+  "grimgrin, corpse-born // grimgrin, corpse-born": {
+    "price": 13.25,
+    "timestamp": 1762062042219
+  },
+  "memnarch": {
+    "price": 6.12,
+    "timestamp": 1762062042973
+  },
+  "mogg war marshal": {
+    "price": 1.77,
+    "timestamp": 1762062043644
+  },
+  "nicol bolas, planeswalker": {
+    "price": 8.28,
+    "timestamp": 1762062044382
+  },
+  "vorinclex, voice of hunger": {
+    "price": 25.54,
+    "timestamp": 1762062045031
+  },
+  "noxious ghoul // noxious ghoul": {
+    "price": 10.99,
+    "timestamp": 1762062045784
+  },
+  "rewind": {
+    "price": 7.34,
+    "timestamp": 1762062046467
+  },
+  "scheming symmetry": {
+    "price": 4.82,
+    "timestamp": 1762062047203
+  },
+  "terror // terror": {
+    "price": 4.83,
+    "timestamp": 1762062048106
+  },
+  "tezzeret the seeker": {
+    "price": 22.2,
+    "timestamp": 1762062048780
+  },
+  "unholy grotto // unholy grotto": {
+    "price": 13.66,
+    "timestamp": 1762062049517
+  },
+  "zombie master // zombie master": {
+    "price": 12,
+    "timestamp": 1762062050185
+  },
+  "coffin queen": {
+    "price": 3.2,
+    "timestamp": 1762062050854
+  },
+  "cultural exchange": {
+    "price": 3.34,
+    "timestamp": 1762062051628
+  },
+  "goblin king": {
+    "price": 5.7,
+    "timestamp": 1762062052364
+  },
+  "jaxis, the troublemaker": {
+    "price": 4.6,
+    "timestamp": 1762062053058
+  },
+  "professional face-breaker": {
+    "price": 10.5,
+    "timestamp": 1762062053825
+  },
+  "rankle, master of pranks": {
+    "price": 3.75,
+    "timestamp": 1762062054672
+  },
+  "elvish mystic": {
+    "price": 21.42,
+    "timestamp": 1762062055344
+  },
+  "poison-tip archer": {
+    "price": 2.24,
+    "timestamp": 1762062056190
+  },
+  "vraska, golgari queen": {
+    "price": 7.09,
+    "timestamp": 1762062056941
+  },
+  "aether vial": {
+    "price": 10.96,
+    "timestamp": 1762062057590
+  },
+  "inalla, archmage ritualist": {
+    "price": 9.81,
+    "timestamp": 1762062058340
+  },
+  "misdirection": {
+    "price": 29.54,
+    "timestamp": 1762062059091
+  },
+  "sword of the animist": {
+    "price": 25.71,
+    "timestamp": 1762062059774
+  },
+  "clue": {
+    "price": 9.06,
+    "timestamp": 1762062061004
+  },
+  "havengul laboratory // havengul mystery": {
+    "price": 2.92,
+    "timestamp": 1762062061654
+  },
+  "marrow-gnawer": {
+    "price": 16.2,
+    "timestamp": 1762062062223
+  },
+  "hallowed fountain": {
+    "price": 13.39,
+    "timestamp": 1762062062984
+  },
+  "alela, artful provocateur": {
+    "price": 7.59,
+    "timestamp": 1762062063666
+  },
+  "dockside chef": {
+    "price": 8.19,
+    "timestamp": 1762062064447
+  },
+  "door of destinies": {
+    "price": 19.48,
+    "timestamp": 1762062065103
+  },
+  "faerie artisans": {
+    "price": 3.92,
+    "timestamp": 1762062065732
+  },
+  "anger": {
+    "price": 6.44,
+    "timestamp": 1762062066480
+  },
+  "council's judgment": {
+    "price": 2.52,
+    "timestamp": 1762062067186
+  },
+  "culling the weak": {
+    "price": 18.17,
+    "timestamp": 1762062067838
+  },
+  "elixir of immortality": {
+    "price": 8.96,
+    "timestamp": 1762062068455
+  },
+  "idyllic tutor": {
+    "price": 12.1,
+    "timestamp": 1762062069033
+  },
+  "propaganda": {
+    "price": 9.92,
+    "timestamp": 1762062069752
+  },
+  "winds of abandon": {
+    "price": 7.84,
+    "timestamp": 1762062070535
+  },
+  "young wolf": {
+    "price": 1.61,
+    "timestamp": 1762062071416
+  },
+  "bojuka bog": {
+    "price": 14.05,
+    "timestamp": 1762062072267
+  },
+  "codex shredder": {
+    "price": 2.58,
+    "timestamp": 1762062073164
+  },
+  "command beacon": {
+    "price": 10.91,
+    "timestamp": 1762062073893
+  },
+  "fabled passage": {
+    "price": 11.23,
+    "timestamp": 1762062074600
+  },
+  "mana vault": {
+    "price": 1343.58,
+    "timestamp": 1762062075360
+  },
+  "reflecting pool": {
+    "price": 10.09,
+    "timestamp": 1762062076109
+  },
+  "reliquary tower": {
+    "price": 8.36,
+    "timestamp": 1762062076857
+  },
+  "sphere of resistance": {
+    "price": 5.99,
+    "timestamp": 1762062077644
+  },
+  "trinisphere": {
+    "price": 24,
+    "timestamp": 1762062078344
+  },
+  "wastes": {
+    "price": 3.87,
+    "timestamp": 1762062079150
+  },
+  "winter orb": {
+    "price": 10.04,
+    "timestamp": 1762062079979
+  },
+  "applejack": {
+    "price": 16.1,
+    "timestamp": 1762062080594
+  },
+  "miles \"tails\" prower": {
+    "price": 0,
+    "timestamp": 1762062082281
+  },
+  "rainbow dash": {
+    "price": 43.38,
+    "timestamp": 1762062082851
+  },
+  "treasure": {
+    "price": 4.4,
+    "timestamp": 1762062084511
+  },
+  "basal sliver": {
+    "price": 2.91,
+    "timestamp": 1762062085309
+  },
+  "discord, lord of disharmony": {
+    "price": 36.26,
+    "timestamp": 1762062085962
+  },
+  "harmless offering": {
+    "price": 0.72,
+    "timestamp": 1762062086592
+  },
+  "hullbreaker horror": {
+    "price": 0,
+    "timestamp": 1762062087218
+  },
+  "akroma's memorial": {
+    "price": 38.03,
+    "timestamp": 1762062087745
+  },
+  "consider": {
+    "price": 16.69,
+    "timestamp": 1762062088542
+  },
+  "inspiring overseer": {
+    "price": 7.91,
+    "timestamp": 1762062089243
+  },
+  "price of glory": {
+    "price": 26.88,
+    "timestamp": 1762062089792
+  },
+  "reckless fireweaver": {
+    "price": 15.25,
+    "timestamp": 1762062090403
+  },
+  "the scorpion god": {
+    "price": 8.97,
+    "timestamp": 1762062091300
+  },
+  "xanathar, guild kingpin": {
+    "price": 5.19,
+    "timestamp": 1762062091911
+  },
+  "uro, titan of nature's wrath": {
+    "price": 34.84,
+    "timestamp": 1762062092629
+  },
+  "arcane denial": {
+    "price": 18.02,
+    "timestamp": 1762062093434
+  },
+  "nightscape familiar": {
+    "price": 7.19,
+    "timestamp": 1762062094256
+  },
+  "prince of thralls": {
+    "price": 3.67,
+    "timestamp": 1762062094903
+  },
+  "rain of filth": {
+    "price": 18.17,
+    "timestamp": 1762062095800
+  },
+  "simian spirit guide": {
+    "price": 29.05,
+    "timestamp": 1762062096554
+  },
+  "felidar guardian": {
+    "price": 27.07,
+    "timestamp": 1762062097343
+  },
+  "peregrine drake": {
+    "price": 13.55,
+    "timestamp": 1762062097903
+  },
+  "scourge of valkas": {
+    "price": 37.42,
+    "timestamp": 1762062098625
+  },
+  "serpent of yawning depths": {
+    "price": 19.85,
+    "timestamp": 1762062099409
+  },
+  "voracious hydra": {
+    "price": 18.41,
+    "timestamp": 1762062100173
+  },
+  "ghoulish impetus": {
+    "price": 6.55,
+    "timestamp": 1762062100846
+  },
+  "kogla, the titan ape": {
+    "price": 13.66,
+    "timestamp": 1762062101534
+  },
+  "cat": {
+    "price": 10.35,
+    "timestamp": 1762062102429
+  },
+  "dog": {
+    "price": 10.35,
+    "timestamp": 1762062103089
+  },
+  "qasali slingers": {
+    "price": 16.62,
+    "timestamp": 1762062103726
+  },
+  "dictate of erebos": {
+    "price": 0,
+    "timestamp": 1762062104362
+  },
+  "gargos, vicious watcher": {
+    "price": 6.91,
+    "timestamp": 1762062104837
+  },
+  "hydra": {
+    "price": 7.42,
+    "timestamp": 1762062105531
+  },
+  "hydroid krasis": {
+    "price": 5.12,
+    "timestamp": 1762062106262
+  },
+  "primordial hydra": {
+    "price": 10.31,
+    "timestamp": 1762062106996
+  },
+  "unbound flourishing": {
+    "price": 14.88,
+    "timestamp": 1762062108094
+  },
+  "zaxara, the exemplary": {
+    "price": 7.54,
+    "timestamp": 1762062109695
+  },
+  "beacon of tomorrows": {
+    "price": 7.43,
+    "timestamp": 1762062110629
+  },
+  "nexus of fate": {
+    "price": 301.59,
+    "timestamp": 1762062111426
+  },
+  "stitch in time // stitch in time": {
+    "price": 7.04,
+    "timestamp": 1762062112370
+  },
+  "time reversal": {
+    "price": 5.65,
+    "timestamp": 1762062113217
+  },
+  "time stop": {
+    "price": 4.75,
+    "timestamp": 1762062114018
+  },
+  "fracturing gust": {
+    "price": 2.99,
+    "timestamp": 1762062114966
+  },
+  "mesmeric sliver": {
+    "price": 0.79,
+    "timestamp": 1762062115736
+  },
+  "nine lives": {
+    "price": 11.27,
+    "timestamp": 1762062116595
+  },
+  "yoshimaru, ever faithful": {
+    "price": 49.32,
+    "timestamp": 1762062117255
+  },
+  "rin and seri, inseparable": {
+    "price": 12.91,
+    "timestamp": 1762062117907
+  },
+  "captain lannery storm": {
+    "price": 10.77,
+    "timestamp": 1762062118644
+  },
+  "greasefang, okiba boss": {
+    "price": 3.62,
+    "timestamp": 1762062119214
+  },
+  "tempered sliver": {
+    "price": 1.2,
+    "timestamp": 1762062119952
+  },
+  "undead alchemist": {
+    "price": 4.47,
+    "timestamp": 1762062120723
+  },
+  "cathartic reunion": {
+    "price": 6.1,
+    "timestamp": 1762062121359
+  },
+  "font of mythos": {
+    "price": 13.56,
+    "timestamp": 1762062122129
+  },
+  "giver of runes": {
+    "price": 15.65,
+    "timestamp": 1762062122793
+  },
+  "moment's peace": {
+    "price": 7.52,
+    "timestamp": 1762062123502
+  },
+  "mycosynth golem": {
+    "price": 31.26,
+    "timestamp": 1762062124240
+  },
+  "mycosynth lattice": {
+    "price": 29.59,
+    "timestamp": 1762062124812
+  },
+  "mycosynth wellspring": {
+    "price": 5.36,
+    "timestamp": 1762062125665
+  },
+  "snow-covered forest": {
+    "price": 26.24,
+    "timestamp": 1762062126286
+  },
+  "snow-covered island": {
+    "price": 24.72,
+    "timestamp": 1762062126866
+  },
+  "snow-covered mountain": {
+    "price": 8.55,
+    "timestamp": 1762062127667
+  },
+  "snow-covered plains": {
+    "price": 11.56,
+    "timestamp": 1762062128292
+  },
+  "snow-covered swamp": {
+    "price": 8.86,
+    "timestamp": 1762062128976
+  },
+  "counterspell": {
+    "price": 205.34,
+    "timestamp": 1762062129624
+  },
+  "giant growth": {
+    "price": 369.69,
+    "timestamp": 1762062130284
+  },
+  "battle of wits": {
+    "price": 5.5,
+    "timestamp": 1762062130914
+  },
+  "rhythm of the wild": {
+    "price": 11.3,
+    "timestamp": 1762062131575
+  },
+  "youthful valkyrie": {
+    "price": 2.9,
+    "timestamp": 1762062132203
+  },
+  "botanical sanctum": {
+    "price": 7.68,
+    "timestamp": 1762062132919
+  },
+  "concealed courtyard": {
+    "price": 8.96,
+    "timestamp": 1762062133563
+  },
+  "spirebluff canal": {
+    "price": 14.75,
+    "timestamp": 1762062134356
+  },
+  "vaevictis asmadi": {
+    "price": 3.9,
+    "timestamp": 1762062135141
+  },
+  "emrakul, the promised end": {
+    "price": 29.49,
+    "timestamp": 1762062135952
+  },
+  "progenitus": {
+    "price": 2.95,
+    "timestamp": 1762062136676
+  },
+  "quick sliver": {
+    "price": 141.8,
+    "timestamp": 1762062137534
+  },
+  "serra angel": {
+    "price": 1.05,
+    "timestamp": 1762062138351
+  },
+  "steam vents": {
+    "price": 20.28,
+    "timestamp": 1762062139132
+  },
+  "opt": {
+    "price": 3.58,
+    "timestamp": 1762062139868
+  },
+  "avabruck caretaker // hollowhenge huntmaster": {
+    "price": 6.33,
+    "timestamp": 1762062140588
+  },
+  "carnage tyrant": {
+    "price": 5.57,
+    "timestamp": 1762062141262
+  },
+  "faeburrow elder": {
+    "price": 25.76,
+    "timestamp": 1762062141974
+  },
+  "geralf's messenger": {
+    "price": 5.2,
+    "timestamp": 1762062142719
+  },
+  "it that betrays": {
+    "price": 42.97,
+    "timestamp": 1762062143351
+  },
+  "nettle sentinel": {
+    "price": 1.29,
+    "timestamp": 1762062143924
+  },
+  "tezzeret, agent of bolas": {
+    "price": 3.98,
+    "timestamp": 1762062144678
+  },
+  "chain lightning": {
+    "price": 2.14,
+    "timestamp": 1762062145309
+  },
+  "eldritch evolution": {
+    "price": 19.75,
+    "timestamp": 1762062146028
+  },
+  "giant adephage": {
+    "price": 6.07,
+    "timestamp": 1762062146731
+  },
+  "grist, the hunger tide": {
+    "price": 19.87,
+    "timestamp": 1762062147441
+  },
+  "krark's thumb // krark's thumb": {
+    "price": 21.28,
+    "timestamp": 1762062148128
+  },
+  "noxious revival": {
+    "price": 22.77,
+    "timestamp": 1762062148792
+  },
+  "yisan, the wanderer bard": {
+    "price": 4.36,
+    "timestamp": 1762062149453
+  },
+  "mass hysteria": {
+    "price": 18.13,
+    "timestamp": 1762062150477
+  },
+  "oppression": {
+    "price": 11.67,
+    "timestamp": 1762062151403
+  },
+  "terminate": {
+    "price": 13.95,
+    "timestamp": 1762062152023
+  },
+  "arlinn, voice of the pack": {
+    "price": 0.54,
+    "timestamp": 1762062152841
+  },
+  "captain america, first avenger": {
+    "price": 44,
+    "timestamp": 1762062153571
+  },
+  "bottomless pit": {
+    "price": 23.51,
+    "timestamp": 1762062154237
+  },
+  "geier reach sanitarium": {
+    "price": 24.33,
+    "timestamp": 1762062154800
+  },
+  "necrogen mists": {
+    "price": 12.47,
+    "timestamp": 1762062155509
+  },
+  "reassembling skeleton": {
+    "price": 25.4,
+    "timestamp": 1762062156240
+  },
+  "tinybones, trinket thief": {
+    "price": 35.6,
+    "timestamp": 1762062156916
+  },
+  "inspiring vantage": {
+    "price": 13.01,
+    "timestamp": 1762062157722
+  },
+  "kaya, ghost assassin": {
+    "price": 3.5,
+    "timestamp": 1762062158495
+  },
+  "merfolk of the pearl trident": {
+    "price": 699.99,
+    "timestamp": 1762062159223
+  },
+  "shrine": {
+    "price": 5.62,
+    "timestamp": 1762062159908
+  },
+  "flamekin harbinger": {
+    "price": 4.34,
+    "timestamp": 1762062160628
+  },
+  "omnath, locus of rage": {
+    "price": 35.54,
+    "timestamp": 1762062161372
+  },
+  "risen reef": {
+    "price": 15.37,
+    "timestamp": 1762062162090
+  },
+  "voice of resurgence": {
+    "price": 9.61,
+    "timestamp": 1762062162822
+  },
+  "joraga treespeaker": {
+    "price": 11.33,
+    "timestamp": 1762062163629
+  },
+  "nature's will": {
+    "price": 9.07,
+    "timestamp": 1762062164407
+  },
+  "ulvenwald tracker": {
+    "price": 15.6,
+    "timestamp": 1762062165013
+  },
+  "yeva, nature's herald": {
+    "price": 6.38,
+    "timestamp": 1762062165631
+  },
+  "gaea's blessing": {
+    "price": 2.42,
+    "timestamp": 1762062166270
+  },
+  "nemesis of reason": {
+    "price": 5.6,
+    "timestamp": 1762062166903
+  },
+  "twilight prophet": {
+    "price": 7.04,
+    "timestamp": 1762062167637
+  },
+  "worldspine wurm": {
+    "price": 15.78,
+    "timestamp": 1762062168310
+  },
+  "wurm": {
+    "price": 7.4,
+    "timestamp": 1762062168998
+  },
+  "gandalf, friend of the shire": {
+    "price": 26.18,
+    "timestamp": 1762062169635
+  },
+  "gríma wormtongue": {
+    "price": 8.49,
+    "timestamp": 1762062170423
+  },
+  "mirror of galadriel": {
+    "price": 9.95,
+    "timestamp": 1762062171195
+  },
+  "shire terrace": {
+    "price": 16.92,
+    "timestamp": 1762062171879
+  },
+  "slip on the ring": {
+    "price": 9.62,
+    "timestamp": 1762062172691
+  },
+  "syr konrad, the grim": {
+    "price": 55.07,
+    "timestamp": 1762062173806
+  },
+  "tevesh szat, doom of fools": {
+    "price": 23.68,
+    "timestamp": 1762062174587
+  },
+  "underworld dreams": {
+    "price": 42.29,
+    "timestamp": 1762062175368
+  },
+  "waste not": {
+    "price": 34.89,
+    "timestamp": 1762062176142
+  },
+  "acidic slime": {
+    "price": 5.11,
+    "timestamp": 1762062176902
+  },
+  "goblin lackey": {
+    "price": 24.59,
+    "timestamp": 1762062177604
+  },
+  "goblin matron": {
+    "price": 15.18,
+    "timestamp": 1762062178270
+  },
+  "goblin recruiter": {
+    "price": 22.63,
+    "timestamp": 1762062179013
+  },
+  "jace, the mind sculptor": {
+    "price": 354.47,
+    "timestamp": 1762062179682
+  },
+  "muxus, goblin grandee": {
+    "price": 22.05,
+    "timestamp": 1762062180356
+  },
+  "necrotic ooze": {
+    "price": 7.92,
+    "timestamp": 1762062181169
+  },
+  "scavenging ooze": {
+    "price": 6.52,
+    "timestamp": 1762062181885
+  },
+  "shattergang brothers": {
+    "price": 3.45,
+    "timestamp": 1762062182627
+  },
+  "triskaidekaphile": {
+    "price": 8.62,
+    "timestamp": 1762062183403
+  },
+  "voidslime": {
+    "price": 4.71,
+    "timestamp": 1762062184103
+  },
+  "bearscape": {
+    "price": 13.27,
+    "timestamp": 1762062184879
+  },
+  "collective voyage": {
+    "price": 8.5,
+    "timestamp": 1762062185610
+  },
+  "dark depths": {
+    "price": 13.34,
+    "timestamp": 1762062186192
+  },
+  "angel": {
+    "price": 4.51,
+    "timestamp": 1762062186916
+  },
+  "archangel of thune": {
+    "price": 91.31,
+    "timestamp": 1762062187645
+  },
+  "bruna, the fading light": {
+    "price": 55.12,
+    "timestamp": 1762062188359
+  },
+  "court of grace": {
+    "price": 25.83,
+    "timestamp": 1762062189062
+  },
+  "gisela, the broken blade": {
+    "price": 71.89,
+    "timestamp": 1762062189825
+  },
+  "nissa, who shakes the world": {
+    "price": 5.91,
+    "timestamp": 1762062190537
+  },
+  "pariah": {
+    "price": 1.59,
+    "timestamp": 1762062191307
+  },
+  "spirit": {
+    "price": 0,
+    "timestamp": 1762062192483
+  },
+  "telling time": {
+    "price": 0,
+    "timestamp": 1762062193002
+  },
+  "viridian shaman": {
+    "price": 0.41,
+    "timestamp": 1762062193643
+  },
+  "hibernation sliver": {
+    "price": 6.2,
+    "timestamp": 1762062194328
+  },
+  "the world tree": {
+    "price": 18.98,
+    "timestamp": 1762062195160
+  },
+  "world at war": {
+    "price": 0,
+    "timestamp": 1762062195838
+  },
+  "archangel avacyn // avacyn, the purifier": {
+    "price": 21.33,
+    "timestamp": 1762062196394
+  },
+  "bloodline keeper // lord of lineage": {
+    "price": 18.8,
+    "timestamp": 1762062197028
+  },
+  "delver of secrets // insectile aberration": {
+    "price": 4.26,
+    "timestamp": 1762062197818
+  },
+  "esika, god of the tree // the prismatic bridge": {
+    "price": 35.54,
+    "timestamp": 1762062198474
+  },
+  "nicol bolas, the ravager // nicol bolas, the arisen": {
+    "price": 47.48,
+    "timestamp": 1762062199174
+  },
+  "westvale abbey // ormendahl, profane prince": {
+    "price": 17.16,
+    "timestamp": 1762062199850
+  },
+  "akroma, angel of fury": {
+    "price": 1.81,
+    "timestamp": 1762062200520
+  },
+  "frilled mystic": {
+    "price": 0.39,
+    "timestamp": 1762062201257
+  },
+  "grand abolisher": {
+    "price": 28.79,
+    "timestamp": 1762062202191
+  },
+  "jet medallion": {
+    "price": 12.42,
+    "timestamp": 1762062202966
+  },
+  "rotting regisaur": {
+    "price": 1.37,
+    "timestamp": 1762062203755
+  },
+  "selfless savior": {
+    "price": 2.52,
+    "timestamp": 1762062204634
+  },
+  "megantic sliver": {
+    "price": 3.19,
+    "timestamp": 1762062205546
+  },
+  "shelter": {
+    "price": 4.99,
+    "timestamp": 1762062206454
+  },
+  "telekinetic sliver": {
+    "price": 2.22,
+    "timestamp": 1762062207332
+  },
+  "cleansing nova": {
+    "price": 1.34,
+    "timestamp": 1762062207979
+  },
+  "muddle the mixture": {
+    "price": 6.86,
+    "timestamp": 1762062209318
+  },
+  "predict": {
+    "price": 0,
+    "timestamp": 1762062210184
+  },
+  "serra the benevolent": {
+    "price": 8.17,
+    "timestamp": 1762062210809
+  },
+  "stoneforge mystic": {
+    "price": 39.62,
+    "timestamp": 1762062211492
+  },
+  "llawan, cephalid empress": {
+    "price": 2.93,
+    "timestamp": 1762062212177
+  },
+  "master of waves": {
+    "price": 4.15,
+    "timestamp": 1762062212999
+  },
+  "thassa, deep-dwelling": {
+    "price": 29.37,
+    "timestamp": 1762062213815
+  },
+  "thassa's oracle": {
+    "price": 144.57,
+    "timestamp": 1762062214603
+  },
+  "alms collector": {
+    "price": 14.16,
+    "timestamp": 1762062215351
+  },
+  "crested sunmare": {
+    "price": 16.43,
+    "timestamp": 1762062216120
+  },
+  "exotic orchard": {
+    "price": 40.75,
+    "timestamp": 1762062216906
+  },
+  "goreclaw, terror of qal sisma": {
+    "price": 19.92,
+    "timestamp": 1762062217686
+  },
+  "braid of fire": {
+    "price": 19.71,
+    "timestamp": 1762062218541
+  },
+  "karrthus, tyrant of jund": {
+    "price": 20.93,
+    "timestamp": 1762062219295
+  },
+  "koth of the hammer": {
+    "price": 4.86,
+    "timestamp": 1762062220028
+  },
+  "master of the wild hunt": {
+    "price": 5.52,
+    "timestamp": 1762062220732
+  },
+  "greymond, avacyn's stalwart": {
+    "price": 47.07,
+    "timestamp": 1762062221365
+  },
+  "malik, grim manipulator": {
+    "price": 17.13,
+    "timestamp": 1762062222135
+  },
+  "the celestial toymaker": {
+    "price": 25.89,
+    "timestamp": 1762062222908
+  },
+  "immerwolf": {
+    "price": 4.72,
+    "timestamp": 1762062223851
+  },
+  "wolf": {
+    "price": 7.13,
+    "timestamp": 1762062225255
+  },
+  "satoru umezawa": {
+    "price": 0,
+    "timestamp": 1762062226036
+  },
+  "vito, thorn of the dusk rose": {
+    "price": 29.99,
+    "timestamp": 1762062226621
+  },
+  "wilhelt, the rotcleaver": {
+    "price": 0,
+    "timestamp": 1762062227314
+  },
+  "bruna, light of alabaster": {
+    "price": 7.38,
+    "timestamp": 1762062227913
+  },
+  "counterbalance": {
+    "price": 22.84,
+    "timestamp": 1762062228719
+  },
+  "deafening silence": {
+    "price": 21.69,
+    "timestamp": 1762062229492
+  },
+  "eldrazi conscription": {
+    "price": 15.45,
+    "timestamp": 1762062230199
+  },
+  "k'rrik, son of yawgmoth": {
+    "price": 4.38,
+    "timestamp": 1762062230984
+  },
+  "tamiyo, collector of tales": {
+    "price": 1.37,
+    "timestamp": 1762062231661
+  },
+  "tibalt, rakish instigator": {
+    "price": 6.05,
+    "timestamp": 1762062232322
+  },
+  "tibalt, the fiend-blooded": {
+    "price": 8.29,
+    "timestamp": 1762062233517
+  },
+  "phyrexian arena": {
+    "price": 0,
+    "timestamp": 1762062235190
+  },
+  "phyrexian crusader": {
+    "price": 12.84,
+    "timestamp": 1762062236486
+  },
+  "phyrexian metamorph": {
+    "price": 7.91,
+    "timestamp": 1762062237269
+  },
+  "phyrexian reclamation": {
+    "price": 5.42,
+    "timestamp": 1762062238105
+  },
+  "phyrexian tower": {
+    "price": 46.56,
+    "timestamp": 1762062238786
+  },
+  "necrotic sliver": {
+    "price": 12.94,
+    "timestamp": 1762062239585
+  },
+  "plague sliver": {
+    "price": 8.12,
+    "timestamp": 1762062240422
+  },
+  "walker": {
+    "price": 1.74,
+    "timestamp": 1762062242006
+  },
+  "blur sliver": {
+    "price": 84.37,
+    "timestamp": 1762062242826
+  },
+  "davriel, rogue shadowmage": {
+    "price": 15.79,
+    "timestamp": 1762062243620
+  },
+  "stomping ground": {
+    "price": 9.08,
+    "timestamp": 1762062244424
+  },
+  "leeching sliver": {
+    "price": 3.16,
+    "timestamp": 1762062245807
+  },
+  "pyretic ritual": {
+    "price": 52.78,
+    "timestamp": 1762062246695
+  },
+  "shiny impetus": {
+    "price": 0.37,
+    "timestamp": 1762062247480
+  },
+  "beast within": {
+    "price": 33.17,
+    "timestamp": 1762062248237
+  },
+  "grafdigger's cage": {
+    "price": 18.8,
+    "timestamp": 1762062248915
+  },
+  "kess, dissident mage": {
+    "price": 12.5,
+    "timestamp": 1762062249684
+  },
+  "magus of the wheel": {
+    "price": 13.01,
+    "timestamp": 1762062250274
+  },
+  "spellseeker": {
+    "price": 19.01,
+    "timestamp": 1762062251144
+  },
+  "zethi, arcane blademaster": {
+    "price": 18.17,
+    "timestamp": 1762062251774
+  },
+  "breeding pool": {
+    "price": 25.8,
+    "timestamp": 1762062252466
+  },
+  "eldrazi temple": {
+    "price": 100.3,
+    "timestamp": 1762062253177
+  },
+  "inquisition of kozilek": {
+    "price": 8.22,
+    "timestamp": 1762062254712
+  },
+  "nahiri, storm of stone": {
+    "price": 0.87,
+    "timestamp": 1762062255269
+  },
+  "reality smasher": {
+    "price": 10.29,
+    "timestamp": 1762062256033
+  },
+  "samut, tyrant smasher": {
+    "price": 0.49,
+    "timestamp": 1762062256765
+  },
+  "thought-knot seer": {
+    "price": 6.71,
+    "timestamp": 1762062257507
+  },
+  "okaun, eye of chaos // okaun, eye of chaos": {
+    "price": 24.02,
+    "timestamp": 1762062258313
+  },
+  "saproling": {
+    "price": 16.94,
+    "timestamp": 1762062259359
+  },
+  "zndrsplt, eye of wisdom // zndrsplt, eye of wisdom": {
+    "price": 21.48,
+    "timestamp": 1762062260025
+  },
+  "by force": {
+    "price": 5.07,
+    "timestamp": 1762062260765
+  },
+  "collective brutality": {
+    "price": 4.73,
+    "timestamp": 1762062261398
+  },
+  "doubling cube // doubling cube": {
+    "price": 17.75,
+    "timestamp": 1762062262137
+  },
+  "dramatic reversal": {
+    "price": 29.7,
+    "timestamp": 1762062262821
+  },
+  "true conviction": {
+    "price": 18.12,
+    "timestamp": 1762062263459
+  },
+  "the meep": {
+    "price": 19.48,
+    "timestamp": 1762062264208
+  },
+  "thespian's stage": {
+    "price": 6.79,
+    "timestamp": 1762062264846
+  },
+  "demonic consultation": {
+    "price": 0,
+    "timestamp": 1762062265496
+  },
+  "rapid hybridization": {
+    "price": 14.17,
+    "timestamp": 1762062266063
+  },
+  "serra ascendant": {
+    "price": 46.35,
+    "timestamp": 1762062266791
+  },
+  "winds of change": {
+    "price": 18.57,
+    "timestamp": 1762062267440
+  },
+  "forced fruition": {
+    "price": 13.44,
+    "timestamp": 1762062268098
+  },
+  "future sight": {
+    "price": 3.65,
+    "timestamp": 1762062268835
+  },
+  "mental misstep": {
+    "price": 118,
+    "timestamp": 1762062269388
+  },
+  "mind's dilation": {
+    "price": 12.03,
+    "timestamp": 1762062270083
+  },
+  "well of lost dreams": {
+    "price": 6.71,
+    "timestamp": 1762062271149
+  },
+  "beast whisperer": {
+    "price": 17.15,
+    "timestamp": 1762062271913
+  },
+  "questing beast": {
+    "price": 14.23,
+    "timestamp": 1762062273074
+  },
+  "vizier of the menagerie": {
+    "price": 6.36,
+    "timestamp": 1762062274108
+  },
+  "wood elves": {
+    "price": 7.5,
+    "timestamp": 1762062274977
+  },
+  "concordant crossroads": {
+    "price": 17.01,
+    "timestamp": 1762062275792
+  },
+  "havengul lich": {
+    "price": 1.39,
+    "timestamp": 1762062276564
+  },
+  "kiki-jiki, mirror breaker": {
+    "price": 11.49,
+    "timestamp": 1762062277282
+  },
+  "blind obedience": {
+    "price": 32.1,
+    "timestamp": 1762062278605
+  },
+  "dragonlord atarka // dragonlord atarka": {
+    "price": 6.18,
+    "timestamp": 1762062279341
+  },
+  "umbris, fear manifest": {
+    "price": 29.99,
+    "timestamp": 1762062280207
+  },
+  "carrion feeder": {
+    "price": 36.55,
+    "timestamp": 1762062280943
+  },
+  "doomsday": {
+    "price": 17.96,
+    "timestamp": 1762062281892
+  },
+  "plaguecrafter": {
+    "price": 17.89,
+    "timestamp": 1762062282477
+  },
+  "thoughtseize": {
+    "price": 32.51,
+    "timestamp": 1762062283403
+  },
+  "descendants' path": {
+    "price": 49.48,
+    "timestamp": 1762062284202
+  },
+  "lord windgrace": {
+    "price": 81.34,
+    "timestamp": 1762062285412
+  },
+  "violent outburst": {
+    "price": 20.45,
+    "timestamp": 1762062286085
+  },
+  "bonescythe sliver": {
+    "price": 61.07,
+    "timestamp": 1762062286658
+  },
+  "diffusion sliver": {
+    "price": 7.01,
+    "timestamp": 1762062287391
+  },
+  "manaweft sliver": {
+    "price": 8.93,
+    "timestamp": 1762062288020
+  },
+  "thorncaster sliver": {
+    "price": 2.97,
+    "timestamp": 1762062288750
+  },
+  "homing sliver": {
+    "price": 2.67,
+    "timestamp": 1762062289350
+  },
+  "ajani, the greathearted": {
+    "price": 1.59,
+    "timestamp": 1762062290514
+  },
+  "baldin, century herdmaster": {
+    "price": 5.57,
+    "timestamp": 1762062292080
+  },
+  "compost": {
+    "price": 4.87,
+    "timestamp": 1762062292850
+  },
+  "goblin snowman": {
+    "price": 5.32,
+    "timestamp": 1762062293717
+  },
+  "knight exemplar": {
+    "price": 3.02,
+    "timestamp": 1762062294567
+  },
+  "knight of the white orchid": {
+    "price": 11.72,
+    "timestamp": 1762062295300
+  },
+  "lord of the undead": {
+    "price": 20.31,
+    "timestamp": 1762062296206
+  },
+  "tadeas, juniper ascendant": {
+    "price": 5.86,
+    "timestamp": 1762062296893
+  },
+  "unsubstantiate": {
+    "price": 0,
+    "timestamp": 1762062297769
+  },
+  "watery grave": {
+    "price": 10.59,
+    "timestamp": 1762062298342
+  },
+  "wolverine, best there is": {
+    "price": 35.26,
+    "timestamp": 1762062299079
+  },
+  "contagion engine": {
+    "price": 10.25,
+    "timestamp": 1762062299671
+  },
+  "deepglow skate": {
+    "price": 5.78,
+    "timestamp": 1762062300343
+  },
+  "paradise druid": {
+    "price": 1.29,
+    "timestamp": 1762062301510
+  },
+  "ravenous rotbelly": {
+    "price": 1.06,
+    "timestamp": 1762062302115
+  },
+  "tireless tracker": {
+    "price": 3.41,
+    "timestamp": 1762062303058
+  },
+  "matter reshaper": {
+    "price": 4.59,
+    "timestamp": 1762062305822
+  },
+  "pir, imaginative rascal": {
+    "price": 11.15,
+    "timestamp": 1762062306497
+  },
+  "the gitrog monster": {
+    "price": 23.44,
+    "timestamp": 1762062307440
+  },
+  "toothy, imaginary friend": {
+    "price": 21.07,
+    "timestamp": 1762062308095
+  },
+  "curiosity": {
+    "price": 21.89,
+    "timestamp": 1762062308860
+  },
+  "greed": {
+    "price": 4.64,
+    "timestamp": 1762062310968
+  },
+  "last chance": {
+    "price": 6.78,
+    "timestamp": 1762062312022
+  },
+  "peek": {
+    "price": 8.9,
+    "timestamp": 1762062312769
+  },
+  "brood sliver": {
+    "price": 4.43,
+    "timestamp": 1762062314371
+  },
+  "chatter of the squirrel": {
+    "price": 7.6,
+    "timestamp": 1762062316348
+  },
+  "metamorphose": {
+    "price": 0,
+    "timestamp": 1762062317741
+  },
+  "sidewinder sliver": {
+    "price": 1.02,
+    "timestamp": 1762062318788
+  },
+  "dance of many": {
+    "price": 4.36,
+    "timestamp": 1762062319647
+  },
+  "dreadbore": {
+    "price": 6.64,
+    "timestamp": 1762062320431
+  },
+  "jaspera sentinel": {
+    "price": 1.33,
+    "timestamp": 1762062321152
+  },
+  "smuggler's copter": {
+    "price": 17.97,
+    "timestamp": 1762062321954
+  },
+  "triumph of the hordes": {
+    "price": 31.37,
+    "timestamp": 1762062322680
+  },
+  "akroma, angel of wrath": {
+    "price": 13.01,
+    "timestamp": 1762062323405
+  },
+  "glissa sunseeker": {
+    "price": 2.45,
+    "timestamp": 1762062324636
+  },
+  "in the trenches": {
+    "price": 2.07,
+    "timestamp": 1762062325409
+  },
+  "narset, enlightened master": {
+    "price": 10.32,
+    "timestamp": 1762062326154
+  },
+  "olivia, mobilized for war": {
+    "price": 11.39,
+    "timestamp": 1762062326967
+  },
+  "sanguine bond": {
+    "price": 17.46,
+    "timestamp": 1762062327706
+  },
+  "kessig wolf run": {
+    "price": 15.84,
+    "timestamp": 1762062328533
+  },
+  "arcanis the omnipotent": {
+    "price": 6.85,
+    "timestamp": 1762062329334
+  },
+  "brimaz, king of oreskos": {
+    "price": 22.39,
+    "timestamp": 1762062330057
+  },
+  "savra, queen of the golgari": {
+    "price": 3.15,
+    "timestamp": 1762062330842
+  },
+  "vilis, broker of blood": {
+    "price": 14.31,
+    "timestamp": 1762062331476
+  },
+  "fertile ground": {
+    "price": 0.46,
+    "timestamp": 1762062332246
+  },
+  "lonely sandbar": {
+    "price": 0,
+    "timestamp": 1762062333015
+  },
+  "burgeoning": {
+    "price": 51.76,
+    "timestamp": 1762062334253
+  },
+  "dandân": {
+    "price": 0,
+    "timestamp": 1762062335159
+  },
+  "island": {
+    "price": 0,
+    "timestamp": 1762062336228
+  },
+  "retreat to coralhelm": {
+    "price": 5.49,
+    "timestamp": 1762062336882
+  },
+  "revel in riches": {
+    "price": 32.19,
+    "timestamp": 1762062337688
+  },
+  "swan song": {
+    "price": 30.79,
+    "timestamp": 1762062338417
+  },
+  "utopia sprawl": {
+    "price": 15.21,
+    "timestamp": 1762062339203
+  },
+  "domri rade": {
+    "price": 1.17,
+    "timestamp": 1762062339944
+  },
+  "liliana, dreadhorde general": {
+    "price": 7.83,
+    "timestamp": 1762062340687
+  },
+  "flawless maneuver": {
+    "price": 19.17,
+    "timestamp": 1762062341389
+  },
+  "huntmaster of the fells // ravager of the fells": {
+    "price": 1.94,
+    "timestamp": 1762062342147
+  },
+  "kozilek, the great distortion": {
+    "price": 11.98,
+    "timestamp": 1762062342771
+  },
+  "mikaeus, the unhallowed": {
+    "price": 70.37,
+    "timestamp": 1762062343537
+  },
+  "platinum angel": {
+    "price": 11.2,
+    "timestamp": 1762062344242
+  },
+  "primeval titan": {
+    "price": 13.87,
+    "timestamp": 1762062345048
+  },
+  "stitcher's supplier": {
+    "price": 4.34,
+    "timestamp": 1762062345793
+  },
+  "strip mine": {
+    "price": 72.72,
+    "timestamp": 1762062346573
+  },
+  "tomb tyrant": {
+    "price": 1.34,
+    "timestamp": 1762062347302
+  },
+  "elspeth, knight-errant": {
+    "price": 6.34,
+    "timestamp": 1762062347973
+  },
+  "halimar depths": {
+    "price": 0,
+    "timestamp": 1762062348751
+  },
+  "patron wizard": {
+    "price": 4.69,
+    "timestamp": 1762062349330
+  },
+  "verduran enchantress": {
+    "price": 5.99,
+    "timestamp": 1762062350039
+  },
+  "tovolar, dire overlord // tovolar, the midnight scourge": {
+    "price": 17.9,
+    "timestamp": 1762062350833
+  },
+  "alesha, who smiles at death": {
+    "price": 3.46,
+    "timestamp": 1762062351512
+  },
+  "ivy lane denizen": {
+    "price": 3.77,
+    "timestamp": 1762062352210
+  },
+  "cultivate": {
+    "price": 11.87,
+    "timestamp": 1762062352853
+  },
+  "adaptive automaton": {
+    "price": 7.18,
+    "timestamp": 1762062353506
+  },
+  "azami, lady of scrolls": {
+    "price": 16.4,
+    "timestamp": 1762062354174
+  },
+  "jinnie fay, jetmir's second // jinnie fay, jetmir's second": {
+    "price": 10.77,
+    "timestamp": 1762062354810
+  },
+  "reflector mage": {
+    "price": 6.42,
+    "timestamp": 1762062356167
+  },
+  "all will be one": {
+    "price": 21.65,
+    "timestamp": 1762062358356
+  },
+  "animar, soul of elements": {
+    "price": 16.21,
+    "timestamp": 1762062359169
+  },
+  "benevolent hydra": {
+    "price": 8.15,
+    "timestamp": 1762062359911
+  },
+  "forgotten ancient": {
+    "price": 5.53,
+    "timestamp": 1762062360670
+  },
+  "mulldrifter": {
+    "price": 2.92,
+    "timestamp": 1762062361409
+  },
+  "capture of jingzhou": {
+    "price": 0,
+    "timestamp": 1762062362141
+  },
+  "corpse connoisseur": {
+    "price": 1.02,
+    "timestamp": 1762062362722
+  },
+  "dragonskull summit": {
+    "price": 12.84,
+    "timestamp": 1762062363370
+  },
+  "drowned catacomb": {
+    "price": 14.49,
+    "timestamp": 1762062364064
+  },
+  "glacial fortress": {
+    "price": 12.13,
+    "timestamp": 1762062364794
+  },
+  "rootbound crag": {
+    "price": 8.81,
+    "timestamp": 1762062365948
+  },
+  "sunpetal grove": {
+    "price": 11.03,
+    "timestamp": 1762062366741
+  },
+  "balthor the defiled": {
+    "price": 16.7,
+    "timestamp": 1762062367445
+  },
+  "depala, pilot exemplar": {
+    "price": 1.33,
+    "timestamp": 1762062368190
+  },
+  "ponder": {
+    "price": 13.78,
+    "timestamp": 1762062369058
+  },
+  "sram, senior edificer": {
+    "price": 8.68,
+    "timestamp": 1762062369769
+  },
+  "torbran, thane of red fell": {
+    "price": 10.43,
+    "timestamp": 1762062370397
+  },
+  "magma sliver": {
+    "price": 7.07,
+    "timestamp": 1762062371061
+  },
+  "psionic sliver": {
+    "price": 1.89,
+    "timestamp": 1762062371740
+  },
+  "dakkon blackblade": {
+    "price": 2.51,
+    "timestamp": 1762062372481
+  },
+  "muscle sliver": {
+    "price": 3.56,
+    "timestamp": 1762062373254
+  },
+  "sedge sliver": {
+    "price": 3.03,
+    "timestamp": 1762062373821
+  },
+  "empress galina": {
+    "price": 15.2,
+    "timestamp": 1762062374482
+  },
+  "pollenbright druid": {
+    "price": 0.71,
+    "timestamp": 1762062375201
+  },
+  "skemfar shadowsage": {
+    "price": 0.79,
+    "timestamp": 1762062375835
+  },
+  "ertai, the corrupted": {
+    "price": 6.1,
+    "timestamp": 1762062376518
+  },
+  "ghost quarter": {
+    "price": 6.16,
+    "timestamp": 1762062377277
+  },
+  "nomad outpost": {
+    "price": 3.17,
+    "timestamp": 1762062377944
+  },
+  "ajani, mentor of heroes": {
+    "price": 6.49,
+    "timestamp": 1762062378581
+  },
+  "aminatou, the fateshifter": {
+    "price": 5.14,
+    "timestamp": 1762062379195
+  },
+  "angrath, the flame-chained": {
+    "price": 3.48,
+    "timestamp": 1762062379928
+  },
+  "ashiok, dream render": {
+    "price": 16.21,
+    "timestamp": 1762062380478
+  },
+  "chandra, flame's catalyst": {
+    "price": 5.29,
+    "timestamp": 1762062381207
+  },
+  "daretti, ingenious iconoclast": {
+    "price": 4.88,
+    "timestamp": 1762062381869
+  },
+  "drana, the last bloodchief": {
+    "price": 3.07,
+    "timestamp": 1762062382499
+  },
+  "elspeth, sun's champion": {
+    "price": 20.59,
+    "timestamp": 1762062383158
+  },
+  "garruk wildspeaker": {
+    "price": 561.67,
+    "timestamp": 1762062383785
+  },
+  "karn, scion of urza": {
+    "price": 5.12,
+    "timestamp": 1762062384454
+  },
+  "lavinia, azorius renegade": {
+    "price": 1.06,
+    "timestamp": 1762062385249
+  },
+  "omnath, locus of creation": {
+    "price": 3.73,
+    "timestamp": 1762062385967
+  },
+  "orvar, the all-form": {
+    "price": 3.64,
+    "timestamp": 1762062386665
+  },
+  "reya dawnbringer": {
+    "price": 3.3,
+    "timestamp": 1762062387362
+  },
+  "saheeli, sublime artificer": {
+    "price": 6.64,
+    "timestamp": 1762062388037
+  },
+  "sarkhan vol": {
+    "price": 4.53,
+    "timestamp": 1762062389683
+  },
+  "sorin, grim nemesis": {
+    "price": 7.86,
+    "timestamp": 1762062390330
+  },
+  "tamiyo, the moon sage": {
+    "price": 11.72,
+    "timestamp": 1762062391004
+  },
+  "venser, the sojourner": {
+    "price": 3.96,
+    "timestamp": 1762062391734
+  },
+  "brain freeze": {
+    "price": 40.73,
+    "timestamp": 1762062392852
+  },
+  "higure, the still wind": {
+    "price": 28.56,
+    "timestamp": 1762062394420
+  },
+  "shadow of doubt": {
+    "price": 2.13,
+    "timestamp": 1762062395716
+  },
+  "snap": {
+    "price": 24.78,
+    "timestamp": 1762062396576
+  },
+  "unmask": {
+    "price": 3.96,
+    "timestamp": 1762062397360
+  },
+  "eidolon of the great revel": {
+    "price": 4.66,
+    "timestamp": 1762062398071
+  },
+  "elvish spirit guide": {
+    "price": 28.01,
+    "timestamp": 1762062398858
+  },
+  "go-shintai of life's origin": {
+    "price": 20.36,
+    "timestamp": 1762062399556
+  },
+  "hokori, dust drinker": {
+    "price": 3.35,
+    "timestamp": 1762062400260
+  },
+  "kira, great glass-spinner": {
+    "price": 7.81,
+    "timestamp": 1762062401483
+  },
+  "skewer the critics": {
+    "price": 2.18,
+    "timestamp": 1762062402177
+  },
+  "maarika, brutal gladiator": {
+    "price": 11.96,
+    "timestamp": 1762062402871
+  },
+  "moorland haunt": {
+    "price": 1.48,
+    "timestamp": 1762062403611
+  },
+  "spellstutter sprite": {
+    "price": 16.92,
+    "timestamp": 1762062404325
+  },
+  "aether gust": {
+    "price": 2.19,
+    "timestamp": 1762062405099
+  },
+  "mystical tutor": {
+    "price": 28.69,
+    "timestamp": 1762062405838
+  },
+  "borne upon a wind": {
+    "price": 0,
+    "timestamp": 1762062406545
+  },
+  "warren instigator": {
+    "price": 18.03,
+    "timestamp": 1762062407107
+  },
+  "magical hack": {
+    "price": 0,
+    "timestamp": 1762062407772
+  },
+  "commander's plate": {
+    "price": 35.81,
+    "timestamp": 1762062408308
+  },
+  "fblthp, the lost": {
+    "price": 5.98,
+    "timestamp": 1762062409163
+  },
+  "intruder alarm": {
+    "price": 11.22,
+    "timestamp": 1762062409879
+  },
+  "ice-fang coatl": {
+    "price": 6.59,
+    "timestamp": 1762062410561
+  },
+  "lurking crocodile": {
+    "price": 1.64,
+    "timestamp": 1762062411264
+  },
+  "managorger hydra": {
+    "price": 17.59,
+    "timestamp": 1762062412018
+  },
+  "pathbreaker ibex": {
+    "price": 18.01,
+    "timestamp": 1762062413204
+  },
+  "temur sabertooth": {
+    "price": 9.87,
+    "timestamp": 1762062413993
+  },
+  "winding constrictor": {
+    "price": 3.49,
+    "timestamp": 1762062414669
+  },
+  "battlefield forge": {
+    "price": 7.54,
+    "timestamp": 1762062415450
+  },
+  "blood moon": {
+    "price": 0,
+    "timestamp": 1762062416104
+  },
+  "cut // ribbons": {
+    "price": 0,
+    "timestamp": 1762062416635
+  },
+  "teferi's puzzle box": {
+    "price": 15.53,
+    "timestamp": 1762062417254
+  },
+  "craterhoof behemoth": {
+    "price": 18.53,
+    "timestamp": 1762062417951
+  },
+  "ghostly prison": {
+    "price": 7.13,
+    "timestamp": 1762062418616
+  },
+  "toxin sliver": {
+    "price": 23.1,
+    "timestamp": 1762062419350
+  },
+  "fleet swallower": {
+    "price": 10.25,
+    "timestamp": 1762062420326
+  },
+  "gishath, sun's avatar": {
+    "price": 38.57,
+    "timestamp": 1762062421039
+  },
+  "goblin trashmaster": {
+    "price": 15.33,
+    "timestamp": 1762062421846
+  },
+  "ilharg, the raze-boar": {
+    "price": 6.73,
+    "timestamp": 1762062422518
+  },
+  "protean hulk": {
+    "price": 8.87,
+    "timestamp": 1762062423269
+  },
+  "ancient den": {
+    "price": 18.42,
+    "timestamp": 1762062424218
+  },
+  "darksteel citadel": {
+    "price": 41.84,
+    "timestamp": 1762062424954
+  },
+  "great furnace": {
+    "price": 40.14,
+    "timestamp": 1762062425670
+  },
+  "seat of the synod": {
+    "price": 30.65,
+    "timestamp": 1762062426477
+  },
+  "tree of tales": {
+    "price": 8.74,
+    "timestamp": 1762062427172
+  },
+  "vault of whispers": {
+    "price": 23.92,
+    "timestamp": 1762062427872
+  },
+  "demonlord belzenlok": {
+    "price": 1.24,
+    "timestamp": 1762062428515
+  },
+  "kothophed, soul hoarder": {
+    "price": 0.75,
+    "timestamp": 1762062429161
+  },
+  "razaketh, the foulblooded": {
+    "price": 18.53,
+    "timestamp": 1762062429886
+  },
+  "gravecrawler": {
+    "price": 35.47,
+    "timestamp": 1762062430606
+  },
+  "liliana, death's majesty": {
+    "price": 17.63,
+    "timestamp": 1762062431246
+  },
+  "rise of the dark realms": {
+    "price": 21.91,
+    "timestamp": 1762062432404
+  },
+  "zombie": {
+    "price": 11.41,
+    "timestamp": 1762062433614
+  },
+  "berserk": {
+    "price": 12.09,
+    "timestamp": 1762062434432
+  },
+  "breathkeeper seraph": {
+    "price": 3.31,
+    "timestamp": 1762062435159
+  },
+  "druid of purification": {
+    "price": 6.17,
+    "timestamp": 1762062435736
+  },
+  "brazen borrower // petty theft": {
+    "price": 12,
+    "timestamp": 1762062436297
+  },
+  "magus of the moon": {
+    "price": 8.1,
+    "timestamp": 1762062437054
+  },
+  "meandering towershell": {
+    "price": 0.66,
+    "timestamp": 1762062437705
+  },
+  "ohran frostfang": {
+    "price": 9.34,
+    "timestamp": 1762062438483
+  },
+  "thragtusk": {
+    "price": 1.16,
+    "timestamp": 1762062439184
+  },
+  "wrexial, the risen deep": {
+    "price": 9.2,
+    "timestamp": 1762062439747
+  },
+  "circular logic": {
+    "price": 4.49,
+    "timestamp": 1762062440664
+  },
+  "cryptic command": {
+    "price": 22.77,
+    "timestamp": 1762062441536
+  },
+  "eternal witness": {
+    "price": 9.16,
+    "timestamp": 1762062442347
+  },
+  "price of progress": {
+    "price": 12.26,
+    "timestamp": 1762062443026
+  },
+  "wall of omens": {
+    "price": 4.87,
+    "timestamp": 1762062443870
+  },
+  "elvish champion": {
+    "price": 42.17,
+    "timestamp": 1762062444633
+  },
+  "elvish visionary": {
+    "price": 1.03,
+    "timestamp": 1762062445320
+  },
+  "woodland cemetery": {
+    "price": 13.83,
+    "timestamp": 1762062445975
+  },
+  "carpet of flowers": {
+    "price": 31.22,
+    "timestamp": 1762062446660
+  },
+  "greater good": {
+    "price": 3.35,
+    "timestamp": 1762062448373
+  },
+  "howl of the night pack": {
+    "price": 2.29,
+    "timestamp": 1762062449200
+  },
+  "sanctum prelate": {
+    "price": 3.58,
+    "timestamp": 1762062449880
+  },
+  "thrill of possibility": {
+    "price": 4.4,
+    "timestamp": 1762062450627
+  },
+  "cecily, haunted mage": {
+    "price": 7.76,
+    "timestamp": 1762062451406
+  },
+  "wernog, rider's chaplain": {
+    "price": 5.08,
+    "timestamp": 1762062452185
+  },
+  "cleaver skaab": {
+    "price": 3.41,
+    "timestamp": 1762062453004
+  },
+  "spiteful sliver": {
+    "price": 16.83,
+    "timestamp": 1762062453770
+  },
+  "heartless hidetsugu": {
+    "price": 13.48,
+    "timestamp": 1762062454575
+  },
+  "ink-eyes, servant of oni": {
+    "price": 11.49,
+    "timestamp": 1762062455224
+  },
+  "kami of the crescent moon": {
+    "price": 18.56,
+    "timestamp": 1762062455888
+  },
+  "michiko konda, truth seeker": {
+    "price": 19.91,
+    "timestamp": 1762062456631
+  },
+  "reki, the history of kamigawa": {
+    "price": 15.92,
+    "timestamp": 1762062457370
+  },
+  "toshiro umezawa": {
+    "price": 6.71,
+    "timestamp": 1762062458041
+  },
+  "xantcha, sleeper agent": {
+    "price": 20.17,
+    "timestamp": 1762062458713
+  },
+  "inkmoth nexus": {
+    "price": 13.91,
+    "timestamp": 1762062459350
+  },
+  "ob nixilis reignited": {
+    "price": 2.74,
+    "timestamp": 1762062460039
+  },
+  "sire of insanity": {
+    "price": 3.83,
+    "timestamp": 1762062460749
+  },
+  "sliver hivelord": {
+    "price": 25.57,
+    "timestamp": 1762062461417
+  },
+  "synapse sliver": {
+    "price": 18.4,
+    "timestamp": 1762062462146
+  },
+  "wirewood symbiote": {
+    "price": 14.82,
+    "timestamp": 1762062462875
+  },
+  "acererak the archlich": {
+    "price": 4.47,
+    "timestamp": 1762062463623
+  },
+  "black panther, wakandan king": {
+    "price": 15.93,
+    "timestamp": 1762062464323
+  },
+  "dark deal": {
+    "price": 11.56,
+    "timestamp": 1762062465025
+  },
+  "dawnbreak reclaimer": {
+    "price": 2.05,
+    "timestamp": 1762062465718
+  },
+  "prosperous innkeeper": {
+    "price": 6.58,
+    "timestamp": 1762062466434
+  },
+  "syphon sliver": {
+    "price": 16.02,
+    "timestamp": 1762062467115
+  },
+  "temple garden": {
+    "price": 13.89,
+    "timestamp": 1762062467857
+  },
+  "careful study": {
+    "price": 8.01,
+    "timestamp": 1762062468995
+  },
+  "commander's sphere": {
+    "price": 4.64,
+    "timestamp": 1762062470561
+  },
+  "crash through": {
+    "price": 4.79,
+    "timestamp": 1762062471457
+  },
+  "daze": {
+    "price": 6.08,
+    "timestamp": 1762062472271
+  },
+  "force of despair": {
+    "price": 4.63,
+    "timestamp": 1762062473129
+  },
+  "hero's downfall": {
+    "price": 2.88,
+    "timestamp": 1762062474002
+  },
+  "inevitable betrayal": {
+    "price": 4.72,
+    "timestamp": 1762062475043
+  },
+  "knuckles the echidna": {
+    "price": 9.08,
+    "timestamp": 1762062475776
+  },
+  "night's whisper": {
+    "price": 3.96,
+    "timestamp": 1762062476591
+  },
+  "smothering tithe": {
+    "price": 435.68,
+    "timestamp": 1762062477305
+  },
+  "unbreakable formation": {
+    "price": 3.05,
+    "timestamp": 1762062478039
+  },
+  "whir of invention": {
+    "price": 10.45,
+    "timestamp": 1762062478810
+  },
+  "deadly dispute": {
+    "price": 4.61,
+    "timestamp": 1762062479515
+  },
+  "harmonize": {
+    "price": 47.16,
+    "timestamp": 1762062480187
+  },
+  "lathliss, dragon queen": {
+    "price": 5.58,
+    "timestamp": 1762062481000
+  },
+  "aggravated assault": {
+    "price": 13.08,
+    "timestamp": 1762062481692
+  },
+  "desperate ritual": {
+    "price": 8.84,
+    "timestamp": 1762062482874
+  },
+  "field marshal": {
+    "price": 11.29,
+    "timestamp": 1762062483591
+  },
+  "lightning strike": {
+    "price": 8.64,
+    "timestamp": 1762062484430
+  },
+  "midnight reaper": {
+    "price": 24.24,
+    "timestamp": 1762062485200
+  },
+  "murderous rider // swift end": {
+    "price": 2.82,
+    "timestamp": 1762062485831
+  },
+  "seize the day": {
+    "price": 31.25,
+    "timestamp": 1762062486568
+  },
+  "temporal manipulation": {
+    "price": 16.93,
+    "timestamp": 1762062487245
+  },
+  "zulaport cutthroat": {
+    "price": 10.17,
+    "timestamp": 1762062487866
+  },
+  "azorius signet": {
+    "price": 13.96,
+    "timestamp": 1762062488585
+  },
+  "boros signet": {
+    "price": 11.71,
+    "timestamp": 1762062489235
+  },
+  "dimir signet": {
+    "price": 17.39,
+    "timestamp": 1762062489922
+  },
+  "golgari signet": {
+    "price": 8.73,
+    "timestamp": 1762062490600
+  },
+  "gruul signet": {
+    "price": 6.2,
+    "timestamp": 1762062491238
+  },
+  "izzet signet": {
+    "price": 16.42,
+    "timestamp": 1762062492354
+  },
+  "mox opal": {
+    "price": 0,
+    "timestamp": 1762062493916
+  },
+  "mox tantalite": {
+    "price": 0,
+    "timestamp": 1762062494595
+  },
+  "orzhov signet": {
+    "price": 11.2,
+    "timestamp": 1762062495183
+  },
+  "rakdos signet": {
+    "price": 20.48,
+    "timestamp": 1762062496078
+  },
+  "selesnya signet": {
+    "price": 3.39,
+    "timestamp": 1762062496814
+  },
+  "simic signet": {
+    "price": 7.38,
+    "timestamp": 1762062497666
+  },
+  "talisman of conviction": {
+    "price": 8.68,
+    "timestamp": 1762062498457
+  },
+  "talisman of creativity": {
+    "price": 32.93,
+    "timestamp": 1762062499273
+  },
+  "talisman of curiosity": {
+    "price": 22.12,
+    "timestamp": 1762062499932
+  },
+  "talisman of dominance": {
+    "price": 38.52,
+    "timestamp": 1762062500522
+  },
+  "talisman of hierarchy": {
+    "price": 18.44,
+    "timestamp": 1762062501237
+  },
+  "talisman of impulse": {
+    "price": 15.08,
+    "timestamp": 1762062501908
+  },
+  "talisman of indulgence": {
+    "price": 23.73,
+    "timestamp": 1762062503002
+  },
+  "talisman of progress": {
+    "price": 19.71,
+    "timestamp": 1762062503638
+  },
+  "talisman of resilience": {
+    "price": 11.15,
+    "timestamp": 1762062504276
+  },
+  "talisman of unity": {
+    "price": 5.4,
+    "timestamp": 1762062505021
+  },
+  "amy rose": {
+    "price": 1.29,
+    "timestamp": 1762062505702
+  },
+  "sonic the hedgehog": {
+    "price": 2.26,
+    "timestamp": 1762062506359
+  },
+  "arden angel": {
+    "price": 8.37,
+    "timestamp": 1762062507240
+  },
+  "beastmaster ascension": {
+    "price": 20.07,
+    "timestamp": 1762062508450
+  },
+  "bjorna, nightfall alchemist": {
+    "price": 3.92,
+    "timestamp": 1762062509103
+  },
+  "elmar, ulvenwald informant": {
+    "price": 3.92,
+    "timestamp": 1762062509738
+  },
+  "lara croft, tomb raider": {
+    "price": 41.78,
+    "timestamp": 1762062510313
+  },
+  "sophina, spearsage deserter": {
+    "price": 4.3,
+    "timestamp": 1762062511028
+  },
+  "control magic": {
+    "price": 0,
+    "timestamp": 1762062511642
+  },
+  "pernicious deed": {
+    "price": 3.4,
+    "timestamp": 1762062512131
+  },
+  "dauthi voidwalker": {
+    "price": 13.5,
+    "timestamp": 1762062512750
+  },
+  "gonti, lord of luxury": {
+    "price": 5.03,
+    "timestamp": 1762062513403
+  },
+  "krosan beast": {
+    "price": 8.9,
+    "timestamp": 1762062514996
+  },
+  "palladia-mors": {
+    "price": 2.93,
+    "timestamp": 1762062517431
+  },
+  "xorn": {
+    "price": 12.99,
+    "timestamp": 1762062518129
+  },
+  "dryad of the ilysian grove": {
+    "price": 35.15,
+    "timestamp": 1762062518760
+  },
+  "metallic mimic": {
+    "price": 12.39,
+    "timestamp": 1762062519342
+  },
+  "sakura-tribe elder": {
+    "price": 13.21,
+    "timestamp": 1762062519867
+  },
+  "spell queller": {
+    "price": 2.63,
+    "timestamp": 1762062520470
+  },
+  "minds aglow": {
+    "price": 2.12,
+    "timestamp": 1762062521279
+  },
+  "squire": {
+    "price": 0,
+    "timestamp": 1762062521877
+  },
+  "viscera seer": {
+    "price": 0,
+    "timestamp": 1762062522310
+  },
+  "archaeomancer": {
+    "price": 30.9,
+    "timestamp": 1762062522706
+  },
+  "bloom tender": {
+    "price": 44.05,
+    "timestamp": 1762062523310
+  },
+  "mesa enchantress": {
+    "price": 8.23,
+    "timestamp": 1762062523740
+  },
+  "vendilion clique": {
+    "price": 13.12,
+    "timestamp": 1762062524344
+  },
+  "mountain goat": {
+    "price": 7.55,
+    "timestamp": 1762062524875
+  },
+  "pulmonic sliver": {
+    "price": 4.41,
+    "timestamp": 1762062525374
+  },
+  "reality shift": {
+    "price": 4.31,
+    "timestamp": 1762062526150
+  },
+  "balance": {
+    "price": 4.5,
+    "timestamp": 1762062526731
+  },
+  "howling mine": {
+    "price": 6.96,
+    "timestamp": 1762062527325
+  },
+  "wasteland": {
+    "price": 22.1,
+    "timestamp": 1762062527948
+  },
+  "batterskull": {
+    "price": 3.04,
+    "timestamp": 1762062528437
+  },
+  "haakon, stromgald scourge": {
+    "price": 15.35,
+    "timestamp": 1762062529565
+  },
+  "karn, the great creator": {
+    "price": 11.99,
+    "timestamp": 1762062530164
+  },
+  "lavabelly sliver": {
+    "price": 13.9,
+    "timestamp": 1762062530723
+  },
+  "blood artist": {
+    "price": 7.7,
+    "timestamp": 1762062531235
+  },
+  "pithing needle": {
+    "price": 3.16,
+    "timestamp": 1762062531766
+  },
+  "spell pierce": {
+    "price": 28.72,
+    "timestamp": 1762062532309
+  },
+  "eldrazi monument": {
+    "price": 28.6,
+    "timestamp": 1762062532913
+  },
+  "hedron archive": {
+    "price": 29.49,
+    "timestamp": 1762062533513
+  },
+  "ornithopter": {
+    "price": 19.73,
+    "timestamp": 1762062534048
+  },
+  "panharmonicon": {
+    "price": 17.93,
+    "timestamp": 1762062534569
+  },
+  "pilgrim's eye": {
+    "price": 5.13,
+    "timestamp": 1762062535542
+  },
+  "rogue's passage": {
+    "price": 38.31,
+    "timestamp": 1762062537044
+  },
+  "sorcerous spyglass": {
+    "price": 2.7,
+    "timestamp": 1762062537954
+  },
+  "tangle wire": {
+    "price": 23.96,
+    "timestamp": 1762062538880
+  },
+  "jaya's immolating inferno": {
+    "price": 6.27,
+    "timestamp": 1762062539516
+  },
+  "kiora, behemoth beckoner": {
+    "price": 9.64,
+    "timestamp": 1762062540186
+  },
+  "minsc & boo, timeless heroes": {
+    "price": 486.61,
+    "timestamp": 1762062540846
+  },
+  "serum visions": {
+    "price": 0,
+    "timestamp": 1762062541533
+  },
+  "liliana's standard bearer": {
+    "price": 0.51,
+    "timestamp": 1762062542125
+  },
+  "blood crypt": {
+    "price": 20.75,
+    "timestamp": 1762062542770
+  },
+  "enchanted evening": {
+    "price": 6.88,
+    "timestamp": 1762062543454
+  },
+  "pontiff of blight": {
+    "price": 8.07,
+    "timestamp": 1762062550404
+  },
+  "sower of temptation": {
+    "price": 4.14,
+    "timestamp": 1762062551051
+  },
+  "gamble": {
+    "price": 26.25,
+    "timestamp": 1762062551835
+  },
+  "the locust god": {
+    "price": 16.94,
+    "timestamp": 1762062553213
+  },
+  "approach of the second sun": {
+    "price": 13.04,
+    "timestamp": 1762062554205
+  },
+  "gisela, blade of goldnight": {
+    "price": 8.32,
+    "timestamp": 1762062555137
+  },
+  "goblin": {
+    "price": 2.65,
+    "timestamp": 1762062556652
+  },
+  "goblin rabblemaster": {
+    "price": 8.43,
+    "timestamp": 1762062557588
+  },
+  "second harvest": {
+    "price": 11.5,
+    "timestamp": 1762062558426
+  },
+  "urabrask the hidden": {
+    "price": 2.48,
+    "timestamp": 1762062559262
+  },
+  "frost titan": {
+    "price": 3.14,
+    "timestamp": 1762062560198
+  },
+  "reclamation sage": {
+    "price": 0.38,
+    "timestamp": 1762062561065
+  },
+  "wellwisher": {
+    "price": 13.43,
+    "timestamp": 1762062561899
+  },
+  "collected company": {
+    "price": 3.78,
+    "timestamp": 1762062562816
+  },
+  "pinkie pie": {
+    "price": 27.26,
+    "timestamp": 1762062564027
+  },
+  "squirrel mob": {
+    "price": 5.66,
+    "timestamp": 1762062564897
+  },
+  "enkira, hostile scavenger": {
+    "price": 1.74,
+    "timestamp": 1762062565719
+  },
+  "hansk, slayer zealot": {
+    "price": 5.53,
+    "timestamp": 1762062566540
+  },
+  "trace of abundance": {
+    "price": 1.54,
+    "timestamp": 1762062567425
+  },
+  "ajani steadfast": {
+    "price": 4.49,
+    "timestamp": 1762071049940
+  },
+  "the howling abomination": {
+    "price": 6.1,
+    "timestamp": 1762071051641
+  },
+  "galerider sliver": {
+    "price": 54.03,
+    "timestamp": 1762071052289
+  },
+  "masterwork of ingenuity": {
+    "price": 4.43,
+    "timestamp": 1762071052938
+  },
+  "aisha of sparks and smoke": {
+    "price": 5.31,
+    "timestamp": 1762071053465
+  },
+  "chandra, fire artisan": {
+    "price": 2.24,
+    "timestamp": 1762071054317
+  },
+  "jaya, venerated firemage": {
+    "price": 0.77,
+    "timestamp": 1762071054903
+  },
+  "joel, resolute survivor": {
+    "price": 0,
+    "timestamp": 1762071055500
+  },
+  "ob nixilis, the hate-twisted": {
+    "price": 3.12,
+    "timestamp": 1762071056483
+  },
+  "death's shadow": {
+    "price": 10.04,
+    "timestamp": 1762071057026
+  },
+  "kasmina, enigmatic mentor": {
+    "price": 2.49,
+    "timestamp": 1762071057556
+  },
+  "kaya, bane of the dead": {
+    "price": 0.6,
+    "timestamp": 1762071058312
+  },
+  "kratos, god of war": {
+    "price": 93.18,
+    "timestamp": 1762071058832
+  },
+  "mother of runes": {
+    "price": 13.73,
+    "timestamp": 1762071059461
+  },
+  "sacred foundry": {
+    "price": 16.87,
+    "timestamp": 1762071059977
+  },
+  "storm, force of nature": {
+    "price": 28.94,
+    "timestamp": 1762071060507
+  },
+  "teyo, the shieldmage": {
+    "price": 2.55,
+    "timestamp": 1762071061075
+  },
+  "thalia, guardian of thraben": {
+    "price": 4.36,
+    "timestamp": 1762071061838
+  },
+  "vivien, champion of the wilds": {
+    "price": 6.69,
+    "timestamp": 1762071062489
+  },
+  "fluttershy": {
+    "price": 21.51,
+    "timestamp": 1762071063196
+  },
+  "jiang yanggu, wildcrafter": {
+    "price": 2.02,
+    "timestamp": 1762071063862
+  },
+  "saskia the unyielding": {
+    "price": 10.42,
+    "timestamp": 1762071064436
+  },
+  "vraska, swarm's eminence": {
+    "price": 0.68,
+    "timestamp": 1762071065012
+  },
+  "athreos, god of passage": {
+    "price": 39.46,
+    "timestamp": 1762071065704
+  },
+  "ephara, god of the polis": {
+    "price": 9.22,
+    "timestamp": 1762071066321
+  },
+  "erebos, god of the dead": {
+    "price": 26.19,
+    "timestamp": 1762071067193
+  },
+  "heliod, god of the sun": {
+    "price": 9.32,
+    "timestamp": 1762071068108
+  },
+  "karametra, god of harvests": {
+    "price": 16.65,
+    "timestamp": 1762071068864
+  },
+  "keranos, god of storms": {
+    "price": 8.18,
+    "timestamp": 1762071069493
+  },
+  "kruphix, god of horizons": {
+    "price": 14.85,
+    "timestamp": 1762071070133
+  },
+  "nylea, god of the hunt": {
+    "price": 23.65,
+    "timestamp": 1762071070771
+  },
+  "nyxbloom ancient": {
+    "price": 40.34,
+    "timestamp": 1762071071519
+  },
+  "pharika, god of affliction": {
+    "price": 6.17,
+    "timestamp": 1762071073208
+  },
+  "phenax, god of deception": {
+    "price": 22.64,
+    "timestamp": 1762071073930
+  },
+  "purphoros, god of the forge": {
+    "price": 45.14,
+    "timestamp": 1762071074568
+  },
+  "thassa, god of the sea": {
+    "price": 14.01,
+    "timestamp": 1762071075210
+  },
+  "mistbind clique": {
+    "price": 15.21,
+    "timestamp": 1762071075926
+  },
+  "vikya, scorching stalwart": {
+    "price": 6.99,
+    "timestamp": 1762071076498
+  },
+  "anger of the gods": {
+    "price": 1.7,
+    "timestamp": 1762071077312
+  },
+  "angrath, captain of chaos": {
+    "price": 0.67,
+    "timestamp": 1762071078083
+  },
+  "diregraf captain": {
+    "price": 0.68,
+    "timestamp": 1762071078676
+  },
+  "saw in half": {
+    "price": 4.23,
+    "timestamp": 1762071079331
+  },
+  "immard, the stormcleaver": {
+    "price": 5.2,
+    "timestamp": 1762071080001
+  },
+  "ral, storm conduit": {
+    "price": 1.5,
+    "timestamp": 1762071080627
+  },
+  "the wanderer": {
+    "price": 5.66,
+    "timestamp": 1762071081241
+  },
+  "anointed procession // anointed procession": {
+    "price": 71.66,
+    "timestamp": 1762071081845
+  },
+  "leonin warleader": {
+    "price": 20.09,
+    "timestamp": 1762071083374
+  },
+  "rest in peace": {
+    "price": 11.2,
+    "timestamp": 1762071084272
+  },
+  "deadpool, trading card": {
+    "price": 15.92,
+    "timestamp": 1762071084857
+  },
+  "monologue tax": {
+    "price": 4.25,
+    "timestamp": 1762071085554
+  },
+  "unnatural growth": {
+    "price": 4.89,
+    "timestamp": 1762071086198
+  },
+  "ebondeath, dracolich": {
+    "price": 10.54,
+    "timestamp": 1762071086783
+  },
+  "sliver overlord": {
+    "price": 50.95,
+    "timestamp": 1762071087459
+  },
+  "the ur-dragon": {
+    "price": 63.09,
+    "timestamp": 1762071088061
+  },
+  "bloodghast": {
+    "price": 12.54,
+    "timestamp": 1762071088684
+  },
+  "golgari thug": {
+    "price": 3.52,
+    "timestamp": 1762071089267
+  },
+  "iron maiden": {
+    "price": 51.91,
+    "timestamp": 1762071089979
+  },
+  "life from the loam": {
+    "price": 12.26,
+    "timestamp": 1762071090740
+  },
+  "mindcrank": {
+    "price": 53.98,
+    "timestamp": 1762071091601
+  },
+  "stensia bloodhall": {
+    "price": 1.53,
+    "timestamp": 1762071092430
+  },
+  "windfall": {
+    "price": 0,
+    "timestamp": 1762071093202
+  },
+  "bitterblossom": {
+    "price": 32.21,
+    "timestamp": 1762071093603
+  },
+  "brazen borrower": {
+    "price": 12,
+    "timestamp": 1762071094298
+  },
+  "embercleave": {
+    "price": 10.89,
+    "timestamp": 1762071095583
+  },
+  "the great henge": {
+    "price": 70.06,
+    "timestamp": 1762071096493
+  },
+  "murder": {
+    "price": 0.08,
+    "timestamp": 1762071097795
+  },
+  "doom blade": {
+    "price": 2.87,
+    "timestamp": 1762071098975
+  },
+  "go for the throat": {
+    "price": 5.53,
+    "timestamp": 1762071099673
+  },
+  "sword of war and peace": {
+    "price": 10,
+    "timestamp": 1762071100404
+  },
+  "ajani's pridemate": {
+    "price": 0.24,
+    "timestamp": 1762071101350
+  },
+  "ajani, adversary of tyrants": {
+    "price": 6.94,
+    "timestamp": 1762071102335
+  }
+}
