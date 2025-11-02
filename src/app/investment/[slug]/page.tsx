@@ -3,7 +3,9 @@ import * as path from "path";
 import { marked } from "marked";
 import Image from "next/image";
 import Link from "next/link";
+import Script from "next/script";
 import { generateSeoMeta } from "@/lib/seo";
+import { generateInvestmentDetailGraphSchema } from "@/lib/schema";
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const dataPath = path.join(process.cwd(), "data", "mock.json");
@@ -47,8 +49,28 @@ export default async function InvestmentDetail({ params }: { params: { slug: str
     );
   }
 
+  // 生成 Investment 详情页 @graph Schema (Article + BreadcrumbList + WebPage)
+  const investmentDetailSchema = generateInvestmentDetailGraphSchema({
+    title: item.title,
+    description: item.metaDescription || item.excerpt,
+    url: `/investment/${params.slug}`,
+    image: item.image || item.coverImage,
+    author: "SecretLairCards Investment Team",
+    datePublished: item.date,
+    dateModified: item.date
+  });
+
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50">
+    <>
+      {/* Investment Detail Graph Schema */}
+      <Script
+        id="investment-detail-graph-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(investmentDetailSchema),
+        }}
+      />
+      <div className="min-h-screen flex flex-col bg-gray-50">
       <main className="flex-1 max-w-4xl mx-auto px-6 pt-20 pb-12">
         {/* 面包屑导航 */}
         <nav className="mb-8">
@@ -118,5 +140,6 @@ export default async function InvestmentDetail({ params }: { params: { slug: str
         </article>
       </main>
     </div>
+    </>
   );
 }

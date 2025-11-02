@@ -3,8 +3,9 @@ import * as path from "path";
 import { marked } from "marked";
 import Image from "next/image";
 import Link from "next/link";
+import Script from "next/script";
 import { generateSeoMeta } from "@/lib/seo";
-import { generateArticleSchema } from "@/lib/schema";
+import { generateNewsDetailGraphSchema } from "@/lib/schema";
 import { getNewsSeoImageUrl, getNewsDetailImageUrl } from "@/lib/newsImages";
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
@@ -49,23 +50,28 @@ export default async function NewsDetail({ params }: { params: { slug: string } 
     );
   }
 
-  const schema = generateArticleSchema({
+  // 生成 News 详情页 @graph Schema (BlogPosting + BreadcrumbList + WebPage)
+  const newsDetailSchema = generateNewsDetailGraphSchema({
     title: news.title,
     description: news.metaDescription || news.excerpt,
     url: `/news/${params.slug}`,
-    image: news.coverImage || news.image,
-    author: "SecretLairCards Editorial Team",
+    image: getNewsSeoImageUrl(news),
+    author: "SecretLairCards Editorial",
     datePublished: news.date,
-    dateModified: news.date,
-    keywords: news.keywords || []
+    dateModified: news.date
   });
 
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50">
-      <script
+    <>
+      {/* News Detail Graph Schema */}
+      <Script
+        id="news-detail-graph-schema"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(newsDetailSchema),
+        }}
       />
+      <div className="min-h-screen flex flex-col bg-gray-50">
       <main className="flex-1 max-w-4xl mx-auto px-6 pt-20 pb-12">
         {/* 面包屑导航 */}
         <nav className="mb-8">
@@ -137,5 +143,6 @@ export default async function NewsDetail({ params }: { params: { slug: string } 
         </article>
       </main>
     </div>
+    </>
   );
 }

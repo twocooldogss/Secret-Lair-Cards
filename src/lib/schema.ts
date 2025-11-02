@@ -66,6 +66,393 @@ export function generateArticleSchema({ title, description, url, image, author, 
   };
 }
 
+// 生成首页 @graph 格式 Schema（WebPage + FAQPage + BreadcrumbList）
+export function generateHomepageGraphSchema() {
+  const baseUrl = 'https://www.secretlaircards.com';
+  const dateModified = '2025-01-20';
+  
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `${baseUrl}/#webpage`,
+        "url": `${baseUrl}/`,
+        "name": "Secret Lair 2025 – Complete MTG Drop, Art & Investment Guide",
+        "description": "Explore and track every Magic: The Gathering Secret Lair drop from 2019–2025 — discover art, compare prices, and follow collector trends to find the 2025 drops worth investing in.",
+        "inLanguage": "en",
+        "dateModified": dateModified,
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": `${baseUrl}/#website`,
+          "name": "SecretLairCards.com",
+          "url": `${baseUrl}/`
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "SecretLairCards.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": `${baseUrl}/logo.png`
+          }
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${baseUrl}/#breadcrumb`,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": `${baseUrl}/`
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "All Secret Lair Drops",
+            "item": `${baseUrl}/drops`
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `${baseUrl}/#faq`,
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What makes Secret Lair different from regular MTG sets?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Each Secret Lair drop is printed in limited quantities, featuring exclusive artworks, collaborations, and creative themes that make them unique from standard Magic: The Gathering sets."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which Secret Lair drops are worth investing in for 2025?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "In 2025, drops featuring high-profile artists or unique crossover themes — such as the Secret Scare Superdrop or Artist Series — are the most promising for long-term collectors and investors."
+            }
+          }
+        ]
+      }
+    ]
+  };
+}
+
+// 生成 BreadcrumbList Schema
+export function generateBreadcrumbSchema(items: Array<{ name: string; url: string }>, basePath: string) {
+  const baseUrl = 'https://www.secretlaircards.com';
+  
+  return {
+    "@type": "BreadcrumbList",
+    "@id": `${baseUrl}${basePath}#breadcrumb`,
+    "itemListElement": items.map((item, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": item.name,
+      "item": item.url.startsWith('http') ? item.url : `${baseUrl}${item.url}`
+    }))
+  };
+}
+
+// 生成 News 页面 @graph 格式 Schema
+export function generateNewsPageGraphSchema() {
+  const baseUrl = 'https://www.secretlaircards.com';
+  const dateModified = '2025-01-20';
+  
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${baseUrl}/news#breadcrumb`,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": `${baseUrl}/`
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "News",
+            "item": `${baseUrl}/news`
+          }
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": `${baseUrl}/news#webpage`,
+        "url": `${baseUrl}/news`,
+        "name": "Secret Lair News – MTG Drops, Art & Collector Insights",
+        "description": "Stay up to date with the latest Magic: The Gathering Secret Lair news, release info, art showcases, and collector stories.",
+        "inLanguage": "en",
+        "dateModified": dateModified,
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": `${baseUrl}/#website`
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "SecretLairCards.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": `${baseUrl}/logo.png`
+          }
+        }
+      }
+    ]
+  };
+}
+
+// 生成 News 详情页 @graph 格式 Schema
+export function generateNewsDetailGraphSchema(params: {
+  title: string;
+  description: string;
+  url: string;
+  image?: string;
+  author?: string;
+  datePublished?: string;
+  dateModified?: string;
+}) {
+  const baseUrl = 'https://www.secretlaircards.com';
+  const { title, description, url, image, author = 'SecretLairCards Editorial', datePublished, dateModified } = params;
+  
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${baseUrl}${url}#breadcrumb`,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": `${baseUrl}/`
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "News",
+            "item": `${baseUrl}/news`
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": title,
+            "item": `${baseUrl}${url}`
+          }
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": `${baseUrl}${url}#webpage`,
+        "url": `${baseUrl}${url}`,
+        "name": title,
+        "description": description,
+        "inLanguage": "en",
+        "dateModified": dateModified || datePublished || new Date().toISOString(),
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": `${baseUrl}/#website`
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "SecretLairCards.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": `${baseUrl}/logo.png`
+          }
+        }
+      },
+      {
+        "@type": "BlogPosting",
+        "@id": `${baseUrl}${url}#article`,
+        "headline": title,
+        "description": description,
+        ...(image && {
+          "image": {
+            "@type": "ImageObject",
+            "url": image.startsWith('http') ? image : `${baseUrl}${image}`,
+            "width": 1200,
+            "height": 630
+          }
+        }),
+        "author": {
+          "@type": "Person",
+          "name": author
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "SecretLairCards.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": `${baseUrl}/logo.png`
+          }
+        },
+        "mainEntityOfPage": {
+          "@id": `${baseUrl}${url}#webpage`
+        },
+        "datePublished": datePublished || new Date().toISOString(),
+        "dateModified": dateModified || datePublished || new Date().toISOString(),
+        "inLanguage": "en"
+      }
+    ]
+  };
+}
+
+// 生成 Investment 页面 @graph 格式 Schema
+export function generateInvestmentPageGraphSchema() {
+  const baseUrl = 'https://www.secretlaircards.com';
+  const dateModified = '2025-01-20';
+  
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${baseUrl}/investment#breadcrumb`,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": `${baseUrl}/`
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Investment Insights",
+            "item": `${baseUrl}/investment`
+          }
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": `${baseUrl}/investment#webpage`,
+        "url": `${baseUrl}/investment`,
+        "name": "Secret Lair Investment Insights – Value Reports & Market Trends",
+        "description": "Track market performance, resale trends, and collector value of Magic: The Gathering Secret Lair drops from 2019–2025.",
+        "inLanguage": "en",
+        "dateModified": dateModified,
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": `${baseUrl}/#website`
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "SecretLairCards.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": `${baseUrl}/logo.png`
+          }
+        }
+      }
+    ]
+  };
+}
+
+// 生成 Investment 详情页 @graph 格式 Schema
+export function generateInvestmentDetailGraphSchema(params: {
+  title: string;
+  description: string;
+  url: string;
+  image?: string;
+  author?: string;
+  datePublished?: string;
+  dateModified?: string;
+}) {
+  const baseUrl = 'https://www.secretlaircards.com';
+  const { title, description, url, image, author = 'SecretLairCards Investment Team', datePublished, dateModified } = params;
+  
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${baseUrl}${url}#breadcrumb`,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": `${baseUrl}/`
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Investment Insights",
+            "item": `${baseUrl}/investment`
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": title,
+            "item": `${baseUrl}${url}`
+          }
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": `${baseUrl}${url}#webpage`,
+        "url": `${baseUrl}${url}`,
+        "name": title,
+        "description": description,
+        "inLanguage": "en",
+        "dateModified": dateModified || datePublished || new Date().toISOString(),
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": `${baseUrl}/#website`
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "SecretLairCards.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": `${baseUrl}/logo.png`
+          }
+        }
+      },
+      {
+        "@type": "Article",
+        "@id": `${baseUrl}${url}#article`,
+        "headline": title,
+        "description": description,
+        ...(image && {
+          "image": {
+            "@type": "ImageObject",
+            "url": image.startsWith('http') ? image : `${baseUrl}${image}`,
+            "width": 1200,
+            "height": 630
+          }
+        }),
+        "author": {
+          "@type": "Person",
+          "name": author
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "SecretLairCards.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": `${baseUrl}/logo.png`
+          }
+        },
+        "datePublished": datePublished || new Date().toISOString(),
+        "dateModified": dateModified || datePublished || new Date().toISOString(),
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+          "@id": `${baseUrl}${url}#webpage`
+        }
+      }
+    ]
+  };
+}
+
 export function getSchema(type: string, data: any) {
   const baseUrl = 'https://www.secretlaircards.com';
   

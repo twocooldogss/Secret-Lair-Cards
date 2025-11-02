@@ -1,10 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
+import Script from "next/script";
+import { generateSeoMeta } from "@/lib/seo";
+import { generateInvestmentPageGraphSchema } from "@/lib/schema";
 
-export const metadata = {
-  title: "MTG Investment Insights - Secret Lair Values & Analysis",
-  description: "Get expert analysis and investment insights for Magic: The Gathering Secret Lair cards and collections."
-};
+export const metadata = generateSeoMeta({
+  title: "Secret Lair Investment Insights - Value Reports & Market Trends",
+  description: "Track market performance, resale trends, and collector value of Magic: The Gathering Secret Lair drops from 2019–2025.",
+  url: "/investment"
+});
 
 const investments = [
   {
@@ -31,8 +35,20 @@ const investments = [
 ];
 
 export default function InvestmentPage() {
+  // 生成 Investment 页面 @graph Schema
+  const investmentPageSchema = generateInvestmentPageGraphSchema();
+
   return (
-    <main className="min-h-screen bg-gradient-to-b from-[#18121E] via-[#221933] to-[#0D0A12] text-white">
+    <>
+      {/* Investment Page Graph Schema */}
+      <Script
+        id="investment-page-graph-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(investmentPageSchema),
+        }}
+      />
+      <main className="min-h-screen bg-gradient-to-b from-[#18121E] via-[#221933] to-[#0D0A12] text-white">
       {/* INVESTMENT GRID */}
       <section className="w-full bg-gradient-to-b from-[#221933] to-[#18121E] pt-20 pb-20">
         <div className="mx-auto max-w-7xl px-6">
@@ -71,5 +87,6 @@ export default function InvestmentPage() {
         </div>
       </section>
     </main>
+    </>
   );
 }

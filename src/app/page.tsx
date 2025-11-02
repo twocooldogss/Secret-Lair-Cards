@@ -3,6 +3,7 @@ import Script from "next/script";
 import { generateSeoMeta } from '@/lib/seo';
 import { getDropsData, normalizeDrop, Drop, News, Investment } from '@/lib/data';
 import { getNewsThumbImageUrl } from '@/lib/newsImages';
+import { generateHomepageGraphSchema } from '@/lib/schema';
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -39,7 +40,10 @@ export default async function HomePage() {
   
   const featuredNews = data.news.filter((n: News) => featuredNewsSlugs.includes(n.slug));
 
-  // 生成 ItemList 结构化数据
+  // 生成首页 @graph Schema（WebPage + FAQPage + BreadcrumbList）
+  const homepageSchema = generateHomepageGraphSchema();
+  
+  // 生成 ItemList 结构化数据（保留用于精选 Drops）
   const baseUrl = 'https://www.secretlaircards.com';
   const itemListSchema = {
     "@context": "https://schema.org",
@@ -57,7 +61,15 @@ export default async function HomePage() {
 
   return (
     <>
-      {/* ItemList Structured Data */}
+      {/* Homepage Graph Schema (WebPage + FAQPage + BreadcrumbList) */}
+      <Script
+        id="homepage-graph-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(homepageSchema),
+        }}
+      />
+      {/* ItemList Structured Data (Featured Drops) */}
       <Script
         id="itemlist-schema"
         type="application/ld+json"

@@ -33,14 +33,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           `}
         </Script>
 
-        {/* WebSite Schema */}
+        {/* WebSite Schema - Global (保留，首页 @graph 会引用此 @id) */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              "name": "Secret Lair Cards",
+              "@id": "https://www.secretlaircards.com/#website",
+              "name": "SecretLairCards.com",
               "description": "SecretLairCards.com is the ultimate resource for Magic: The Gathering Secret Lair collectors — explore every drop, card, and investment trend from 2019 to 2025.",
               "url": "https://www.secretlaircards.com",
               "inLanguage": "en",
@@ -58,28 +59,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 "@type": "SearchAction",
                 "target": "https://www.secretlaircards.com/search?q={search_term_string}",
                 "query-input": "required name=search_term_string"
-              }
-            }),
-          }}
-        />
-
-        {/* WebPage Schema for Homepage */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "WebPage",
-              "name": "Secret Lair Cards Home",
-              "description": "Explore every Magic: The Gathering Secret Lair drop from 2019 to 2025 — full card lists, artworks, prices, and collector insights.",
-              "url": "https://www.secretlaircards.com",
-              "inLanguage": "en",
-              "keywords": "Secret Lair, MTG Secret Lair, Secret Lair Drops, Magic The Gathering Secret Lair, Secret Lair Cards, Secret Lair 2025",
-              "dateModified": "2025-01-20",
-              "isPartOf": {
-                "@type": "WebSite",
-                "name": "Secret Lair Cards",
-                "url": "https://www.secretlaircards.com"
               }
             }),
           }}
