@@ -93,10 +93,10 @@ export default async function HomePage() {
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <a href="/drops" className="rounded-xl bg-purple-600 px-7 py-3 font-semibold shadow-lg transition hover:scale-[1.03] hover:bg-purple-500">
-              Browse All Drops
+              Explore All Secret Lair Drops (2019–2025)
             </a>
             <a href="/investment" className="rounded-xl border border-white/20 px-7 py-3 font-semibold text-gray-200 transition hover:border-purple-500 hover:bg-white/5">
-              Investment Insights
+              Secret Lair Investment Insights
             </a>
           </div>
 

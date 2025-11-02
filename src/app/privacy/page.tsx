@@ -1,4 +1,6 @@
+import Script from "next/script";
 import { generateSeoMeta } from "@/lib/seo";
+import { generatePrivacyPageSchema } from "@/lib/schema";
 
 export const metadata = generateSeoMeta({
   title: "Privacy Policy | SecretLairCards.com",
@@ -8,8 +10,19 @@ export const metadata = generateSeoMeta({
 });
 
 export default function PrivacyPage() {
+  const privacySchema = generatePrivacyPageSchema();
+
   return (
-    <main className="min-h-screen bg-gradient-to-b from-[#18121E] via-[#221933] to-[#0D0A12] text-white">
+    <>
+      {/* Privacy Page Schema */}
+      <Script
+        id="privacy-page-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(privacySchema),
+        }}
+      />
+      <main className="min-h-screen bg-gradient-to-b from-[#18121E] via-[#221933] to-[#0D0A12] text-white">
       {/* HERO SECTION */}
       <section className="relative overflow-hidden py-20">
         <div className="absolute inset-0 bg-gradient-to-b from-purple-800/40 via-indigo-900/50 to-black" />
@@ -101,5 +114,6 @@ export default function PrivacyPage() {
         </div>
       </section>
     </main>
+    </>
   );
 }

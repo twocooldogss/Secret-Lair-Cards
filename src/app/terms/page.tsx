@@ -1,4 +1,6 @@
+import Script from "next/script";
 import { generateSeoMeta } from "@/lib/seo";
+import { generateTermsPageSchema } from "@/lib/schema";
 
 export const metadata = generateSeoMeta({
   title: "Terms of Service | SecretLairCards.com",
@@ -8,8 +10,19 @@ export const metadata = generateSeoMeta({
 });
 
 export default function TermsPage() {
+  const termsSchema = generateTermsPageSchema();
+
   return (
-    <main className="min-h-screen bg-gradient-to-b from-[#18121E] via-[#221933] to-[#0D0A12] text-white">
+    <>
+      {/* Terms Page Schema */}
+      <Script
+        id="terms-page-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(termsSchema),
+        }}
+      />
+      <main className="min-h-screen bg-gradient-to-b from-[#18121E] via-[#221933] to-[#0D0A12] text-white">
       {/* HERO SECTION */}
       <section className="relative overflow-hidden py-20">
         <div className="absolute inset-0 bg-gradient-to-b from-purple-800/40 via-indigo-900/50 to-black" />
@@ -91,5 +104,6 @@ export default function TermsPage() {
         </div>
       </section>
     </main>
+    </>
   );
 }

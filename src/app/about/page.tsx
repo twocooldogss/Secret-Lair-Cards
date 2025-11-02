@@ -1,12 +1,27 @@
+import Script from "next/script";
+import { generateSeoMeta } from "@/lib/seo";
+import { generateAboutPageSchema } from "@/lib/schema";
 
-export const metadata = {
+export const metadata = generateSeoMeta({
   title: "About | SecretLairCards.com",
-  description: "Fan-driven MTG Secret Lair database and news hub.",
-};
+  description: "SecretLairCards.com is an independent fan website dedicated to cataloging every Magic: The Gathering Secret Lair drop. We provide up-to-date drop lists, card information, market insights, and collector news.",
+  url: "/about"
+});
 
 export default function AboutPage() {
+  const aboutSchema = generateAboutPageSchema();
+
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50">
+    <>
+      {/* About Page Schema */}
+      <Script
+        id="about-page-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(aboutSchema),
+        }}
+      />
+      <div className="min-h-screen flex flex-col bg-gray-50">
       <main className="flex-1 max-w-4xl mx-auto px-6 py-12">
         <h1 className="text-3xl font-bold mb-6">About SecretLairCards.com</h1>
         <div className="prose max-w-none">
@@ -34,5 +49,6 @@ export default function AboutPage() {
         </div>
       </main>
     </div>
+    </>
   );
 }

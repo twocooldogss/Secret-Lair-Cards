@@ -453,6 +453,140 @@ export function generateInvestmentDetailGraphSchema(params: {
   };
 }
 
+// 生成 About 页面 Schema
+export function generateAboutPageSchema() {
+  const baseUrl = 'https://www.secretlaircards.com';
+  const dateModified = '2025-01-20';
+  
+  return {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "@id": `${baseUrl}/about#webpage`,
+    "url": `${baseUrl}/about`,
+    "name": "About SecretLairCards.com",
+    "description": "SecretLairCards.com is an independent fan website dedicated to cataloging every Magic: The Gathering Secret Lair drop. We provide up-to-date drop lists, card information, market insights, and collector news.",
+    "inLanguage": "en",
+    "dateModified": dateModified,
+    "isPartOf": {
+      "@type": "WebSite",
+      "@id": `${baseUrl}/#website`
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SecretLairCards.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": `${baseUrl}/logo.png`
+      }
+    }
+  };
+}
+
+// 生成 Contact 页面 Schema
+export function generateContactPageSchema() {
+  const baseUrl = 'https://www.secretlaircards.com';
+  const dateModified = '2025-01-20';
+  
+  return {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "@id": `${baseUrl}/contact#webpage`,
+    "url": `${baseUrl}/contact`,
+    "name": "Contact Us | SecretLairCards.com",
+    "description": "Get in touch with SecretLairCards.com. We'd love to hear your feedback, collaboration ideas, or help with any issues.",
+    "inLanguage": "en",
+    "dateModified": dateModified,
+    "isPartOf": {
+      "@type": "WebSite",
+      "@id": `${baseUrl}/#website`
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SecretLairCards.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": `${baseUrl}/logo.png`
+      }
+    },
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "SecretLairCards.com",
+      "email": "secretlaircards@proton.me",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "secretlaircards@proton.me",
+        "contactType": "customer service"
+      }
+    }
+  };
+}
+
+// 生成 Terms 页面 Schema
+export function generateTermsPageSchema() {
+  const baseUrl = 'https://www.secretlaircards.com';
+  const dateModified = '2025-01-20';
+  
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${baseUrl}/terms#webpage`,
+    "url": `${baseUrl}/terms`,
+    "name": "Terms of Service | SecretLairCards.com",
+    "description": "Read our Terms of Service for SecretLairCards.com. Understand your rights and responsibilities when using our platform.",
+    "inLanguage": "en",
+    "dateModified": dateModified,
+    "isPartOf": {
+      "@type": "WebSite",
+      "@id": `${baseUrl}/#website`
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SecretLairCards.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": `${baseUrl}/logo.png`
+      }
+    },
+    "about": {
+      "@type": "Thing",
+      "name": "Terms of Service"
+    }
+  };
+}
+
+// 生成 Privacy 页面 Schema
+export function generatePrivacyPageSchema() {
+  const baseUrl = 'https://www.secretlaircards.com';
+  const dateModified = '2025-01-20';
+  
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${baseUrl}/privacy#webpage`,
+    "url": `${baseUrl}/privacy`,
+    "name": "Privacy Policy | SecretLairCards.com",
+    "description": "Learn how SecretLairCards.com protects your privacy and handles your data. Our commitment to transparency and data protection.",
+    "inLanguage": "en",
+    "dateModified": dateModified,
+    "isPartOf": {
+      "@type": "WebSite",
+      "@id": `${baseUrl}/#website`
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "SecretLairCards.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": `${baseUrl}/logo.png`
+      }
+    },
+    "about": {
+      "@type": "Thing",
+      "name": "Privacy Policy"
+    }
+  };
+}
+
 export function getSchema(type: string, data: any) {
   const baseUrl = 'https://www.secretlaircards.com';
   
