@@ -7,11 +7,19 @@ import { generateSeoMeta } from "@/lib/seo";
 import { getDropBySlugFromDrops, normalizeDrop, fetchMultipleCardsData } from "@/lib/data";
 import { getDropContent, getRelatedDrops } from "@/lib/content";
 import CardCarousel from "@/components/CardCarousel";
-import { generateDropProductSchema, getMarketPriceForSchema } from "@/lib/dropSchema";
+import { generateDropProductSchema, MarketPrice } from "@/lib/dropSchema";
 import ShareButtons from "@/components/ShareButtons";
 
-// 使用统一的函数读取市场价格数据
-const getMarketPrice = getMarketPriceForSchema;
+// 读取市场价格数据（服务端函数）
+function getMarketPrice(slug: string): MarketPrice | null {
+  try {
+    const pricesPath = path.join(process.cwd(), "data", "drop_prices.json");
+    const prices = JSON.parse(fs.readFileSync(pricesPath, "utf-8"));
+    return prices[slug] || null;
+  } catch {
+    return null;
+  }
+}
 
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const dropData = getDropBySlugFromDrops(params.slug);

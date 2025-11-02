@@ -3,10 +3,7 @@
  * 为 Drop 详情页生成增强的 Product Schema（包含 AggregateOffer）
  */
 
-import * as fs from "fs";
-import * as path from "path";
-
-interface Drop {
+export interface Drop {
   title: string;
   slug: string;
   price?: string;
@@ -15,12 +12,13 @@ interface Drop {
   releaseDate?: string;
 }
 
-interface MarketPrice {
+export interface MarketPrice {
   total_price_usd: number;
   average_price_usd: number;
   change_pct: number;
   last_updated: string;
   card_count: number;
+  valid_card_count?: number;
 }
 
 /**
@@ -94,18 +92,5 @@ export function generateDropProductSchema(drop: Drop, marketPrice: MarketPrice |
       "offers": offers
     } : offers[0] // 如果只有一个价格，直接使用 Offer
   };
-}
-
-/**
- * 读取市场价格数据
- */
-export function getMarketPriceForSchema(slug: string): MarketPrice | null {
-  try {
-    const pricesPath = path.join(process.cwd(), "data", "drop_prices.json");
-    const prices = JSON.parse(fs.readFileSync(pricesPath, "utf-8"));
-    return prices[slug] || null;
-  } catch {
-    return null;
-  }
 }
 
