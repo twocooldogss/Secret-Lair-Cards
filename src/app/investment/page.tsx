@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Link from "next/link";
 import Image from "next/image";
 import Script from "next/script";
@@ -140,7 +141,6 @@ export default function InvestmentPage() {
         </section>
       ) : (
         <section className="w-full bg-gradient-to-b from-[#221933] to-[#18121E] pt-12 pb-20">
-          {/* eslint-disable-next-line react/no-unescaped-entities */}
           <div className="mx-auto max-w-6xl px-6">
             <div className="bg-white/5 border border-white/10 rounded-2xl p-8 text-center">
               <p className="text-gray-300 mb-4">Market price data is being collected...</p>
