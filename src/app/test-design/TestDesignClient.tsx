@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 interface Stats {
@@ -103,7 +104,7 @@ export default function TestDesignClient({ stats }: TestDesignClientProps) {
       <motion.nav initial="hidden" animate="visible" variants={fadeIn} className="sticky top-0 z-50 border-b border-white/10 bg-black/40 backdrop-blur-md">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <a href="/" className="flex items-center gap-3">
-            <img src="/logo.png" alt="SecretLairCards Logo" className="h-8 w-8 rounded-lg" />
+            <Image src="/logo.png" alt="SecretLairCards Logo" width={32} height={32} className="h-8 w-8 rounded-lg" />
             <span className="text-lg font-semibold tracking-tight">SecretLairCards</span>
           </a>
           <div className="hidden gap-6 text-sm text-gray-300 md:flex">
@@ -176,11 +177,13 @@ export default function TestDesignClient({ stats }: TestDesignClientProps) {
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-transparent opacity-0 transition group-hover:opacity-100" />
                 <div className="relative z-10">
-                  <div className="mb-4 h-48 w-full overflow-hidden rounded-xl">
-                    <img
+                  <div className="mb-4 h-48 w-full overflow-hidden rounded-xl relative">
+                    <Image
                       src={drop.img}
                       alt={drop.title}
-                      className="h-full w-full object-cover transition group-hover:scale-110"
+                      fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                      className="object-cover transition group-hover:scale-110"
                     />
                   </div>
                   <div className="mb-2 flex items-center gap-2">
@@ -210,11 +213,13 @@ export default function TestDesignClient({ stats }: TestDesignClientProps) {
                 variants={fadeIn}
                 className="group overflow-hidden rounded-xl bg-white/5 backdrop-blur-sm transition hover:bg-white/10"
               >
-                <div className="h-48 w-full overflow-hidden">
-                  <img
+                <div className="h-48 w-full overflow-hidden relative">
+                  <Image
                     src={card.img}
                     alt={card.title}
-                    className="h-full w-full object-cover transition group-hover:scale-110"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="object-cover transition group-hover:scale-110"
                   />
                 </div>
                 <div className="p-4">
@@ -270,11 +275,13 @@ export default function TestDesignClient({ stats }: TestDesignClientProps) {
                 variants={fadeIn}
                 className="group overflow-hidden rounded-2xl bg-white/5 backdrop-blur-sm transition hover:bg-white/10"
               >
-                <div className="h-48 w-full overflow-hidden">
-                  <img
+                <div className="h-48 w-full overflow-hidden relative">
+                  <Image
                     src={article.img}
                     alt={article.title}
-                    className="h-full w-full object-cover transition group-hover:scale-110"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className="object-cover transition group-hover:scale-110"
                   />
                 </div>
                 <div className="p-6">
@@ -301,7 +308,7 @@ export default function TestDesignClient({ stats }: TestDesignClientProps) {
       <motion.footer initial="hidden" animate="visible" variants={fadeIn} className="border-t border-white/10 py-12">
         <div className="mx-auto max-w-7xl px-6 text-center">
           <div className="mb-6 flex items-center justify-center gap-3">
-            <img src="/logo.png" alt="SecretLairCards Logo" className="h-8 w-8 rounded-lg" />
+            <Image src="/logo.png" alt="SecretLairCards Logo" width={32} height={32} className="h-8 w-8 rounded-lg" />
             <span className="text-lg font-semibold">SecretLairCards</span>
           </div>
           <p className="text-gray-400">

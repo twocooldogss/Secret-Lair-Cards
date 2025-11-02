@@ -134,22 +134,13 @@ export default function InvestmentPage() {
           <div className="mx-auto max-w-6xl px-6">
             <div className="mb-8">
               <h2 className="text-2xl font-semibold mb-3">Market Prices & Trends</h2>
-              <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 bg-purple-600/10 border border-purple-500/30 rounded-lg p-4 mb-4">
-                <div className="flex items-center gap-2">
-                  <svg className="w-5 h-5 text-purple-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <p className="text-purple-200 text-sm font-medium">
-                    💡 How to view charts: Click any drop card or use the "View Chart" button below
-                  </p>
-                </div>
-              </div>
             </div>
             <PriceCardGrid prices={pricesArray} priceHistory={priceHistory} />
           </div>
         </section>
       ) : (
         <section className="w-full bg-gradient-to-b from-[#221933] to-[#18121E] pt-12 pb-20">
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
           <div className="mx-auto max-w-6xl px-6">
             <div className="bg-white/5 border border-white/10 rounded-2xl p-8 text-center">
               <p className="text-gray-300 mb-4">Market price data is being collected...</p>
