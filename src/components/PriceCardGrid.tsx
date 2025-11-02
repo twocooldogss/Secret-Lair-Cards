@@ -106,7 +106,10 @@ export default function PriceCardGrid({ prices, priceHistory }: PriceCardGridPro
     return sorted;
   }, [filteredPrices, sortBy, sortOrder]);
 
-  const selectedDrop = selectedSlug ? prices.find(p => p.slug === selectedSlug) : null;
+  // 确保类型正确：DropPrice | null，不包含 undefined
+  const selectedDrop: DropPrice | null = selectedSlug 
+    ? (prices.find(p => p.slug === selectedSlug) ?? null) as DropPrice | null
+    : null;
   const selectedHistory = selectedSlug && priceHistory[selectedSlug] ? priceHistory[selectedSlug] : null;
 
   // 打开抽屉
